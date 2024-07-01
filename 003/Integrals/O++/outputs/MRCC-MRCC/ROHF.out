@@ -1,0 +1,735 @@
+**********************************************************************
+                          MRCC program system
+ **********************************************************************
+
+                              Written by
+     Mihaly Kallay, Peter R. Nagy, David Mester, Laszlo Gyevi-Nagy,
+        Jozsef Csoka, P. Bernat Szabo, Zoltan Rolik, Gyula Samu,
+     Jozsef Csontos, Bence Hegely, Adam Ganyecz, Istvan Ladjanszki,
+       Lorant Szegedy, Bence Ladoczki, Klara Petrov, Mate Farkas,
+                    Pal D. Mezei, and Reka A. Horvath
+
+        Department of Physical Chemistry and Materials Science
+            Budapest University of Technology and Economics
+                  Budapest P.O.Box 91, H-1521 Hungary
+
+                              www.mrcc.hu
+
+                     Release date: August 28, 2023
+
+ ************************ 2024-07-01 00:00:47 *************************
+ Executing minp...
+
+ Reading input from MINP...
+
+ Input file:
+
+basis=STO-3G-EMSL
+#iface=cfour
+uncontract=off
+calc=CC(2)
+ccprog=mrcc
+#mem=8GB
+core=corr
+itol=18
+scftol=13
+cctol=7
+ccmaxit=999
+scfmaxit=9999
+scfiguess=ao
+scftype=ROHF
+rohftype=semicanonical
+rest=2
+charge=+2
+mult=3
+refdet=serialno
+1-2
+3,4
+
+symm=2
+#occ=3,0,0,0,0,1,0,0/1,0,0,0,0,1,0,0
+geom
+O
+
+#Li 1 R
+#R=3.065
+
+#unit=angstroms
+
+tprint=0.01
+verbosity=3
+#nstate=4
+
+
+ Checking keyword combinations...
+
+ Keywords:
+
+ active=none
+ agrid=ld0006-ld0590
+ agrid_pssp=ld0006-ld0194
+ agrid_pssp_sm=ld0006-ld0074
+ basis=sto-3g-emsl
+ basis_sm=none
+ basopt=off
+ bfbasis=none
+ bfgsmem=10
+ bfgstol=1.0d-3
+ boysalg=jacobi
+ bpcompo=0.985
+ bpcompv=0.98
+ bpdfo=0.985
+ bpocc=0.985
+ bppdo=0.985
+ bppdv=0.98
+ bpedo=0.985
+ bpedv=0.98
+ calc=cc(2)
+ ccmaxit=999
+ ccprog=mrcc
+ ccsdalg=disk
+ ccsdmkl=seq
+ ccsdrest=off
+ ccsdthreads=2
+ cctol=7
+ charge=+2
+ cialg=disk
+ ciguess=off
+ cmpgrp=auto
+ comprest=off
+ coord_sys=ric
+ core=corr
+ corembed=off
+ csapprox=off
+ cvs=off
+ dboc=off
+ delocsomofact=
+ dendec=cholesky
+ dens=0
+ denscorr=0
+ dfalg=lineq
+ dfbasis_cab=none
+ dfbasis_cor=none
+ dfbasis_scf=none
+ dfbasis_scf_sm=none
+ dfintran=ovirt
+ dft=off
+ dhexc=adc(2)
+ diag=david
+ docc=
+ domrad=10.d0
+ drpaalg=fit
+ dual=off
+ dual_df=off
+ ecp=auto
+ edisp=off
+ edisp_embed=off
+ embed=off
+ epairestfact=off
+ epairscale=1.d0
+ etemp=300
+ epert=none
+ eps=
+ espcharge=off
+ excrad=0.d0
+ excrad_fin=0.000000000D+00
+ fitting=coulomb
+ fmm=off
+ fmmord=8
+ fnonorb=
+ freq=off
+ gamma=1.d0
+ gauss=spher
+ geom=zmat
+ gopt=off
+ ghost=none
+ gtol=7
+ grdens=off
+ grid=auto
+ grid_sm=auto
+ gridbatch_cos=2000
+ grtol=10
+ guido_ct=off
+ hamilton=dc
+ iface=none
+ intalg=auto
+ ip_ea=off
+ itol=18
+ laptol=1.d-2
+ lccoporder=trffirst
+ lcorthr=normal
+ lccrest=off
+ ldfgrad_tol=8
+ lmp2dens=on
+ lnoepso=0.d0
+ lnoepsv=1e-6
+ localcc=off
+ localcorrsymm=off
+ locintrf=disk
+ mact=
+ maxact=off
+ maxdim=200
+ maxex=0
+ maxmicroit=100
+ mcscfiguess=hf
+ mem=256MB
+ mmprog=
+ molden=on
+ mpitasks=1
+ mulmet=0
+ mult=3
+ nab=off
+ nacto=0
+ nactv=0
+ naf_amp=3.16d-3
+ naf_cor=off
+ naf_f12=off
+ naf_scf=off
+ nafalg=albe
+ nafdens=off
+ naftyp=
+ nchol=auto
+ ndeps=1e-3
+ nstate=1
+ nsing=0
+ nto=off
+ ntrip=0
+ num_grad=off
+ occ=
+ occri=off
+ oniom=off
+ oniom_eechg=off
+ oniom_pcm=off
+ oniom_qcorr=off
+ optalg=
+ optmaxit=50
+ optetol=1e-6
+ optex=0
+ optgtol=1e-4
+ optstol=1e-3
+ orblocc=off
+ orbloce=off
+ orbloco=off
+ orblocv=off
+ orblocguess=cholesky
+ osveps=1e-3
+ ovirt=off
+ ovltol=1e-7
+ ovosnorb=80.0
+ pao_subsys_tol=1e-3
+ pcm=off
+ popul=off
+ pressure=100000
+ pssp=off
+ ptfreq=0.0
+ ptthreads=2
+ qmreg=
+ qmmm=off
+ qro=off
+ qscf=off
+ redcost_exc=off
+ redcost_tddft=off
+ refdet=serialno
+ rest=2
+ rgrid=log3
+ rism=off
+ rohfcore=semicanonical
+ rohftype=semicanonical
+ scfalg=auto
+ scf_conv=auto
+ scfdamp=0.0d0
+ scfdamp_mode=off
+ scfdamp_end=9999
+ scfdamp_dampstep=0.d0
+ scfdamp_dtol=0.0d0
+ scfdamp_maxfact=0.0d0
+ scfdamp_minfact=0.0d0
+ scfdiis=on
+ scfdiis_dtol=0.0d0
+ scfdiis_end=9999
+ scfdiis_start=2
+ scfdiis_step=1
+ scfdiis_watch=off
+ scfdiis_wrange=10
+ scfdiis_wlimit=5
+ scfdiis_delmax=2
+ scfdtol=14
+ scfext=10
+ scfguessdens=
+ scfiguess=ao
+ scfloc=off
+ scflshift=0.20
+ scflshift_end=8
+ scflshift_dtol=0.0
+ scflshift_gaptol=0.20
+ scfmaxit=9999
+ scftype=rohf
+ scftol=13
+ scspe=1.d0
+ scsph=1.d0
+ scsps=1.2d0
+ scsps_t=1.2d0
+ scspt=0.33333333333333
+ scspt_t=0.33333333333333
+ scspv=1.d0
+ spairtol=1e-4
+ sqmprog=
+ subminp=top
+ symm=2
+ talg=occ
+ temp=298.15
+ test=off
+ theodore=off
+ tlmo=0.999
+ tpao=0.94
+ tprint=0.01
+ uncontract=off
+ unit=angs
+ usedisk=2
+ verbosity=3
+ wpairtol=0.100000000E-05
+
+ ************************ 2024-07-01 00:00:48 *************************
+ Executing integ...
+
+ Allocation of 256.0 Mbytes of memory...
+
+ Number of atoms:                  1
+ Charge:                           2
+ Number of electrons:              6
+ Number of core electrons:         2
+ Spin multiplicity:                3
+
+                 Cartesian coordinates [bohr]      Atomic mass [AMU]  Z
+   1  O     0.00000000    0.00000000    0.00000000    15.994915       8
+
+ This molecule is a spherical top.
+
+ Rotational constants [cm-1]:
+
+
+ Point group: Oh
+ Computational point group: D2h
+
+ Cartesian coordinates in standard orientation [bohr]
+   1  O     0.00000000    0.00000000    0.00000000
+
+ Nuclear repulsion energy [au]:          0.000000000000
+
+
+ Basis set information:
+
+ Maximum angular momentum: p
+ Maximum number of contracted Gaussians:    2
+ Maximum number of primitive Gaussians:     6
+ Spherical harmonic GTOs are used.
+
+   1  O  sto-3g-emsl [ 6s 3p | 2s 1p ]
+
+ Basis functions:
+            1             2             3             4             5             6             7             8             9            10
+    0    1O1s          1O2s          1O1pz         1O1py         1O1px
+
+ Maximum number of basis functions per shell:    3
+ Total number of basis functions:      5
+
+
+ Character table for point group D2h:
+
+          E  C2z C2y C2x  i  Qxy Qxz Qyz
+    Ag    1   1   1   1   1   1   1   1
+    B1g   1   1  -1  -1   1   1  -1  -1
+    B2g   1  -1   1  -1   1  -1   1  -1
+    B3g   1  -1  -1   1   1  -1  -1   1
+    Au    1   1   1   1  -1  -1  -1  -1
+    B1u   1   1  -1  -1  -1  -1   1   1
+    B2u   1  -1   1  -1  -1   1  -1   1
+    B3u   1  -1  -1   1  -1   1   1  -1
+
+ Number of basis functions per irrep:
+    Ag      2
+    B1g     0
+    B2g     0
+    B3g     0
+    Au      0
+    B1u     1
+    B2u     1
+    B3u     1
+
+
+ Calculation of overlap integrals...
+ CPU time [min]:     0.208                   Wall time [min]:     0.065
+
+ Calculation of the square root of the overlap matrix...
+ Minimum eigenvalue of the overlap matrix: 0.763296E+00
+ CPU time [min]:     0.227                   Wall time [min]:     0.065
+
+ Calculation of kinetic energy integrals...
+ CPU time [min]:     0.228                   Wall time [min]:     0.065
+ Calculation of nuclear attraction integrals...
+ CPU time [min]:     0.229                   Wall time [min]:     0.065
+
+ Calculation of prescreening integrals...
+ CPU time [min]:     0.244                   Wall time [min]:     0.065
+
+ Calculation of two-electron integrals...
+   5% done.
+ 100% done.
+ CPU time [min]:     0.282                   Wall time [min]:     0.066
+
+ ************************ 2024-07-01 00:00:52 *************************
+ Executing scf...
+
+ @scfsetup: integrals taken from disk
+            mrcc/integ binary format
+ @scfsetup: calc on blockdiagonal matrices
+            using symmetry adapted basis
+ @scfsetup: diis switched on
+ @scfsetup: number of steps to extrapolate from  10
+ @scfsetup: tolerance in energy deviation    0.100000E-12
+            tolerance in density deviation    0.100000E-13
+ @scfsetup: maximum number of iterations:9999
+ @scfsetup: restricted open shell hf calc
+            semicanonical orbitals
+ @scfsetup: starting scf from diagonal ao guess
+ @scfsetup: occupation set:
+            from initial orbitals
+ @scfsetup: Parameter-set for SCF acceleration: normal
+ @scfsetup: diis runs from iteration:   2
+ @scfsetup: diis runs to iteration:9999
+ @scfsetup: diis runs in every iteration
+ @scfsetup: diiswatch is disabled
+ @scfsetup: diis dtol criteria to switch on:      0.0000E+00
+           (or the iteration number below is reached)
+ @scfsetup: static damping scheme
+            iteration step criteria to turn damping off: 3
+ @scfsetup: dynamic level shifting
+            tolarance in HOMO-LUMO gap:  0.200
+            tolarance in density deviation:     0.0000E+00
+            iteration step criteria to turn level shifting off: 8
+ Allocation of 256.0 Mbytes of memory...
+ ======================================================================
+ ITERATION STEP   1
+ CPU time [min]:     0.009                   Wall time [min]:     0.015
+
+
+ SCF control                  : initial
+ Damping factor/level shift   : 0.000/0.200
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      4.3474E-01
+ RMS of [F,P]:                                         2.45961169385307
+ RMS of total difference density:                      0.60759846850723
+ RMS of open-shell difference density:                 0.45039665058384
+ Gap [au]:  0.00000000
+ ALPHA OCC:   2   0   0   0   0   0   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+
+ ***HARTREE-FOCK ENERGY IN STEP   1 IS        -62.6234930521528668 [AU]
+ ======================================================================
+ ITERATION STEP   2
+ CPU time [min]:     0.010                   Wall time [min]:     0.016
+
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.200
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      4.9286E-01
+ DIIS is running in this iteration step.
+ RMS of [F,P]:                                         0.00000000000000
+ RMS of total difference density:                      0.00000000000000
+ RMS of open-shell difference density:                 0.00000000000000
+ Gap [au]:  0.22657954
+ ALPHA OCC:   2   0   0   0   0   0   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+
+ ***HARTREE-FOCK ENERGY IN STEP   2 IS        -72.1079697217757598 [AU]
+
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        1            9.4845E+00         2.4596E+00      -5.8126E-02
+        2            7.2108E+01         1.0000E-14      -5.8126E-02
+ Warning! The gradient goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   3
+ CPU time [min]:     0.010                   Wall time [min]:     0.018
+
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      0.0000E+00
+ DIIS is running in this iteration step.
+ RMS of [F,P]:                                         0.00000000000000
+ RMS of total difference density:                      0.00000000000000
+ RMS of open-shell difference density:                 0.00000000000000
+ Gap [au]:  0.22657954
+ ALPHA OCC:   2   0   0   0   0   0   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+
+ ***HARTREE-FOCK ENERGY IN STEP   3 IS        -72.1079697217757598 [AU]
+
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        2            0.0000E+00        -1.8130E-16       4.9286E-01
+ Warning! The energy goes uphill (with respect to previous step).
+ Warning! The DIIS error goes uphill (with respect to previous step).
+ Warning! The DIIS error goes uphill (with respect to step   2 ).
+ ======================================================================
+
+ SUCCESS...
+ THE SCF ITERATION HAS CONVERGED!
+
+                   Ag  B1g B2g B3g Au  B1u B2u B3u
+ FINAL ALPHA OCC:   2   0   0   0   0   0   1   1
+ FINAL BETA  OCC:   2   0   0   0   0   0   0   0
+
+ ***FINAL HARTREE-FOCK ENERGY:        -72.1079697217757598 [AU]
+
+ ***SEMICANONICAL  ROHF ENERGY:          -72.1079697217757598 [AU]
+
+ Orbital energies [au]:
+      Irrep         Alpha          Beta
+    1   Ag       -22.516159     -22.464956
+    2   Ag        -2.727619      -2.382418
+
+    3   B3u       -2.073440      -1.145836
+    4   B2u       -2.073440      -1.145836
+
+    5   B1u       -1.335614      -1.240725
+File MOCOEF contains semicanonical  ROHF orbitals.
+
+ File SCFDENSITIES contains density of semicanonical  ROHF orbitals.
+
+ RETURNING FROM SCF ALGORITHM
+ ======================================================================
+
+ ************************ 2024-07-01 00:00:54 *************************
+ Executing ovirt...
+
+ ovirt, the routine of orbital optimization and integral transformation
+Mon Jul  1 00:00:54 PDT 2024
+ memory =                    256  Mb              33554432  8 byte word
+ mrccboot = T
+ scftype  = rohf
+ localcc  = off
+ core     = corr
+ ovirt    = off
+ ccprog   = mrcc
+ dfnbasis =                      0
+ dfbasis_cor =none
+ lmp2dens = on
+ dens =                      0
+ verblev =                      3
+ task     =                      4
+ epsilon =   0.000000000000000E+000
+ lmp2= on
+ localNO  =  F
+ localMP2 =  F
+ localMP2_TEST =  F
+ LMP2_shortcut =  F
+ FOCKTR   =  F
+ Allocated memory:                     256  Mb
+ onbasis=                     5
+ UHF calculation!
+ integral transformation: AOs --- MOs (alpha-alpha)
+ # of basis functions, # of int. blocks     5     1
+100 %
+ second part
+100 %
+ integral transformation is completed!
+ integral transformation: AOs ------ MOs (beta-beta)
+ # of basis functions, # of int. blocks     5     1
+100 %
+ second part
+100 %
+ integral transformation is completed!
+ integral transformation: AOs ----- MOs (alpha-beta)
+# of basis functions, # of int. blocks     5     1
+ integral transformation
+========================================
+Mon Jul  1 00:00:54 PDT 2024
+  ovirt terminated normally
+
+ ************************ 2024-07-01 00:00:55 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    14
+ Number of diagrams in T^2 equations:    31
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   4.6991E+02
+ Probable CPU time per iteration step (hours):      0.00
+ Required memory (Mbytes):       0.0
+ Number of intermediates:                                  44
+ Number of intermediates to be stored:                     20
+ Length of intermediate file (Mbytes):       0.0
+
+ ************************ 2024-07-01 00:01:13 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(                     2 ) calculation
+
+
+ Allocation of 256.0 Mbytes of memory...
+ Number of spinorbitals:                    10
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         2
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-07
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                      0
+ Number of                     2 -fold excitations:                      4
+ Total number of configurations:                      5
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):       0.1
+
+ ======================================================================
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:          0.0576         0.0576
+ Integer:         3.3110
+ Total:           3.3686         3.3686
+
+
+ ************************ 2024-07-01 00:01:14 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    14
+ Number of diagrams in T^2 equations:    31
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   4.6991E+02
+ Probable CPU time per iteration step (hours):      0.00
+ Required memory (Mbytes):       0.0
+ Number of intermediates:                                  44
+ Number of intermediates to be stored:                     20
+ Length of intermediate file (Mbytes):       0.0
+
+ ************************ 2024-07-01 00:01:30 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(                     2 ) calculation
+
+
+ Allocation of 256.0 Mbytes of memory...
+ Number of spinorbitals:                    10
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         2
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-07
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                      0
+ Number of                     2 -fold excitations:                      4
+ Total number of configurations:                      5
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):       0.1
+
+ ======================================================================
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:          0.0576         0.0576
+ Integer:         3.3110
+ Total:           3.3686         3.3686
+
+
+ ************************ 2024-07-01 00:01:30 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSD calculation
+
+
+ OpenMP parallel version is running.
+ Number of CPU cores:  64
+ Allocation of    0.1 Mbytes of memory...
+ Number of spinorbitals:  10
+ Number of alpha electrons:  4
+ Number of beta  electrons:  2
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-07
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 0
+ Number of 2-fold excitations: 4
+ Total number of determinants: 5
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are generated.
+ Length of intermediate file (Mbytes):       0.1
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -72.107969721776
+ Calculation of MP denominators...
+
+ Starting CC iteration...
+ ======================================================================
+ Norm of residual vector:     0.18152383
+ CPU time [min]:     0.372                   Wall time [min]:     0.007
+
+ Iteration  1  CC energy:   -72.11985443  Energy decrease:   0.01188470
+ ======================================================================
+ Norm of residual vector:     0.08051965
+ CPU time [min]:     0.385                   Wall time [min]:     0.008
+
+ Iteration  2  CC energy:   -72.13008304  Energy decrease:   0.01022861
+ ======================================================================
+ Norm of residual vector:     0.00362006
+ CPU time [min]:     0.399                   Wall time [min]:     0.008
+
+ Iteration  3  CC energy:   -72.12994031  Energy decrease:   0.00014273
+ ======================================================================
+ Norm of residual vector:     0.00012466
+ CPU time [min]:     0.419                   Wall time [min]:     0.008
+
+ Iteration  4  CC energy:   -72.12995303  Energy decrease:   0.00001272
+ ======================================================================
+ Norm of residual vector:     0.00000245
+ CPU time [min]:     0.439                   Wall time [min]:     0.008
+
+ Iteration  5  CC energy:   -72.12995336  Energy decrease:   0.00000033
+ ======================================================================
+ Norm of residual vector:     0.00000022
+ CPU time [min]:     0.455                   Wall time [min]:     0.009
+
+ Iteration  6  CC energy:   -72.12995334  Energy decrease:   0.00000003
+ ======================================================================
+ Norm of residual vector:     2.6979E-09
+ CPU time [min]:     0.479                   Wall time [min]:     0.009
+
+ Iteration  7  CC energy:   -72.12995334  Energy decrease:   3.4139E-10
+ ======================================================================
+
+ Iteration has converged in  7 steps.
+
+ Final results:
+ Total CCSD energy [au]:                      -72.129953335351
+
+ Dominant cluster amplitudes
+ Printing threshold:  1.00E-02
+
+    1.000000  Reference determinant
+   -0.126712  2a 2b -> 5a 5b
+
+ ************************ 2024-07-01 00:01:31 *************************
+                      Normal termination of mrcc.
+ **********************************************************************
