@@ -1,0 +1,35 @@
+# Li STO-3G
+basis=STO-3G-EMSL
+#iface=cfour
+uncontract=off
+calc=CC(3)
+#mem=8GB
+core=corr
+itol=18
+scftol=13
+cctol=7
+ccmaxit=999
+scfmaxit=9999
+scfiguess=ao
+scftype=UHF
+rohftype=semicanonical
+rest=2
+charge=+0
+refdet=serialno
+1
+2
+
+symm=1
+mult=2
+#occ=3,0,0,0,0,1,0,0/1,0,0,0,0,1,0,0
+geom
+LI
+
+#Li 1 R
+#R=3.065
+
+#unit=angstroms
+
+tprint=0.01
+verbosity=3
+#nstate=4
