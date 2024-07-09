@@ -1,4 +1,4 @@
-#INFO: **** input file is /Users/jmhrzz/HPQC/PySCF/Mol/He/UHF/input.py ****
+#INFO: **** input file is /Users/jmhrzz/HPQC/ForkedRepo/SharedFiles/004/HE/input.py ****
 import os, sys, glob, subprocess, textwrap, numpy
 import pyscf
 from functools import reduce
@@ -61,7 +61,7 @@ assert(len(orbsym) % 2 == 0)
 orbsym_reorder = [i for tup in zip(orbsym[:int(len(orbsym)/2)], orbsym[int(len(orbsym)/2):]) for i in tup] 
 a_inds = [i*2+1 for i in range(orbs[0].shape[1])]
 b_inds = [i*2+2 for i in range(orbs[1].shape[1])]
-nelec = mol.nelectron
+nelec = mol.nelec
 tol=1e-15
 with open('FCIDUMP', 'w') as fout:
         if not isinstance(nelec, (int, numpy.number)):
@@ -107,13 +107,14 @@ with open('FCIDUMP', 'w') as fout:
                 if abs(h_bb[i,j]) > tol:
                     fout.write(output_format % (h_bb[i,j], b_inds[i], b_inds[j]))
         output_format = float_format + '  0  0  0  0\n'
-        fout.write(output_format % nuc)#INFO: ******************** input file end ********************
+        fout.write(output_format % nuc)
+#INFO: ******************** input file end ********************
 
 
 System: uname_result(system='Darwin', node='Mhrzzs-Air', release='23.5.0', version='Darwin Kernel Version 23.5.0: Wed May  1 20:19:05 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T8112', machine='arm64')  Threads 1
 Python 3.11.9 (main, Apr  2 2024, 08:25:04) [Clang 15.0.0 (clang-1500.3.9.4)]
 numpy 1.26.4  scipy 1.10.1  h5py 3.10.0
-Date: Wed Jul  3 19:55:15 2024
+Date: Tue Jul  9 08:16:44 2024
 PySCF version 2.6.0
 PySCF path  /opt/homebrew/lib/python3.11/site-packages/pyscf
 
@@ -154,7 +155,7 @@ number of NR cGTOs = 1
 basis = {'HE': [[0, [6.36242139, 0.1543289], [1.158923, 0.5353281], [0.31364979, 0.4446345]]]}
 ecp = {}
 bas 0, expnt(s) = [6.36242139 1.158923   0.31364979]
-CPU time:         4.27
+CPU time:         2.29
 arg.atm = [[ 2 20  1 23  0  0]]
 arg.bas = [[ 0  0  3  1  0 24 27  0]]
 arg.env = [0.         0.         0.         0.         0.         0.
@@ -204,7 +205,7 @@ SCF conv_tol_grad = None
 SCF max_cycles = 50
 direct_scf = True
 direct_scf_tol = 1e-13
-chkfile to save SCF result = /var/folders/sv/p893skhd53z1sh_0fgwlc_0w0000gn/T/tmpqp1h2o93
+chkfile to save SCF result = /var/folders/sv/p893skhd53z1sh_0fgwlc_0w0000gn/T/tmpg9cm1vxc
 max_memory 4000 MB (current use 0 MB)
 atom = He
 Set gradient conv threshold to 3.16228e-05
@@ -213,7 +214,7 @@ Nelec from initial guess = 1.9918919141540299
 E1 = -3.847834058036509  E_coul = 1.0471704351886362
 init E= -2.80066362284787
 l = 0  e_0 = -0.88031543
-    CPU time for initialize scf      0.01 sec, wall time      0.02 sec
+    CPU time for initialize scf      0.01 sec, wall time      0.01 sec
 l = 0  e_0 = -0.88031543
 l = 0  occ = 1 + 0
 l = 1  occ = 0 + 0
@@ -239,8 +240,8 @@ l = 2  occ = 0 + 0
 l = 3  occ = 0 + 0
 E1 = -3.863496840058926  E_coul = 1.0557128950502406
 Extra cycle  E= -2.80778394500869  delta_E=    0  |g|=    0  |ddm|=    0
-    CPU time for scf_cycle      0.02 sec, wall time      0.02 sec
-    CPU time for SCF      0.02 sec, wall time      0.02 sec
+    CPU time for scf_cycle      0.01 sec, wall time      0.01 sec
+    CPU time for SCF      0.01 sec, wall time      0.01 sec
 Atomic HF for atom  He  converged. SCF energy = -2.80778394500869
 
 Atom He, E = -2.80778394501
@@ -253,8 +254,8 @@ cycle= 1 E= -2.80778394500869  delta_E=    0  |g|=    0  |ddm|=    0
     CPU time for cycle= 1      0.00 sec, wall time      0.00 sec
 E1 = -3.863496840058926  Ecoul = 1.0557128950502406
 Extra cycle  E= -2.80778394500869  delta_E=    0  |g|=    0  |ddm|=    0
-    CPU time for scf_cycle      0.02 sec, wall time      0.03 sec
-    CPU time for SCF      0.02 sec, wall time      0.03 sec
+    CPU time for scf_cycle      0.02 sec, wall time      0.02 sec
+    CPU time for SCF      0.02 sec, wall time      0.02 sec
 converged SCF energy = -2.80778394500869  <S^2> = -4.4408921e-16  2S+1 = 1
 irreps of each MO ['Ag']
 irreps of each MO ['Ag']

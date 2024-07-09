@@ -60,7 +60,7 @@ assert(len(orbsym) % 2 == 0)
 orbsym_reorder = [i for tup in zip(orbsym[:int(len(orbsym)/2)], orbsym[int(len(orbsym)/2):]) for i in tup] 
 a_inds = [i*2+1 for i in range(orbs[0].shape[1])]
 b_inds = [i*2+2 for i in range(orbs[1].shape[1])]
-nelec = mol.nelectron
+nelec = mol.nelec
 tol=1e-15
 with open('FCIDUMP', 'w') as fout:
         if not isinstance(nelec, (int, numpy.number)):
