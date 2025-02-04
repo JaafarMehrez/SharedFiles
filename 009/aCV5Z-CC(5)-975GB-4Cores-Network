@@ -1,0 +1,2099 @@
+**********************************************************************
+                          MRCC program system
+ **********************************************************************
+
+                              Written by
+     Mihaly Kallay, Peter R. Nagy, David Mester, Laszlo Gyevi-Nagy,
+        Jozsef Csoka, P. Bernat Szabo, Zoltan Rolik, Gyula Samu,
+     Jozsef Csontos, Bence Hegely, Adam Ganyecz, Istvan Ladjanszki,
+       Lorant Szegedy, Bence Ladoczki, Klara Petrov, Mate Farkas,
+                    Pal D. Mezei, and Reka A. Horvath
+
+        Department of Physical Chemistry and Materials Science
+            Budapest University of Technology and Economics
+                  Budapest P.O.Box 91, H-1521 Hungary
+
+                              www.mrcc.hu
+
+                     Release date: August 28, 2023
+
+ ************************ 2025-01-30 08:38:03 *************************
+ Executing minp...
+
+ Reading input from MINP...
+
+ Input file:
+
+basis=aCV5Z-EMSL
+iface=cfour
+uncontract=off
+calc=CC(5)
+ccprog=mrcc
+mem=975GB
+core=corr
+itol=18
+scftol=13
+cctol=10
+ccmaxit=999
+scfmaxit=9999
+scfiguess=ao
+scftype=UHF
+#rohftype=semicanonical
+rest=2
+charge=+0
+mult=3
+refdet=serialno
+1-3
+4,5
+
+symm=2
+occ=2,0,0,0,0,1,1,1/2,0,0,0,0,0,0,1
+geom
+O
+
+#Li 1 R
+#R=3.065
+
+#unit=angstroms
+
+tprint=0.01
+verbosity=3
+#nstate=4
+
+
+ Checking keyword combinations...
+
+ Keywords:
+
+ active=none
+ agrid=ld0006-ld0590
+ agrid_pssp=ld0006-ld0194
+ agrid_pssp_sm=ld0006-ld0074
+ basis=acv5z-emsl
+ basis_sm=none
+ basopt=off
+ bfbasis=none
+ bfgsmem=10
+ bfgstol=1.0d-3
+ boysalg=jacobi
+ bpcompo=0.985
+ bpcompv=0.98
+ bpdfo=0.985
+ bpocc=0.985
+ bppdo=0.985
+ bppdv=0.98
+ bpedo=0.985
+ bpedv=0.98
+ calc=cc(5)
+ ccmaxit=999
+ ccprog=mrcc
+ ccsdalg=disk
+ ccsdmkl=seq
+ ccsdrest=off
+ ccsdthreads=2
+ cctol=10
+ charge=+0
+ cialg=disk
+ ciguess=off
+ cmpgrp=auto
+ comprest=off
+ coord_sys=ric
+ core=corr
+ corembed=off
+ csapprox=off
+ cvs=off
+ dboc=off
+ delocsomofact=
+ dendec=cholesky
+ dens=0
+ denscorr=0
+ dfalg=lineq
+ dfbasis_cab=none
+ dfbasis_cor=none
+ dfbasis_scf=none
+ dfbasis_scf_sm=none
+ dfintran=ovirt
+ dft=off
+ dhexc=adc(2)
+ diag=david
+ docc=
+ domrad=10.d0
+ drpaalg=fit
+ dual=off
+ dual_df=off
+ ecp=auto
+ edisp=off
+ edisp_embed=off
+ embed=off
+ epairestfact=off
+ epairscale=1.d0
+ etemp=300
+ epert=none
+ eps=
+ espcharge=off
+ excrad=0.d0
+ excrad_fin=0.000000000D+00
+ fitting=coulomb
+ fmm=off
+ fmmord=8
+ fnonorb=
+ freq=off
+ gamma=1.d0
+ gauss=spher
+ geom=zmat
+ gopt=off
+ ghost=none
+ gtol=7
+ grdens=off
+ grid=auto
+ grid_sm=auto
+ gridbatch_cos=2000
+ grtol=10
+ guido_ct=off
+ hamilton=dc
+ iface=cfour
+ intalg=auto
+ ip_ea=off
+ itol=18
+ laptol=1.d-2
+ lccoporder=trffirst
+ lcorthr=normal
+ lccrest=off
+ ldfgrad_tol=8
+ lmp2dens=on
+ lnoepso=0.d0
+ lnoepsv=1e-6
+ localcc=off
+ localcorrsymm=off
+ locintrf=disk
+ mact=
+ maxact=off
+ maxdim=200
+ maxex=0
+ maxmicroit=100
+ mcscfiguess=hf
+ mem=975gb
+ mmprog=
+ molden=on
+ mpitasks=1
+ mulmet=0
+ mult=3
+ nab=off
+ nacto=0
+ nactv=0
+ naf_amp=3.16d-3
+ naf_cor=off
+ naf_f12=off
+ naf_scf=off
+ nafalg=albe
+ nafdens=off
+ naftyp=
+ nchol=auto
+ ndeps=1e-3
+ nstate=1
+ nsing=0
+ nto=off
+ ntrip=0
+ num_grad=off
+ occ=2,0,0,0,0,1,1,1/2,0,0,0,0,0,0,1
+ occri=off
+ oniom=off
+ oniom_eechg=off
+ oniom_pcm=off
+ oniom_qcorr=off
+ optalg=
+ optmaxit=50
+ optetol=1e-6
+ optex=0
+ optgtol=1e-4
+ optstol=1e-3
+ orblocc=off
+ orbloce=off
+ orbloco=off
+ orblocv=off
+ orblocguess=cholesky
+ osveps=1e-3
+ ovirt=off
+ ovltol=1e-7
+ ovosnorb=80.0
+ pao_subsys_tol=1e-3
+ pcm=off
+ popul=off
+ pressure=100000
+ pssp=off
+ ptfreq=0.0
+ ptthreads=2
+ qmreg=
+ qmmm=off
+ qro=off
+ qscf=off
+ redcost_exc=off
+ redcost_tddft=off
+ refdet=serialno
+ rest=2
+ rgrid=log3
+ rism=off
+ rohfcore=semicanonical
+ rohftype=standard
+ scfalg=auto
+ scf_conv=auto
+ scfdamp=0.0d0
+ scfdamp_mode=off
+ scfdamp_end=9999
+ scfdamp_dampstep=0.d0
+ scfdamp_dtol=0.0d0
+ scfdamp_maxfact=0.0d0
+ scfdamp_minfact=0.0d0
+ scfdiis=on
+ scfdiis_dtol=0.0d0
+ scfdiis_end=9999
+ scfdiis_start=2
+ scfdiis_step=1
+ scfdiis_watch=off
+ scfdiis_wrange=10
+ scfdiis_wlimit=5
+ scfdiis_delmax=2
+ scfdtol=14
+ scfext=10
+ scfguessdens=
+ scfiguess=ao
+ scfloc=off
+ scflshift=0.20
+ scflshift_end=8
+ scflshift_dtol=0.0
+ scflshift_gaptol=0.20
+ scfmaxit=9999
+ scftype=uhf
+ scftol=13
+ scspe=1.d0
+ scsph=1.d0
+ scsps=1.2d0
+ scsps_t=1.2d0
+ scspt=0.33333333333333
+ scspt_t=0.33333333333333
+ scspv=1.d0
+ spairtol=1e-4
+ sqmprog=
+ subminp=top
+ symm=2
+ talg=occ
+ temp=298.15
+ test=off
+ theodore=off
+ tlmo=0.999
+ tpao=0.94
+ tprint=0.01
+ uncontract=off
+ unit=angs
+ usedisk=2
+ verbosity=3
+ wpairtol=0.100000000E-05
+
+ ************************ 2025-01-30 08:38:05 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    80
+ Number of diagrams in T^5 equations:    99
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   2.3441E+16
+ Probable CPU time per iteration step (hours):       234407.41
+ Required memory (Mbytes):       7283507.6
+ Number of intermediates:                                 141
+ Number of intermediates to be stored:                     56
+ Length of intermediate file (Mbytes):         59689.9
+
+ ************************ 2025-01-30 08:38:06 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(                     5 ) calculation
+
+
+ Allocation of       998400.0 Mbytes of memory...
+ Number of spinorbitals:                   362
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    256
+ Number of                     2 -fold excitations:                  88651
+ Number of                     3 -fold excitations:               16793170
+ Number of                     4 -fold excitations:             1631882701
+ Number of                     5 -fold excitations:            83607679050
+ Total number of configurations:            85256443829
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):         37793.8
+
+ ======================================================================
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:    5345165.8180   5345165.8180
+ Integer:    830640.2080
+ Total:     6175806.0260   6175806.0260
+
+
+ ************************ 2025-01-30 15:04:54 *************************
+ Executing goldstone...
+
+ Generation of MRCC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    80
+ Number of diagrams in T^5 equations:    99
+ Translation of diagrams to factorized equations...
+ Number of restricted diagrams in T^1 equations:     30
+ Number of restricted diagrams in T^2 equations:    129
+ Number of restricted diagrams in T^3 equations:    306
+ Number of restricted diagrams in T^4 equations:    669
+ Number of restricted diagrams in T^5 equations:   1238
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   1.2312E+16
+ Probable CPU time per iteration step (hours):       123117.37
+ Required memory (Mbytes):        760200.5
+ Number of intermediates:                                 682
+ Number of intermediates to be stored:                    237
+ Length of intermediate file (Mbytes):        778257.1
+
+ ************************ 2025-01-30 15:04:57 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ MRCC(                     5 ) calculation
+
+
+ Allocation of       998400.0 Mbytes of memory...
+ Number of spinorbitals:                   362
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Number of active particles:                   178
+ Number of active holes:                         0
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    256
+ Number of                     2 -fold excitations:                  88651
+ Number of                     3 -fold excitations:               16793170
+ Number of                     4 -fold excitations:             1631882701
+ Number of                     5 -fold excitations:            83607679050
+ Total number of configurations:            85256443829
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):        517305.4
+
+ ======================================================================
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:     386057.5965    386057.5965
+ Integer:    835708.6917
+ Total:     1221766.2883   1221766.2883
+
+
+ ************************ 2025-01-31 01:09:38 *************************
+ Executing goldstone...
+
+ Generation of MRCC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    80
+ Number of diagrams in T^5 equations:    99
+ Translation of diagrams to factorized equations...
+ Number of restricted diagrams in T^1 equations:     30
+ Number of restricted diagrams in T^2 equations:    129
+ Number of restricted diagrams in T^3 equations:    306
+ Number of restricted diagrams in T^4 equations:    669
+ Number of restricted diagrams in T^5 equations:   1238
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   1.2353E+16
+ Probable CPU time per iteration step (hours):       123528.19
+ Required memory (Mbytes):        760205.7
+ Number of intermediates:                                 683
+ Number of intermediates to be stored:                    237
+ Length of intermediate file (Mbytes):        779537.9
+
+ ************************ 2025-01-31 01:09:40 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ MRCC(                     5 ) calculation
+
+
+ Allocation of       998400.0 Mbytes of memory...
+ Number of spinorbitals:                   362
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Number of active particles:                   176
+ Number of active holes:                         0
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    256
+ Number of                     2 -fold excitations:                  88651
+ Number of                     3 -fold excitations:               16793170
+ Number of                     4 -fold excitations:             1631882701
+ Number of                     5 -fold excitations:            83607679050
+ Total number of configurations:            85256443829
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):        517289.5
+
+ ======================================================================
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:     381672.7888    381672.7888
+ Integer:    835708.6970
+ Total:     1217381.4858   1217381.4858
+
+
+ ************************ 2025-01-31 11:37:27 *************************
+ Executing goldstone...
+
+ Generation of MRCC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    80
+ Number of diagrams in T^5 equations:    99
+ Translation of diagrams to factorized equations...
+ Number of restricted diagrams in T^1 equations:     30
+ Number of restricted diagrams in T^2 equations:    129
+ Number of restricted diagrams in T^3 equations:    306
+ Number of restricted diagrams in T^4 equations:    669
+ Number of restricted diagrams in T^5 equations:   1238
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   1.2527E+16
+ Probable CPU time per iteration step (hours):       125269.10
+ Required memory (Mbytes):        768453.7
+ Number of intermediates:                                 683
+ Number of intermediates to be stored:                    237
+ Length of intermediate file (Mbytes):        780797.5
+
+ ************************ 2025-01-31 11:37:28 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ MRCC(                     5 ) calculation
+
+
+ Allocation of       998400.0 Mbytes of memory...
+ Number of spinorbitals:                   362
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Number of active particles:                   174
+ Number of active holes:                         0
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    256
+ Number of                     2 -fold excitations:                  88651
+ Number of                     3 -fold excitations:               16793170
+ Number of                     4 -fold excitations:             1631882701
+ Number of                     5 -fold excitations:            83607679050
+ Total number of configurations:            85256443829
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):        517253.4
+
+ ======================================================================
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:     385867.2736    385867.2736
+ Integer:    835708.6970
+ Total:     1221575.9706   1221575.9706
+
+
+ ************************ 2025-01-31 21:15:22 *************************
+ Executing goldstone...
+
+ Generation of MRCC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    80
+ Number of diagrams in T^5 equations:    99
+ Translation of diagrams to factorized equations...
+ Number of restricted diagrams in T^1 equations:     60
+ Number of restricted diagrams in T^2 equations:    438
+ Number of restricted diagrams in T^3 equations:   1732
+ Number of restricted diagrams in T^4 equations:   5719
+ Number of restricted diagrams in T^5 equations:  13428
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   8.2429E+15
+ Probable CPU time per iteration step (hours):        82429.32
+ Required memory (Mbytes):        325870.1
+ Number of intermediates:                                4125
+ Number of intermediates to be stored:                   1125
+ Length of intermediate file (Mbytes):        906919.7
+
+ ************************ 2025-01-31 21:15:32 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ MRCC(                     5 ) calculation
+
+
+ Allocation of       998400.0 Mbytes of memory...
+ Number of spinorbitals:                   362
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Number of active particles:                   176
+ Number of active holes:                         4
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    256
+ Number of                     2 -fold excitations:                  88651
+ Number of                     3 -fold excitations:               16793170
+ Number of                     4 -fold excitations:             1631882701
+ Number of                     5 -fold excitations:            83607679050
+ Total number of configurations:            85256443829
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):       1124106.9
+
+ ======================================================================
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:     152722.3448    152722.3448
+ Integer:    835865.8276
+ Total:      988588.1724    988588.1724
+
+
+ ************************ 2025-02-01 06:38:03 *************************
+ Executing goldstone...
+
+ Generation of MRCC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    34
+ Number of diagrams in T^3 equations:     2
+ Translation of diagrams to factorized equations...
+ Number of restricted diagrams in T^1 equations:    440
+ Number of restricted diagrams in T^2 equations:   2800
+ Number of restricted diagrams in T^3 equations:    144
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   2.6142E+10
+ Probable CPU time per iteration step (hours):            0.26
+ Required memory (Mbytes):        128002.5
+ Number of intermediates:                                1298
+ Number of intermediates to be stored:                    537
+ Length of intermediate file (Mbytes):          2139.0
+
+ ************************ 2025-02-01 06:38:08 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ MRCC(                     3 ) calculation
+
+
+ Allocation of       998400.0 Mbytes of memory...
+ Number of spinorbitals:                   362
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Number of active particles:                   176
+ Number of active holes:                         4
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    256
+ Number of                     2 -fold excitations:                  88651
+ Total number of configurations:                  88908
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):          1627.2
+
+ ======================================================================
+
+ Spin case  1   Alpha:  1   Beta:  2
+ Number of excitations:                  83572
+ Spin case  2   Alpha:  2   Beta:  1
+ Number of excitations:                  82983
+ Spin case  3   Alpha:  0   Beta:  3
+ Number of excitations:                  13707
+ Spin case  4   Alpha:  1   Beta:  2
+ Number of excitations:                 127614
+ Spin case  5   Alpha:  1   Beta:  2
+ Number of excitations:                 168476
+ Spin case  6   Alpha:  2   Beta:  1
+ Number of excitations:                 505296
+ Spin case  7   Alpha:  2   Beta:  1
+ Number of excitations:                  41826
+ Spin case  8   Alpha:  3   Beta:  0
+ Number of excitations:                  40931
+ Spin case  9   Alpha:  1   Beta:  2
+ Number of excitations:                 255945
+ Spin case 10   Alpha:  2   Beta:  1
+ Number of excitations:                 256347
+ Spin case 11   Alpha:  2   Beta:  1
+ Number of excitations:                 253202
+ Spin case 12   Alpha:  3   Beta:  0
+ Number of excitations:                  82361
+ Spin case 13   Alpha:  2   Beta:  1
+ Number of excitations:                 127882
+ Spin case 14   Alpha:  3   Beta:  0
+ Number of excitations:                  13754
+ Spin case 15   Alpha:  1   Beta:  2
+ Number of excitations:                  83476
+ Spin case 16   Alpha:  1   Beta:  2
+ Number of excitations:                 172424
+ Spin case 17   Alpha:  2   Beta:  1
+ Number of excitations:                 167128
+ Spin case 18   Alpha:  2   Beta:  1
+ Number of excitations:                  84739
+ Spin case 19   Alpha:  0   Beta:  3
+ Number of excitations:                  43257
+ Spin case 20   Alpha:  1   Beta:  2
+ Number of excitations:                 127605
+ Spin case 21   Alpha:  1   Beta:  2
+ Number of excitations:                 168476
+ Spin case 22   Alpha:  1   Beta:  2
+ Number of excitations:                 265597
+ Spin case 23   Alpha:  1   Beta:  2
+ Number of excitations:                 348480
+ Spin case 24   Alpha:  2   Beta:  1
+ Number of excitations:                1022208
+ Spin case 25   Alpha:  2   Beta:  1
+ Number of excitations:                  84459
+ Spin case 26   Alpha:  2   Beta:  1
+ Number of excitations:                 516906
+ Spin case 27   Alpha:  2   Beta:  1
+ Number of excitations:                  42704
+ Spin case 28   Alpha:  3   Beta:  0
+ Number of excitations:                 124691
+ Spin case 29   Alpha:  1   Beta:  2
+ Number of excitations:                 255945
+ Spin case 30   Alpha:  1   Beta:  2
+ Number of excitations:                 532980
+ Spin case 31   Alpha:  2   Beta:  1
+ Number of excitations:                 520824
+ Spin case 32   Alpha:  2   Beta:  1
+ Number of excitations:                 512912
+ Spin case 33   Alpha:  2   Beta:  1
+ Number of excitations:                 262437
+ Spin case 34   Alpha:  2   Beta:  1
+ Number of excitations:                 259007
+ Spin case 35   Alpha:  3   Beta:  0
+ Number of excitations:                 252139
+ Spin case 36   Alpha:  2   Beta:  1
+ Number of excitations:                 259515
+ Spin case 37   Alpha:  2   Beta:  1
+ Number of excitations:                 130927
+ Spin case 38   Alpha:  3   Beta:  0
+ Number of excitations:                  42472
+ Spin case 39   Alpha:  1   Beta:  2
+ Number of excitations:                 172232
+ Spin case 40   Alpha:  1   Beta:  2
+ Number of excitations:                  87471
+ Spin case 41   Alpha:  2   Beta:  1
+ Number of excitations:                  82983
+ Spin case 42   Alpha:  2   Beta:  1
+ Number of excitations:                 170642
+ Spin case 43   Alpha:  0   Beta:  3
+ Number of excitations:                  44368
+ Spin case 44   Alpha:  1   Beta:  2
+ Number of excitations:                 265491
+ Spin case 45   Alpha:  1   Beta:  2
+ Number of excitations:                 348480
+ Spin case 46   Alpha:  1   Beta:  2
+ Number of excitations:                 133985
+ Spin case 47   Alpha:  1   Beta:  2
+ Number of excitations:                 176263
+ Spin case 48   Alpha:  2   Beta:  1
+ Number of excitations:                 505296
+ Spin case 49   Alpha:  2   Beta:  1
+ Number of excitations:                  41922
+ Spin case 50   Alpha:  2   Beta:  1
+ Number of excitations:                1045428
+ Spin case 51   Alpha:  2   Beta:  1
+ Number of excitations:                  86216
+ Spin case 52   Alpha:  3   Beta:  0
+ Number of excitations:                 124737
+ Spin case 53   Alpha:  1   Beta:  2
+ Number of excitations:                 532980
+ Spin case 54   Alpha:  1   Beta:  2
+ Number of excitations:                 268683
+ Spin case 55   Alpha:  2   Beta:  1
+ Number of excitations:                 256347
+ Spin case 56   Alpha:  2   Beta:  1
+ Number of excitations:                 253386
+ Spin case 57   Alpha:  2   Beta:  1
+ Number of excitations:                 533526
+ Spin case 58   Alpha:  2   Beta:  1
+ Number of excitations:                 524522
+ Spin case 59   Alpha:  3   Beta:  0
+ Number of excitations:                 252051
+ Spin case 60   Alpha:  2   Beta:  1
+ Number of excitations:                 127782
+ Spin case 61   Alpha:  2   Beta:  1
+ Number of excitations:                 265866
+ Spin case 62   Alpha:  3   Beta:  0
+ Number of excitations:                  42382
+ Spin case 63   Alpha:  1   Beta:  2
+ Number of excitations:                  87375
+ Spin case 64   Alpha:  2   Beta:  1
+ Number of excitations:                  84739
+ Spin case 65   Alpha:  0   Beta:  3
+ Number of excitations:                  14730
+ Spin case 66   Alpha:  1   Beta:  2
+ Number of excitations:                 133977
+ Spin case 67   Alpha:  1   Beta:  2
+ Number of excitations:                 176263
+ Spin case 68   Alpha:  2   Beta:  1
+ Number of excitations:                 516906
+ Spin case 69   Alpha:  2   Beta:  1
+ Number of excitations:                  42800
+ Spin case 70   Alpha:  3   Beta:  0
+ Number of excitations:                  40976
+ Spin case 71   Alpha:  1   Beta:  2
+ Number of excitations:                 268683
+ Spin case 72   Alpha:  2   Beta:  1
+ Number of excitations:                 262437
+ Spin case 73   Alpha:  2   Beta:  1
+ Number of excitations:                 259191
+ Spin case 74   Alpha:  3   Beta:  0
+ Number of excitations:                  82273
+ Spin case 75   Alpha:  2   Beta:  1
+ Number of excitations:                 130827
+ Spin case 76   Alpha:  3   Beta:  0
+ Number of excitations:                  13750
+ Number of                     3 -fold excitations:               16793170
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:        167.1515      8189.5045
+ Integer:       409.1609
+ Total:         576.3125      8598.6655
+
+
+ ************************ 2025-02-01 06:38:47 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSD(T) calculation                                                
+
+
+ OpenMP parallel version is running.
+ Number of CPU cores:   4
+ Allocation of         8189.5 Mbytes of memory...
+ Number of spinorbitals: 362
+ Number of alpha electrons:  5
+ Number of beta  electrons:  3
+ Number of active particles:                   176
+ Number of active holes:                         4
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 256
+ Number of 2-fold excitations: 88651
+ Total number of determinants: 88908
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are generated.
+ Length of intermediate file (Mbytes):          1627.2
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -74.601446337662
+ Calculation of MP denominators...
+
+ Starting CC iteration...
+ ======================================================================
+ Norm of residual vector:     3.32181833
+ CPU time [min]:     9.012                   Wall time [min]:     6.100
+
+ Iteration  1  CC energy:   -74.96893016  Energy decrease:   0.36748383
+ ======================================================================
+ Norm of residual vector:     0.55918859
+ CPU time [min]:    13.053                   Wall time [min]:     8.096
+
+ Iteration  2  CC energy:   -75.02717521  Energy decrease:   0.05824504
+ ======================================================================
+ Norm of residual vector:     0.16944137
+ CPU time [min]:    17.120                   Wall time [min]:    10.117
+
+ Iteration  3  CC energy:   -75.06987426  Energy decrease:   0.04269905
+ ======================================================================
+ Norm of residual vector:     0.07138788
+ CPU time [min]:    21.030                   Wall time [min]:    12.085
+
+ Iteration  4  CC energy:   -75.04713057  Energy decrease:   0.02274368
+ ======================================================================
+ Norm of residual vector:     0.02958575
+ CPU time [min]:    25.002                   Wall time [min]:    14.064
+
+ Iteration  5  CC energy:   -75.05692914  Energy decrease:   0.00979856
+ ======================================================================
+ Norm of residual vector:     0.00846080
+ CPU time [min]:    28.953                   Wall time [min]:    16.035
+
+ Iteration  6  CC energy:   -75.05686428  Energy decrease:   0.00006485
+ ======================================================================
+ Norm of residual vector:     0.00367163
+ CPU time [min]:    32.931                   Wall time [min]:    18.015
+
+ Iteration  7  CC energy:   -75.05779190  Energy decrease:   0.00092762
+ ======================================================================
+ Norm of residual vector:     0.00147976
+ CPU time [min]:    36.915                   Wall time [min]:    19.994
+
+ Iteration  8  CC energy:   -75.05738842  Energy decrease:   0.00040348
+ ======================================================================
+ Norm of residual vector:     0.00054074
+ CPU time [min]:    40.921                   Wall time [min]:    22.006
+
+ Iteration  9  CC energy:   -75.05751694  Energy decrease:   0.00012852
+ ======================================================================
+ Norm of residual vector:     0.00018036
+ CPU time [min]:    45.020                   Wall time [min]:    24.032
+
+ Iteration 10  CC energy:   -75.05748927  Energy decrease:   0.00002767
+ ======================================================================
+ Norm of residual vector:     0.00004810
+ CPU time [min]:    49.102                   Wall time [min]:    26.028
+
+ Iteration 11  CC energy:   -75.05748570  Energy decrease:   0.00000357
+ ======================================================================
+ Norm of residual vector:     0.00001835
+ CPU time [min]:    53.224                   Wall time [min]:    28.065
+
+ Iteration 12  CC energy:   -75.05748867  Energy decrease:   0.00000297
+ ======================================================================
+ Norm of residual vector:     0.00000481
+ CPU time [min]:    57.348                   Wall time [min]:    30.109
+
+ Iteration 13  CC energy:   -75.05748852  Energy decrease:   0.00000015
+ ======================================================================
+ Norm of residual vector:     0.00000126
+ CPU time [min]:    61.407                   Wall time [min]:    32.117
+
+ Iteration 14  CC energy:   -75.05748848  Energy decrease:   0.00000004
+ ======================================================================
+ Norm of residual vector:     0.00000038
+ CPU time [min]:    65.520                   Wall time [min]:    34.157
+
+ Iteration 15  CC energy:   -75.05748848  Energy decrease:   9.8386E-10
+ ======================================================================
+ Norm of residual vector:     0.00000012
+ CPU time [min]:    69.608                   Wall time [min]:    36.189
+
+ Iteration 16  CC energy:   -75.05748849  Energy decrease:   2.8091E-09
+ ======================================================================
+ Norm of residual vector:     0.00000003
+ CPU time [min]:    73.718                   Wall time [min]:    38.222
+
+ Iteration 17  CC energy:   -75.05748849  Energy decrease:   1.7917E-09
+ ======================================================================
+ Norm of residual vector:     0.00000001
+ CPU time [min]:    77.806                   Wall time [min]:    40.229
+
+ Iteration 18  CC energy:   -75.05748849  Energy decrease:   1.0543E-10
+ ======================================================================
+ Norm of residual vector:     2.8749E-09
+ CPU time [min]:    81.885                   Wall time [min]:    42.242
+
+ Iteration 19  CC energy:   -75.05748849  Energy decrease:   3.0141E-11
+ ======================================================================
+ Norm of residual vector:     8.4098E-10
+ CPU time [min]:    85.976                   Wall time [min]:    44.263
+
+ Iteration 20  CC energy:   -75.05748849  Energy decrease:   2.6134E-11
+ ======================================================================
+ Norm of residual vector:     2.4816E-10
+ CPU time [min]:    90.068                   Wall time [min]:    46.275
+
+ Iteration 21  CC energy:   -75.05748849  Energy decrease:   6.5796E-12
+ ======================================================================
+ Norm of residual vector:     7.8062E-11
+ CPU time [min]:    94.192                   Wall time [min]:    48.308
+
+ Iteration 22  CC energy:   -75.05748849  Energy decrease:   2.0037E-12
+ ======================================================================
+
+ Iteration has converged in 22 steps.
+
+ Final results:
+ Total CCSD energy [au]:                      -75.057488488861
+
+ Perturbative corrections are calculated...
+ ======================================================================
+ Spin case  1   Alpha:  1   Beta:  2
+ Number of excitations:        83572
+ CPU time [min]:    94.424                   Wall time [min]:    48.417
+ ======================================================================
+ Spin case  2   Alpha:  2   Beta:  1
+ Number of excitations:        82983
+ CPU time [min]:    94.566                   Wall time [min]:    48.455
+ ======================================================================
+ Spin case  3   Alpha:  0   Beta:  3
+ Number of excitations:        13707
+ CPU time [min]:    94.609                   Wall time [min]:    48.466
+ ======================================================================
+ Spin case  4   Alpha:  1   Beta:  2
+ Number of excitations:        127614
+ CPU time [min]:    94.754                   Wall time [min]:    48.503
+ ======================================================================
+ Spin case  5   Alpha:  1   Beta:  2
+ Number of excitations:        168476
+ CPU time [min]:    94.926                   Wall time [min]:    48.546
+ ======================================================================
+ Spin case  6   Alpha:  2   Beta:  1
+ Number of excitations:        505296
+ CPU time [min]:    95.218                   Wall time [min]:    48.620
+ ======================================================================
+ Spin case  7   Alpha:  2   Beta:  1
+ Number of excitations:        41826
+ CPU time [min]:    95.304                   Wall time [min]:    48.642
+ ======================================================================
+ Spin case  8   Alpha:  3   Beta:  0
+ Number of excitations:        40931
+ CPU time [min]:    95.365                   Wall time [min]:    48.657
+ ======================================================================
+ Spin case  9   Alpha:  1   Beta:  2
+ Number of excitations:        255945
+ CPU time [min]:    95.577                   Wall time [min]:    48.711
+ ======================================================================
+ Spin case 10   Alpha:  2   Beta:  1
+ Number of excitations:        256347
+ CPU time [min]:    95.747                   Wall time [min]:    48.755
+ ======================================================================
+ Spin case 11   Alpha:  2   Beta:  1
+ Number of excitations:        253202
+ CPU time [min]:    95.959                   Wall time [min]:    48.811
+ ======================================================================
+ Spin case 12   Alpha:  3   Beta:  0
+ Number of excitations:        82361
+ CPU time [min]:    96.034                   Wall time [min]:    48.830
+ ======================================================================
+ Spin case 13   Alpha:  2   Beta:  1
+ Number of excitations:        127882
+ CPU time [min]:    96.156                   Wall time [min]:    48.861
+ ======================================================================
+ Spin case 14   Alpha:  3   Beta:  0
+ Number of excitations:        13754
+ CPU time [min]:    96.187                   Wall time [min]:    48.869
+ ======================================================================
+ Spin case 15   Alpha:  1   Beta:  2
+ Number of excitations:        83476
+ CPU time [min]:    96.313                   Wall time [min]:    48.901
+ ======================================================================
+ Spin case 16   Alpha:  1   Beta:  2
+ Number of excitations:        172424
+ CPU time [min]:    96.565                   Wall time [min]:    48.964
+ ======================================================================
+ Spin case 17   Alpha:  2   Beta:  1
+ Number of excitations:        167128
+ CPU time [min]:    96.806                   Wall time [min]:    49.025
+ ======================================================================
+ Spin case 18   Alpha:  2   Beta:  1
+ Number of excitations:        84739
+ CPU time [min]:    96.931                   Wall time [min]:    49.056
+ ======================================================================
+ Spin case 19   Alpha:  0   Beta:  3
+ Number of excitations:        43257
+ CPU time [min]:    97.067                   Wall time [min]:    49.090
+ ======================================================================
+ Spin case 20   Alpha:  1   Beta:  2
+ Number of excitations:        127605
+ CPU time [min]:    97.234                   Wall time [min]:    49.132
+ ======================================================================
+ Spin case 21   Alpha:  1   Beta:  2
+ Number of excitations:        168476
+ CPU time [min]:    97.444                   Wall time [min]:    49.185
+ ======================================================================
+ Spin case 22   Alpha:  1   Beta:  2
+ Number of excitations:        265597
+ CPU time [min]:    97.757                   Wall time [min]:    49.267
+ ======================================================================
+ Spin case 23   Alpha:  1   Beta:  2
+ Number of excitations:        348480
+ CPU time [min]:    98.177                   Wall time [min]:    49.376
+ ======================================================================
+ Spin case 24   Alpha:  2   Beta:  1
+ Number of excitations:        1022208
+ CPU time [min]:    98.807                   Wall time [min]:    49.539
+ ======================================================================
+ Spin case 25   Alpha:  2   Beta:  1
+ Number of excitations:        84459
+ CPU time [min]:    99.041                   Wall time [min]:    49.598
+ ======================================================================
+ Spin case 26   Alpha:  2   Beta:  1
+ Number of excitations:        516906
+ CPU time [min]:    99.353                   Wall time [min]:    49.676
+ ======================================================================
+ Spin case 27   Alpha:  2   Beta:  1
+ Number of excitations:        42704
+ CPU time [min]:    99.466                   Wall time [min]:    49.705
+ ======================================================================
+ Spin case 28   Alpha:  3   Beta:  0
+ Number of excitations:        124691
+ CPU time [min]:    99.654                   Wall time [min]:    49.753
+ ======================================================================
+ Spin case 29   Alpha:  1   Beta:  2
+ Number of excitations:        255945
+ CPU time [min]:    99.890                   Wall time [min]:    49.812
+ ======================================================================
+ Spin case 30   Alpha:  1   Beta:  2
+ Number of excitations:        532980
+ CPU time [min]:   100.333                   Wall time [min]:    49.927
+ ======================================================================
+ Spin case 31   Alpha:  2   Beta:  1
+ Number of excitations:        520824
+ CPU time [min]:   100.712                   Wall time [min]:    50.027
+ ======================================================================
+ Spin case 32   Alpha:  2   Beta:  1
+ Number of excitations:        512912
+ CPU time [min]:   101.186                   Wall time [min]:    50.148
+ ======================================================================
+ Spin case 33   Alpha:  2   Beta:  1
+ Number of excitations:        262437
+ CPU time [min]:   101.383                   Wall time [min]:    50.199
+ ======================================================================
+ Spin case 34   Alpha:  2   Beta:  1
+ Number of excitations:        259007
+ CPU time [min]:   101.621                   Wall time [min]:    50.261
+ ======================================================================
+ Spin case 35   Alpha:  3   Beta:  0
+ Number of excitations:        252139
+ CPU time [min]:   101.842                   Wall time [min]:    50.317
+ ======================================================================
+ Spin case 36   Alpha:  2   Beta:  1
+ Number of excitations:        259515
+ CPU time [min]:   102.099                   Wall time [min]:    50.385
+ ======================================================================
+ Spin case 37   Alpha:  2   Beta:  1
+ Number of excitations:        130927
+ CPU time [min]:   102.234                   Wall time [min]:    50.419
+ ======================================================================
+ Spin case 38   Alpha:  3   Beta:  0
+ Number of excitations:        42472
+ CPU time [min]:   102.328                   Wall time [min]:    50.442
+ ======================================================================
+ Spin case 39   Alpha:  1   Beta:  2
+ Number of excitations:        172232
+ CPU time [min]:   102.578                   Wall time [min]:    50.505
+ ======================================================================
+ Spin case 40   Alpha:  1   Beta:  2
+ Number of excitations:        87471
+ CPU time [min]:   102.710                   Wall time [min]:    50.538
+ ======================================================================
+ Spin case 41   Alpha:  2   Beta:  1
+ Number of excitations:        82983
+ CPU time [min]:   102.839                   Wall time [min]:    50.571
+ ======================================================================
+ Spin case 42   Alpha:  2   Beta:  1
+ Number of excitations:        170642
+ CPU time [min]:   103.098                   Wall time [min]:    50.636
+ ======================================================================
+ Spin case 43   Alpha:  0   Beta:  3
+ Number of excitations:        44368
+ CPU time [min]:   103.232                   Wall time [min]:    50.670
+ ======================================================================
+ Spin case 44   Alpha:  1   Beta:  2
+ Number of excitations:        265491
+ CPU time [min]:   103.537                   Wall time [min]:    50.748
+ ======================================================================
+ Spin case 45   Alpha:  1   Beta:  2
+ Number of excitations:        348480
+ CPU time [min]:   103.957                   Wall time [min]:    50.855
+ ======================================================================
+ Spin case 46   Alpha:  1   Beta:  2
+ Number of excitations:        133985
+ CPU time [min]:   104.123                   Wall time [min]:    50.897
+ ======================================================================
+ Spin case 47   Alpha:  1   Beta:  2
+ Number of excitations:        176263
+ CPU time [min]:   104.330                   Wall time [min]:    50.949
+ ======================================================================
+ Spin case 48   Alpha:  2   Beta:  1
+ Number of excitations:        505296
+ CPU time [min]:   104.647                   Wall time [min]:    51.031
+ ======================================================================
+ Spin case 49   Alpha:  2   Beta:  1
+ Number of excitations:        41922
+ CPU time [min]:   104.768                   Wall time [min]:    51.061
+ ======================================================================
+ Spin case 50   Alpha:  2   Beta:  1
+ Number of excitations:        1045428
+ CPU time [min]:   105.400                   Wall time [min]:    51.226
+ ======================================================================
+ Spin case 51   Alpha:  2   Beta:  1
+ Number of excitations:        86216
+ CPU time [min]:   105.656                   Wall time [min]:    51.291
+ ======================================================================
+ Spin case 52   Alpha:  3   Beta:  0
+ Number of excitations:        124737
+ CPU time [min]:   105.842                   Wall time [min]:    51.338
+ ======================================================================
+ Spin case 53   Alpha:  1   Beta:  2
+ Number of excitations:        532980
+ CPU time [min]:   106.309                   Wall time [min]:    51.458
+ ======================================================================
+ Spin case 54   Alpha:  1   Beta:  2
+ Number of excitations:        268683
+ CPU time [min]:   106.554                   Wall time [min]:    51.522
+ ======================================================================
+ Spin case 55   Alpha:  2   Beta:  1
+ Number of excitations:        256347
+ CPU time [min]:   106.845                   Wall time [min]:    51.639
+ ======================================================================
+ Spin case 56   Alpha:  2   Beta:  1
+ Number of excitations:        253386
+ CPU time [min]:   107.130                   Wall time [min]:    51.721
+ ======================================================================
+ Spin case 57   Alpha:  2   Beta:  1
+ Number of excitations:        533526
+ CPU time [min]:   107.487                   Wall time [min]:    51.811
+ ======================================================================
+ Spin case 58   Alpha:  2   Beta:  1
+ Number of excitations:        524522
+ CPU time [min]:   107.908                   Wall time [min]:    51.919
+ ======================================================================
+ Spin case 59   Alpha:  3   Beta:  0
+ Number of excitations:        252051
+ CPU time [min]:   108.144                   Wall time [min]:    51.979
+ ======================================================================
+ Spin case 60   Alpha:  2   Beta:  1
+ Number of excitations:        127782
+ CPU time [min]:   108.267                   Wall time [min]:    52.010
+ ======================================================================
+ Spin case 61   Alpha:  2   Beta:  1
+ Number of excitations:        265866
+ CPU time [min]:   108.507                   Wall time [min]:    52.071
+ ======================================================================
+ Spin case 62   Alpha:  3   Beta:  0
+ Number of excitations:        42382
+ CPU time [min]:   108.592                   Wall time [min]:    52.093
+ ======================================================================
+ Spin case 63   Alpha:  1   Beta:  2
+ Number of excitations:        87375
+ CPU time [min]:   108.706                   Wall time [min]:    52.121
+ ======================================================================
+ Spin case 64   Alpha:  2   Beta:  1
+ Number of excitations:        84739
+ CPU time [min]:   108.816                   Wall time [min]:    52.149
+ ======================================================================
+ Spin case 65   Alpha:  0   Beta:  3
+ Number of excitations:        14730
+ CPU time [min]:   108.860                   Wall time [min]:    52.160
+ ======================================================================
+ Spin case 66   Alpha:  1   Beta:  2
+ Number of excitations:        133977
+ CPU time [min]:   109.001                   Wall time [min]:    52.195
+ ======================================================================
+ Spin case 67   Alpha:  1   Beta:  2
+ Number of excitations:        176263
+ CPU time [min]:   109.178                   Wall time [min]:    52.240
+ ======================================================================
+ Spin case 68   Alpha:  2   Beta:  1
+ Number of excitations:        516906
+ CPU time [min]:   109.476                   Wall time [min]:    52.318
+ ======================================================================
+ Spin case 69   Alpha:  2   Beta:  1
+ Number of excitations:        42800
+ CPU time [min]:   109.588                   Wall time [min]:    52.346
+ ======================================================================
+ Spin case 70   Alpha:  3   Beta:  0
+ Number of excitations:        40976
+ CPU time [min]:   109.645                   Wall time [min]:    52.360
+ ======================================================================
+ Spin case 71   Alpha:  1   Beta:  2
+ Number of excitations:        268683
+ CPU time [min]:   109.868                   Wall time [min]:    52.420
+ ======================================================================
+ Spin case 72   Alpha:  2   Beta:  1
+ Number of excitations:        262437
+ CPU time [min]:   110.062                   Wall time [min]:    52.470
+ ======================================================================
+ Spin case 73   Alpha:  2   Beta:  1
+ Number of excitations:        259191
+ CPU time [min]:   110.263                   Wall time [min]:    52.522
+ ======================================================================
+ Spin case 74   Alpha:  3   Beta:  0
+ Number of excitations:        82273
+ CPU time [min]:   110.337                   Wall time [min]:    52.541
+ ======================================================================
+ Spin case 75   Alpha:  2   Beta:  1
+ Number of excitations:        130827
+ CPU time [min]:   110.447                   Wall time [min]:    52.568
+ ======================================================================
+ Spin case 76   Alpha:  3   Beta:  0
+ Number of excitations:        13750
+ CPU time [min]:   110.475                   Wall time [min]:    52.575
+ ======================================================================
+ Number of 3-fold excitations: 16793170
+
+
+ CPU time [min]:   110.476                   Wall time [min]:    52.575
+
+ Total CCSD[T] energy [au]:                   -75.063204892287
+ Total CCSD(T) energy [au]:                   -75.058937454092
+
+ Dominant cluster amplitudes
+ Printing threshold:  1.00E-02
+
+    1.000000  Reference determinant                                 
+    0.020923  2a -> 30a                                             
+    0.018401  2a -> 55a                                             
+    0.012525  3a -> 6a                                              
+    0.010405  3a -> 15a                                             
+    0.012713  3a -> 48a                                             
+   -0.019612  2b -> 14b                                             
+   -0.011206  2b -> 18b                                             
+   -0.031858  2b -> 26b                                             
+    0.012467  2b -> 30b                                             
+   -0.020037  2b -> 51b                                             
+   -0.869696  3b -> 6b                                              
+   -0.363313  3b -> 15b                                             
+   -0.114828  3b -> 31b                                             
+   -0.025549  3b -> 56b                                             
+   -0.013116  4a -> 32a                                             
+   -0.018721  5a -> 8a                                              
+   -0.034779  5a -> 17a                                             
+   -0.024264  5a -> 33a                                             
+    0.013699  5a -> 50a                                             
+   -0.011505  2a 2b -> 18a 18b                                      
+   -0.013194  3a 3b -> 18a 18b                                      
+   -0.016668  3a 3b -> 26a 30b                                      
+   -0.010862  3a 3b -> 51a 30b                                      
+   -0.012031  3a 3b -> 26a 55b                                      
+   -0.013255  3a 3b -> 51a 55b                                      
+   -0.016771  3a 3b -> 29a 29b                                      
+   -0.011169  3a 3b -> 54a 29b                                      
+   -0.011815  3a 3b -> 29a 54b                                      
+   -0.013260  3a 3b -> 54a 54b                                      
+   -0.016724  3a 3b -> 27a 27b                                      
+   -0.010905  3a 3b -> 52a 27b                                      
+   -0.012093  3a 3b -> 27a 52b                                      
+   -0.013276  3a 3b -> 52a 52b                                      
+   -0.010070  3a 3b -> 6a 6b                                        
+   -0.019506  3a 3b -> 15a 6b                                       
+   -0.013782  3a 3b -> 31a 6b                                       
+   -0.019780  3a 3b -> 6a 15b                                       
+   -0.040590  3a 3b -> 15a 15b                                      
+   -0.032477  3a 3b -> 31a 15b                                      
+   -0.014633  3a 3b -> 6a 31b                                       
+   -0.033399  3a 3b -> 15a 31b                                      
+   -0.035256  3a 3b -> 31a 31b                                      
+   -0.013889  3a 3b -> 56a 31b                                      
+   -0.014437  3a 3b -> 31a 56b                                      
+   -0.012516  3a 3b -> 56a 56b                                      
+    0.013124  2a 2b -> 17a 5b                                       
+    0.012034  3a 3b -> 17a 5b                                       
+   -0.010318  2a 3b -> 18a 6b                                       
+   -0.014152  2a 3b -> 9a 15b                                       
+   -0.023097  2a 3b -> 18a 15b                                      
+    0.014114  2a 3b -> 43a 15b                                      
+   -0.012134  2a 3b -> 9a 31b                                       
+   -0.022344  2a 3b -> 18a 31b                                      
+    0.018183  2a 3b -> 43a 31b                                      
+    0.010122  2a 3b -> 43a 56b                                      
+   -0.014231  2a 3b -> 29a 5b                                       
+   -0.013815  2a 3b -> 54a 5b                                       
+   -0.010626  3a 2b -> 13a 5b                                       
+   -0.024042  3a 2b -> 29a 5b                                       
+   -0.019832  3a 2b -> 54a 5b                                       
+   -0.015098  3a 2b -> 27a 4b                                       
+   -0.011624  3a 2b -> 52a 4b                                       
+    0.016011  3a 2b -> 27a 7b                                       
+    0.012891  3a 2b -> 52a 7b                                       
+    0.010369  3a 2b -> 27a 16b                                      
+   -0.013093  3a 2b -> 15a 18b                                      
+   -0.013985  3a 2b -> 31a 18b                                      
+    0.011803  3a 2b -> 31a 43b                                      
+   -0.011293  3a 5a -> 15a 17a                                      
+   -0.010225  3a 5a -> 29a 30a                                      
+    0.010598  3a 5a -> 17a 31a                                      
+   -0.011529  3a 5a -> 15a 33a                                      
+   -0.012983  3a 5a -> 31a 33a                                      
+   -0.011271  3a 4a -> 15a 16a                                      
+   -0.012046  3a 4a -> 26a 27a                                      
+    0.010661  3a 4a -> 16a 31a                                      
+   -0.011290  3a 4a -> 15a 32a                                      
+   -0.012796  3a 4a -> 31a 32a                                      
+   -0.010044  3a 4a -> 51a 52a                                      
+   -0.011148  2b 3b -> 5b 13b                                       
+    0.013478  2b 3b -> 15b 18b                                      
+   -0.011666  2b 3b -> 4b 27b                                       
+    0.012375  2b 3b -> 7b 27b                                       
+   -0.018682  2b 3b -> 5b 29b                                       
+   -0.011072  2b 3b -> 18b 31b                                      
+   -0.012211  2b 3b -> 5b 54b                                       
+   -0.011988  5a 3b -> 30a 29b                                      
+   -0.011725  5a 3b -> 28a 27b                                      
+   -0.011677  5a 3b -> 29a 30b                                      
+    0.013632  5a 3b -> 6a 5b                                        
+    0.019769  5a 3b -> 15a 5b                                       
+   -0.010143  5a 3b -> 48a 5b                                       
+   -0.014282  5a 3b -> 17a 6b                                       
+   -0.011151  5a 3b -> 33a 6b                                       
+   -0.012822  5a 3b -> 8a 15b                                       
+   -0.028904  5a 3b -> 17a 15b                                      
+   -0.025186  5a 3b -> 33a 15b                                      
+   -0.023196  5a 3b -> 17a 31b                                      
+   -0.025742  5a 3b -> 33a 31b                                      
+   -0.010990  5a 3b -> 58a 31b                                      
+   -0.010855  5a 3b -> 33a 56b                                      
+   -0.011722  4a 3b -> 28a 29b                                      
+    0.010819  4a 3b -> 15a 4b                                       
+   -0.012595  4a 3b -> 15a 7b                                       
+   -0.010979  4a 3b -> 15a 16b                                      
+   -0.014164  4a 3b -> 16a 6b                                       
+   -0.010851  4a 3b -> 32a 6b                                       
+   -0.013257  4a 3b -> 7a 15b                                       
+   -0.028798  4a 3b -> 16a 15b                                      
+   -0.024635  4a 3b -> 32a 15b                                      
+   -0.023309  4a 3b -> 16a 31b                                      
+   -0.025375  4a 3b -> 32a 31b                                      
+   -0.010870  4a 3b -> 57a 31b                                      
+   -0.010799  4a 3b -> 32a 56b                                      
+    0.015225  4a 2b -> 26a 4b                                       
+    0.011654  4a 2b -> 51a 4b                                       
+   -0.016163  4a 2b -> 26a 7b                                       
+   -0.012914  4a 2b -> 51a 7b                                       
+   -0.010528  4a 2b -> 26a 16b                                      
+   -0.010917  4a 2b -> 12a 5b                                       
+   -0.024814  4a 2b -> 28a 5b                                       
+   -0.020349  4a 2b -> 53a 5b                                       
+   -0.012636  4a 2b -> 16a 18b                                      
+   -0.013964  4a 2b -> 32a 18b                                      
+    0.011798  4a 2b -> 32a 43b                                      
+    0.010609  5a 2b -> 9a 5b                                        
+   -0.012591  5a 2b -> 14a 5b                                       
+    0.013458  5a 2b -> 18a 5b                                       
+   -0.028211  5a 2b -> 30a 5b                                       
+   -0.023435  5a 2b -> 55a 5b                                       
+   -0.015586  5a 2b -> 28a 4b                                       
+   -0.012077  5a 2b -> 53a 4b                                       
+    0.016533  5a 2b -> 28a 7b                                       
+    0.013370  5a 2b -> 53a 7b                                       
+    0.010745  5a 2b -> 28a 16b                                      
+    0.010241  5a 2b -> 53a 16b                                      
+   -0.012628  5a 2b -> 17a 18b                                      
+   -0.014217  5a 2b -> 33a 18b                                      
+    0.011990  5a 2b -> 33a 43b                                      
+   -0.011166  4a 5a -> 16a 17a                                      
+    0.011098  4a 5a -> 17a 32a                                      
+   -0.011397  4a 5a -> 16a 33a                                      
+   -0.013440  4a 5a -> 32a 33a                                      
+
+ ************************ 2025-02-01 07:31:23 *************************
+ Executing goldstone...
+
+ Generation of MRCC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    50
+ Number of diagrams in T^4 equations:     5
+ Translation of diagrams to factorized equations...
+ Number of restricted diagrams in T^1 equations:    440
+ Number of restricted diagrams in T^2 equations:   3313
+ Number of restricted diagrams in T^3 equations:  13888
+ Number of restricted diagrams in T^4 equations:   1332
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   1.2846E+13
+ Probable CPU time per iteration step (hours):          128.46
+ Required memory (Mbytes):        128002.5
+ Number of intermediates:                                4263
+ Number of intermediates to be stored:                   1626
+ Length of intermediate file (Mbytes):          3563.0
+
+ ************************ 2025-02-01 07:31:33 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ MRCC(                     4 ) calculation
+
+
+ Allocation of       998400.0 Mbytes of memory...
+ Number of spinorbitals:                   362
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Number of active particles:                   176
+ Number of active holes:                         4
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    256
+ Number of                     2 -fold excitations:                  88651
+ Number of                     3 -fold excitations:               16793170
+ Total number of configurations:               16882078
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):          2695.7
+
+ ======================================================================
+
+ Spin case  1   Alpha:  2   Beta:  2
+ Number of excitations:                1825876
+ Spin case  2   Alpha:  1   Beta:  3
+ Number of excitations:                2411958
+ Spin case  3   Alpha:  2   Beta:  2
+ Number of excitations:               10984524
+ Spin case  4   Alpha:  2   Beta:  2
+ Number of excitations:                3655775
+ Spin case  5   Alpha:  3   Beta:  1
+ Number of excitations:                7233855
+ Spin case  6   Alpha:  1   Beta:  3
+ Number of excitations:                3623007
+ Spin case  7   Alpha:  2   Beta:  2
+ Number of excitations:                5510826
+ Spin case  8   Alpha:  2   Beta:  2
+ Number of excitations:               21977604
+ Spin case  9   Alpha:  3   Beta:  1
+ Number of excitations:               14485152
+ Spin case 10   Alpha:  3   Beta:  1
+ Number of excitations:                3617332
+ Spin case 11   Alpha:  4   Beta:  0
+ Number of excitations:                 876176
+ Spin case 12   Alpha:  2   Beta:  2
+ Number of excitations:               11015823
+ Spin case 13   Alpha:  3   Beta:  1
+ Number of excitations:                2417099
+ Spin case 14   Alpha:  3   Beta:  1
+ Number of excitations:                7241482
+ Spin case 15   Alpha:  4   Beta:  0
+ Number of excitations:                 583335
+ Spin case 16   Alpha:  3   Beta:  1
+ Number of excitations:                1208188
+ Spin case 17   Alpha:  2   Beta:  2
+ Number of excitations:                3687857
+ Spin case 18   Alpha:  2   Beta:  2
+ Number of excitations:                3771519
+ Spin case 19   Alpha:  1   Beta:  3
+ Number of excitations:                2411810
+ Spin case 20   Alpha:  1   Beta:  3
+ Number of excitations:                7565300
+ Spin case 21   Alpha:  2   Beta:  2
+ Number of excitations:               22219044
+ Spin case 22   Alpha:  2   Beta:  2
+ Number of excitations:                7389724
+ Spin case 23   Alpha:  2   Beta:  2
+ Number of excitations:               22726376
+ Spin case 24   Alpha:  2   Beta:  2
+ Number of excitations:                7554780
+ Spin case 25   Alpha:  3   Beta:  1
+ Number of excitations:               22163256
+ Spin case 26   Alpha:  3   Beta:  1
+ Number of excitations:                7397361
+ Spin case 27   Alpha:  1   Beta:  3
+ Number of excitations:                3622894
+ Spin case 28   Alpha:  1   Beta:  3
+ Number of excitations:               11395797
+ Spin case 29   Alpha:  2   Beta:  2
+ Number of excitations:               11155269
+ Spin case 30   Alpha:  2   Beta:  2
+ Number of excitations:               44466312
+ Spin case 31   Alpha:  2   Beta:  2
+ Number of excitations:               11411935
+ Spin case 32   Alpha:  2   Beta:  2
+ Number of excitations:               45476640
+ Spin case 33   Alpha:  3   Beta:  1
+ Number of excitations:               44466048
+ Spin case 34   Alpha:  3   Beta:  1
+ Number of excitations:               11087557
+ Spin case 35   Alpha:  3   Beta:  1
+ Number of excitations:               14814618
+ Spin case 36   Alpha:  3   Beta:  1
+ Number of excitations:                3699085
+ Spin case 37   Alpha:  4   Beta:  0
+ Number of excitations:                3616278
+ Spin case 38   Alpha:  2   Beta:  2
+ Number of excitations:               22296612
+ Spin case 39   Alpha:  2   Beta:  2
+ Number of excitations:               22812300
+ Spin case 40   Alpha:  3   Beta:  1
+ Number of excitations:                7434264
+ Spin case 41   Alpha:  3   Beta:  1
+ Number of excitations:               22221152
+ Spin case 42   Alpha:  3   Beta:  1
+ Number of excitations:                2472247
+ Spin case 43   Alpha:  3   Beta:  1
+ Number of excitations:                7406215
+ Spin case 44   Alpha:  4   Beta:  0
+ Number of excitations:                2413223
+ Spin case 45   Alpha:  3   Beta:  1
+ Number of excitations:                3711333
+ Spin case 46   Alpha:  3   Beta:  1
+ Number of excitations:                1235762
+ Spin case 47   Alpha:  2   Beta:  2
+ Number of excitations:                1825066
+ Spin case 48   Alpha:  2   Beta:  2
+ Number of excitations:                7616146
+ Spin case 49   Alpha:  2   Beta:  2
+ Number of excitations:                1909319
+ Spin case 50   Alpha:  1   Beta:  3
+ Number of excitations:                7563812
+ Spin case 51   Alpha:  1   Beta:  3
+ Number of excitations:                7739582
+ Spin case 52   Alpha:  2   Beta:  2
+ Number of excitations:               10983096
+ Spin case 53   Alpha:  2   Beta:  2
+ Number of excitations:                3655775
+ Spin case 54   Alpha:  2   Beta:  2
+ Number of excitations:               45963392
+ Spin case 55   Alpha:  2   Beta:  2
+ Number of excitations:               15268320
+ Spin case 56   Alpha:  2   Beta:  2
+ Number of excitations:               11492761
+ Spin case 57   Alpha:  2   Beta:  2
+ Number of excitations:                3822619
+ Spin case 58   Alpha:  3   Beta:  1
+ Number of excitations:               22163256
+ Spin case 59   Alpha:  3   Beta:  1
+ Number of excitations:               22660674
+ Spin case 60   Alpha:  1   Beta:  3
+ Number of excitations:               11395023
+ Spin case 61   Alpha:  1   Beta:  3
+ Number of excitations:               11663398
+ Spin case 62   Alpha:  2   Beta:  2
+ Number of excitations:                5511552
+ Spin case 63   Alpha:  2   Beta:  2
+ Number of excitations:               21977604
+ Spin case 64   Alpha:  2   Beta:  2
+ Number of excitations:               23114898
+ Spin case 65   Alpha:  2   Beta:  2
+ Number of excitations:               91998720
+ Spin case 66   Alpha:  2   Beta:  2
+ Number of excitations:                5768696
+ Spin case 67   Alpha:  2   Beta:  2
+ Number of excitations:               22994001
+ Spin case 68   Alpha:  3   Beta:  1
+ Number of excitations:               44466048
+ Spin case 69   Alpha:  3   Beta:  1
+ Number of excitations:               11088585
+ Spin case 70   Alpha:  3   Beta:  1
+ Number of excitations:               45476892
+ Spin case 71   Alpha:  3   Beta:  1
+ Number of excitations:               11336266
+ Spin case 72   Alpha:  4   Beta:  0
+ Number of excitations:                5479878
+ Spin case 73   Alpha:  2   Beta:  2
+ Number of excitations:               11015823
+ Spin case 74   Alpha:  2   Beta:  2
+ Number of excitations:               46193760
+ Spin case 75   Alpha:  2   Beta:  2
+ Number of excitations:               11531562
+ Spin case 76   Alpha:  3   Beta:  1
+ Number of excitations:                7434264
+ Spin case 77   Alpha:  3   Beta:  1
+ Number of excitations:               22218816
+ Spin case 78   Alpha:  3   Beta:  1
+ Number of excitations:                7605238
+ Spin case 79   Alpha:  3   Beta:  1
+ Number of excitations:               22726574
+ Spin case 80   Alpha:  4   Beta:  0
+ Number of excitations:                3658731
+ Spin case 81   Alpha:  3   Beta:  1
+ Number of excitations:                3710217
+ Spin case 82   Alpha:  3   Beta:  1
+ Number of excitations:                3796820
+ Spin case 83   Alpha:  2   Beta:  2
+ Number of excitations:                3769635
+ Spin case 84   Alpha:  2   Beta:  2
+ Number of excitations:                3855909
+ Spin case 85   Alpha:  1   Beta:  3
+ Number of excitations:                7738106
+ Spin case 86   Alpha:  1   Beta:  3
+ Number of excitations:                2582456
+ Spin case 87   Alpha:  2   Beta:  2
+ Number of excitations:               22722552
+ Spin case 88   Alpha:  2   Beta:  2
+ Number of excitations:                7554780
+ Spin case 89   Alpha:  2   Beta:  2
+ Number of excitations:               23247145
+ Spin case 90   Alpha:  2   Beta:  2
+ Number of excitations:                7725737
+ Spin case 91   Alpha:  3   Beta:  1
+ Number of excitations:                7233855
+ Spin case 92   Alpha:  3   Beta:  1
+ Number of excitations:               22660674
+ Spin case 93   Alpha:  1   Beta:  3
+ Number of excitations:               11662629
+ Spin case 94   Alpha:  1   Beta:  3
+ Number of excitations:                3882160
+ Spin case 95   Alpha:  2   Beta:  2
+ Number of excitations:               11413827
+ Spin case 96   Alpha:  2   Beta:  2
+ Number of excitations:               45476640
+ Spin case 97   Alpha:  2   Beta:  2
+ Number of excitations:               11679222
+ Spin case 98   Alpha:  2   Beta:  2
+ Number of excitations:               46522338
+ Spin case 99   Alpha:  3   Beta:  1
+ Number of excitations:               14485152
+ Spin case100   Alpha:  3   Beta:  1
+ Number of excitations:                3618097
+ Spin case101   Alpha:  3   Beta:  1
+ Number of excitations:               45476892
+ Spin case102   Alpha:  3   Beta:  1
+ Number of excitations:               11337294
+ Spin case103   Alpha:  4   Beta:  0
+ Number of excitations:                3615710
+ Spin case104   Alpha:  2   Beta:  2
+ Number of excitations:               22812300
+ Spin case105   Alpha:  2   Beta:  2
+ Number of excitations:               23344611
+ Spin case106   Alpha:  3   Beta:  1
+ Number of excitations:                2417099
+ Spin case107   Alpha:  3   Beta:  1
+ Number of excitations:                7240190
+ Spin case108   Alpha:  3   Beta:  1
+ Number of excitations:                7605238
+ Spin case109   Alpha:  3   Beta:  1
+ Number of excitations:               22724238
+ Spin case110   Alpha:  4   Beta:  0
+ Number of excitations:                2412079
+ Spin case111   Alpha:  3   Beta:  1
+ Number of excitations:                1207505
+ Spin case112   Alpha:  3   Beta:  1
+ Number of excitations:                3795704
+ Spin case113   Alpha:  2   Beta:  2
+ Number of excitations:                1908512
+ Spin case114   Alpha:  1   Beta:  3
+ Number of excitations:                2582320
+ Spin case115   Alpha:  2   Beta:  2
+ Number of excitations:               11491344
+ Spin case116   Alpha:  2   Beta:  2
+ Number of excitations:                3822619
+ Spin case117   Alpha:  3   Beta:  1
+ Number of excitations:                7397361
+ Spin case118   Alpha:  1   Beta:  3
+ Number of excitations:                3882052
+ Spin case119   Alpha:  2   Beta:  2
+ Number of excitations:                5769417
+ Spin case120   Alpha:  2   Beta:  2
+ Number of excitations:               22994001
+ Spin case121   Alpha:  3   Beta:  1
+ Number of excitations:               14814618
+ Spin case122   Alpha:  3   Beta:  1
+ Number of excitations:                3699850
+ Spin case123   Alpha:  4   Beta:  0
+ Number of excitations:                 876022
+ Spin case124   Alpha:  2   Beta:  2
+ Number of excitations:               11531562
+ Spin case125   Alpha:  3   Beta:  1
+ Number of excitations:                2472247
+ Spin case126   Alpha:  3   Beta:  1
+ Number of excitations:                7404923
+ Spin case127   Alpha:  4   Beta:  0
+ Number of excitations:                 583236
+ Spin case128   Alpha:  3   Beta:  1
+ Number of excitations:                1235079
+ Number of                     4 -fold excitations:             1631882701
+
+ Memory requirements /Mbyte/:
+               Minimal        Optimal
+ Real*8:       6938.0509      8189.5068
+ Integer:     13983.5674
+ Total:       20921.6183     22173.0742
+
+
+ ************************ 2025-02-01 07:48:58 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSDT(Q) calculation                                               
+
+
+ OpenMP parallel version is running.
+ Number of CPU cores:   4
+ Allocation of         8189.5 Mbytes of memory...
+ Number of spinorbitals: 362
+ Number of alpha electrons:  5
+ Number of beta  electrons:  3
+ Number of active particles:                   176
+ Number of active holes:                         4
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 256
+ Number of 2-fold excitations: 88651
+ Number of 3-fold excitations: 16793170
+ Total number of determinants: 16882078
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are read from unit 16.
+ Length of intermediate file (Mbytes):          2695.7
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -74.601446337662
+ Calculation of MP denominators...
+
+ Starting CC iteration...
+ ======================================================================
+ Norm of residual vector:     0.36169063
+ CPU time [min]:    70.975                   Wall time [min]:    27.686
+
+ Iteration  1  CC energy:   -75.05748849  Energy decrease:   6.5370E-13
+ ======================================================================
+ Norm of residual vector:     0.04532822
+ CPU time [min]:   110.039                   Wall time [min]:    40.286
+
+ Iteration  2  CC energy:   -75.06133374  Energy decrease:   0.00384525
+ ======================================================================
+ Norm of residual vector:     0.01649667
+ CPU time [min]:   148.417                   Wall time [min]:    52.658
+
+ Iteration  3  CC energy:   -75.06169851  Energy decrease:   0.00036477
+ ======================================================================
+ Norm of residual vector:     0.00506089
+ CPU time [min]:   186.913                   Wall time [min]:    65.146
+
+ Iteration  4  CC energy:   -75.06208595  Energy decrease:   0.00038744
+ ======================================================================
+ Norm of residual vector:     0.00314884
+ CPU time [min]:   225.149                   Wall time [min]:    77.533
+
+ Iteration  5  CC energy:   -75.06216505  Energy decrease:   0.00007910
+ ======================================================================
+ Norm of residual vector:     0.00142358
+ CPU time [min]:   263.953                   Wall time [min]:    90.080
+
+ Iteration  6  CC energy:   -75.06222924  Energy decrease:   0.00006420
+ ======================================================================
+ Norm of residual vector:     0.00074831
+ CPU time [min]:   301.958                   Wall time [min]:   102.308
+
+ Iteration  7  CC energy:   -75.06225697  Energy decrease:   0.00002772
+ ======================================================================
+ Norm of residual vector:     0.00033089
+ CPU time [min]:   340.318                   Wall time [min]:   114.665
+
+ Iteration  8  CC energy:   -75.06225862  Energy decrease:   0.00000166
+ ======================================================================
+ Norm of residual vector:     0.00014817
+ CPU time [min]:   376.983                   Wall time [min]:   126.517
+
+ Iteration  9  CC energy:   -75.06225376  Energy decrease:   0.00000486
+ ======================================================================
+ Norm of residual vector:     0.00005396
+ CPU time [min]:   413.472                   Wall time [min]:   138.302
+
+ Iteration 10  CC energy:   -75.06225259  Energy decrease:   0.00000117
+ ======================================================================
+ Norm of residual vector:     0.00002308
+ CPU time [min]:   450.088                   Wall time [min]:   150.151
+
+ Iteration 11  CC energy:   -75.06225212  Energy decrease:   0.00000047
+ ======================================================================
+ Norm of residual vector:     0.00000803
+ CPU time [min]:   487.210                   Wall time [min]:   162.229
+
+ Iteration 12  CC energy:   -75.06225237  Energy decrease:   0.00000026
+ ======================================================================
+ Norm of residual vector:     0.00000302
+ CPU time [min]:   523.847                   Wall time [min]:   174.096
+
+ Iteration 13  CC energy:   -75.06225243  Energy decrease:   0.00000006
+ ======================================================================
+ Norm of residual vector:     0.00000104
+ CPU time [min]:   561.414                   Wall time [min]:   186.884
+
+ Iteration 14  CC energy:   -75.06225243  Energy decrease:   1.3302E-09
+ ======================================================================
+ Norm of residual vector:     0.00000037
+ CPU time [min]:   599.278                   Wall time [min]:   200.563
+
+ Iteration 15  CC energy:   -75.06225243  Energy decrease:   7.6614E-10
+ ======================================================================
+ Norm of residual vector:     0.00000014
+ CPU time [min]:   636.544                   Wall time [min]:   213.939
+
+ Iteration 16  CC energy:   -75.06225243  Energy decrease:   3.4185E-09
+ ======================================================================
+ Norm of residual vector:     0.00000005
+ CPU time [min]:   674.146                   Wall time [min]:   227.391
+
+ Iteration 17  CC energy:   -75.06225243  Energy decrease:   1.2124E-09
+ ======================================================================
+ Norm of residual vector:     0.00000002
+ CPU time [min]:   711.740                   Wall time [min]:   240.625
+
+ Iteration 18  CC energy:   -75.06225243  Energy decrease:   1.3750E-10
+ ======================================================================
+ Norm of residual vector:     0.00000001
+ CPU time [min]:   750.268                   Wall time [min]:   254.340
+
+ Iteration 19  CC energy:   -75.06225243  Energy decrease:   8.9685E-11
+ ======================================================================
+ Norm of residual vector:     2.3425E-09
+ CPU time [min]:   787.708                   Wall time [min]:   267.665
+
+ Iteration 20  CC energy:   -75.06225243  Energy decrease:   6.0993E-11
+ ======================================================================
+ Norm of residual vector:     8.7823E-10
+ CPU time [min]:   825.099                   Wall time [min]:   281.001
+
+ Iteration 21  CC energy:   -75.06225243  Energy decrease:   3.0411E-12
+ ======================================================================
+ Norm of residual vector:     3.0632E-10
+ CPU time [min]:   863.211                   Wall time [min]:   294.498
+
+ Iteration 22  CC energy:   -75.06225243  Energy decrease:   3.5385E-12
+ ======================================================================
+ Norm of residual vector:     1.1404E-10
+ CPU time [min]:   901.400                   Wall time [min]:   308.017
+
+ Iteration 23  CC energy:   -75.06225243  Energy decrease:   1.3358E-12
+ ======================================================================
+ Norm of residual vector:     4.4306E-11
+ CPU time [min]:   940.476                   Wall time [min]:   321.628
+
+ Iteration 24  CC energy:   -75.06225243  Energy decrease:   9.8055E-13
+ ======================================================================
+
+ Iteration has converged in 24 steps.
+
+ Final results:
+ Total CCSDT energy [au]:                     -75.062252429262
+
+ Perturbative corrections are calculated...
+ ======================================================================
+ Spin case  1   Alpha:  2   Beta:  2
+ Number of excitations:        1825876
+ CPU time [min]:   986.582                   Wall time [min]:   340.494
+ ======================================================================
+ Spin case  2   Alpha:  1   Beta:  3
+ Number of excitations:        2411958
+ CPU time [min]:  1017.346                   Wall time [min]:   348.815
+ ======================================================================
+ Spin case  3   Alpha:  2   Beta:  2
+ Number of excitations:        10984524
+ CPU time [min]:  1081.618                   Wall time [min]:   366.980
+ ======================================================================
+ Spin case  4   Alpha:  2   Beta:  2
+ Number of excitations:        3655775
+ CPU time [min]:  1127.033                   Wall time [min]:   380.331
+ ======================================================================
+ Spin case  5   Alpha:  3   Beta:  1
+ Number of excitations:        7233855
+ CPU time [min]:  1170.871                   Wall time [min]:   393.120
+ ======================================================================
+ Spin case  6   Alpha:  1   Beta:  3
+ Number of excitations:        3623007
+ CPU time [min]:  1209.285                   Wall time [min]:   404.335
+ ======================================================================
+ Spin case  7   Alpha:  2   Beta:  2
+ Number of excitations:        5510826
+ CPU time [min]:  1252.962                   Wall time [min]:   416.764
+ ======================================================================
+ Spin case  8   Alpha:  2   Beta:  2
+ Number of excitations:        21977604
+ CPU time [min]:  1372.288                   Wall time [min]:   451.671
+ ======================================================================
+ Spin case  9   Alpha:  3   Beta:  1
+ Number of excitations:        14485152
+ CPU time [min]:  1437.009                   Wall time [min]:   471.522
+ ======================================================================
+ Spin case 10   Alpha:  3   Beta:  1
+ Number of excitations:        3617332
+ CPU time [min]:  1477.512                   Wall time [min]:   483.086
+ ======================================================================
+ Spin case 11   Alpha:  4   Beta:  0
+ Number of excitations:        876176
+ CPU time [min]:  1487.147                   Wall time [min]:   485.874
+ ======================================================================
+ Spin case 12   Alpha:  2   Beta:  2
+ Number of excitations:        11015823
+ CPU time [min]:  1537.310                   Wall time [min]:   500.058
+ ======================================================================
+ Spin case 13   Alpha:  3   Beta:  1
+ Number of excitations:        2417099
+ CPU time [min]:  1556.127                   Wall time [min]:   505.456
+ ======================================================================
+ Spin case 14   Alpha:  3   Beta:  1
+ Number of excitations:        7241482
+ CPU time [min]:  1593.774                   Wall time [min]:   516.307
+ ======================================================================
+ Spin case 15   Alpha:  4   Beta:  0
+ Number of excitations:        583335
+ CPU time [min]:  1599.561                   Wall time [min]:   518.040
+ ======================================================================
+ Spin case 16   Alpha:  3   Beta:  1
+ Number of excitations:        1208188
+ CPU time [min]:  1619.031                   Wall time [min]:   523.637
+ ======================================================================
+ Spin case 17   Alpha:  2   Beta:  2
+ Number of excitations:        3687857
+ CPU time [min]:  1681.981                   Wall time [min]:   541.830
+ ======================================================================
+ Spin case 18   Alpha:  2   Beta:  2
+ Number of excitations:        3771519
+ CPU time [min]:  1749.293                   Wall time [min]:   561.078
+ ======================================================================
+ Spin case 19   Alpha:  1   Beta:  3
+ Number of excitations:        2411810
+ CPU time [min]:  1777.191                   Wall time [min]:   569.474
+ ======================================================================
+ Spin case 20   Alpha:  1   Beta:  3
+ Number of excitations:        7565300
+ CPU time [min]:  1869.344                   Wall time [min]:   595.988
+ ======================================================================
+ Spin case 21   Alpha:  2   Beta:  2
+ Number of excitations:        22219044
+ CPU time [min]:  1999.267                   Wall time [min]:   633.783
+ ======================================================================
+ Spin case 22   Alpha:  2   Beta:  2
+ Number of excitations:        7389724
+ CPU time [min]:  2087.457                   Wall time [min]:   659.141
+ ======================================================================
+ Spin case 23   Alpha:  2   Beta:  2
+ Number of excitations:        22726376
+ CPU time [min]:  2230.942                   Wall time [min]:   699.316
+ ======================================================================
+ Spin case 24   Alpha:  2   Beta:  2
+ Number of excitations:        7554780
+ CPU time [min]:  2321.734                   Wall time [min]:   726.232
+ ======================================================================
+ Spin case 25   Alpha:  3   Beta:  1
+ Number of excitations:        22163256
+ CPU time [min]:  2458.833                   Wall time [min]:   764.564
+ ======================================================================
+ Spin case 26   Alpha:  3   Beta:  1
+ Number of excitations:        7397361
+ CPU time [min]:  2501.157                   Wall time [min]:   776.455
+ ======================================================================
+ Spin case 27   Alpha:  1   Beta:  3
+ Number of excitations:        3622894
+ CPU time [min]:  2535.460                   Wall time [min]:   785.976
+ ======================================================================
+ Spin case 28   Alpha:  1   Beta:  3
+ Number of excitations:        11395797
+ CPU time [min]:  2651.732                   Wall time [min]:   818.511
+ ======================================================================
+ Spin case 29   Alpha:  2   Beta:  2
+ Number of excitations:        11155269
+ CPU time [min]:  2736.008                   Wall time [min]:   841.918
+ ======================================================================
+ Spin case 30   Alpha:  2   Beta:  2
+ Number of excitations:        44466312
+ CPU time [min]:  2988.637                   Wall time [min]:   916.416
+ ======================================================================
+ Spin case 31   Alpha:  2   Beta:  2
+ Number of excitations:        11411935
+ CPU time [min]:  3077.561                   Wall time [min]:   941.573
+ ======================================================================
+ Spin case 32   Alpha:  2   Beta:  2
+ Number of excitations:        45476640
+ CPU time [min]:  3345.224                   Wall time [min]:  1018.054
+ ======================================================================
+ Spin case 33   Alpha:  3   Beta:  1
+ Number of excitations:        44466048
+ CPU time [min]:  3549.499                   Wall time [min]:  1076.503
+ ======================================================================
+ Spin case 34   Alpha:  3   Beta:  1
+ Number of excitations:        11087557
+ CPU time [min]:  3668.902                   Wall time [min]:  1110.604
+ ======================================================================
+ Spin case 35   Alpha:  3   Beta:  1
+ Number of excitations:        14814618
+ CPU time [min]:  3734.415                   Wall time [min]:  1128.981
+ ======================================================================
+ Spin case 36   Alpha:  3   Beta:  1
+ Number of excitations:        3699085
+ CPU time [min]:  3775.980                   Wall time [min]:  1140.816
+ ======================================================================
+ Spin case 37   Alpha:  4   Beta:  0
+ Number of excitations:        3616278
+ CPU time [min]:  3815.922                   Wall time [min]:  1151.946
+ ======================================================================
+ Spin case 38   Alpha:  2   Beta:  2
+ Number of excitations:        22296612
+ CPU time [min]:  3922.672                   Wall time [min]:  1181.816
+ ======================================================================
+ Spin case 39   Alpha:  2   Beta:  2
+ Number of excitations:        22812300
+ CPU time [min]:  4042.939                   Wall time [min]:  1213.848
+ ======================================================================
+ Spin case 40   Alpha:  3   Beta:  1
+ Number of excitations:        7434264
+ CPU time [min]:  4111.733                   Wall time [min]:  1232.235
+ ======================================================================
+ Spin case 41   Alpha:  3   Beta:  1
+ Number of excitations:        22221152
+ CPU time [min]:  4240.564                   Wall time [min]:  1265.952
+ ======================================================================
+ Spin case 42   Alpha:  3   Beta:  1
+ Number of excitations:        2472247
+ CPU time [min]:  4259.971                   Wall time [min]:  1271.337
+ ======================================================================
+ Spin case 43   Alpha:  3   Beta:  1
+ Number of excitations:        7406215
+ CPU time [min]:  4300.552                   Wall time [min]:  1282.037
+ ======================================================================
+ Spin case 44   Alpha:  4   Beta:  0
+ Number of excitations:        2413223
+ CPU time [min]:  4327.372                   Wall time [min]:  1289.193
+ ======================================================================
+ Spin case 45   Alpha:  3   Beta:  1
+ Number of excitations:        3711333
+ CPU time [min]:  4388.092                   Wall time [min]:  1306.423
+ ======================================================================
+ Spin case 46   Alpha:  3   Beta:  1
+ Number of excitations:        1235762
+ CPU time [min]:  4407.210                   Wall time [min]:  1311.826
+ ======================================================================
+ Spin case 47   Alpha:  2   Beta:  2
+ Number of excitations:        1825066
+ CPU time [min]:  4435.314                   Wall time [min]:  1319.717
+ ======================================================================
+ Spin case 48   Alpha:  2   Beta:  2
+ Number of excitations:        7616146
+ CPU time [min]:  4573.081                   Wall time [min]:  1357.295
+ ======================================================================
+ Spin case 49   Alpha:  2   Beta:  2
+ Number of excitations:        1909319
+ CPU time [min]:  4604.887                   Wall time [min]:  1366.063
+ ======================================================================
+ Spin case 50   Alpha:  1   Beta:  3
+ Number of excitations:        7563812
+ CPU time [min]:  4701.778                   Wall time [min]:  1394.481
+ ======================================================================
+ Spin case 51   Alpha:  1   Beta:  3
+ Number of excitations:        7739582
+ CPU time [min]:  4799.306                   Wall time [min]:  1421.121
+ ======================================================================
+ Spin case 52   Alpha:  2   Beta:  2
+ Number of excitations:        10983096
