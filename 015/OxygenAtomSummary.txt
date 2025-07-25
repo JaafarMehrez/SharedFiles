@@ -10,6 +10,12 @@ CC(8) - 40GB/4-cores/time=6-23:00 (COMPLETE)
 
 CC(8) - 250GB/4-cores/time=6-23:00 (CANCELLED DUE TO TIME LIMIT)
 
+Memory requirements CCSDTQPH /Mbyte/: 
+              Minimal        Optimal
+Real*8:      14691.9283     14691.9283
+Integer:      2182.9144
+Total:       16874.8427     16874.8427
+
 Stopping point: CCSDTQP(H) After spin case 19
 
 spin case 1 -- spin case 19 Wall[min]:  5140.708
@@ -18,25 +24,25 @@ Avg Wall per spin case[min]:  270.563
 Avg CPU  per spin case[min]: 1052.619 
 
 Expected spin cases
-Spin case  1   Alpha:  3   Beta:  3 Number of excitations:   13414136 CPU[min]: 11715.528 Wall[min]: 3803.240
-Spin case  2   Alpha:  4   Beta:  2 Number of excitations:   14513395 CPU[min]: 12002.485 Wall[min]: 3877.215
-Spin case  3   Alpha:  5   Beta:  1 Number of excitations:    1032768 CPU[min]: 12060.970 Wall[min]: 3892.251
-Spin case  4   Alpha:  3   Beta:  3 Number of excitations:   40249624 CPU[min]: 13145.337 Wall[min]: 4178.344
-Spin case  5   Alpha:  3   Beta:  3 Number of excitations:   43340724 CPU[min]: 14259.824 Wall[min]: 4464.608
-Spin case  6   Alpha:  4   Beta:  2 Number of excitations:   60370650 CPU[min]: 15456.724 Wall[min]: 4765.202
-Spin case  7   Alpha:  4   Beta:  2 Number of excitations:   30116186 CPU[min]: 15972.409 Wall[min]: 4895.729
-Spin case  8   Alpha:  5   Beta:  1 Number of excitations:    5598164 CPU[min]: 16287.014 Wall[min]: 4975.299
-Spin case  9   Alpha:  5   Beta:  1 Number of excitations:    1033002 CPU[min]: 16342.418 Wall[min]: 4989.691
-Spin case 10   Alpha:  3   Beta:  3 Number of excitations:   37267728 CPU[min]: 17190.022 Wall[min]: 5212.935
-Spin case 11   Alpha:  3   Beta:  3 Number of excitations:  130028212 CPU[min]: 20349.798 Wall[min]: 6015.219
-Spin case 12   Alpha:  3   Beta:  3 Number of excitations:   43342032 CPU[min]: 21320.510 Wall[min]: 6262.982
-Spin case 13   Alpha:  4   Beta:  2 Number of excitations:   87065956 CPU[min]: 23090.865 Wall[min]: 6732.108
-Spin case 14   Alpha:  4   Beta:  2 Number of excitations:  125229744 CPU[min]: 26335.583 Wall[min]: 7562.458
-Spin case 15   Alpha:  4   Beta:  2 Number of excitations:   14520445 CPU[min]: 26674.928 Wall[min]: 7653.351
-Spin case 16   Alpha:  5   Beta:  1 Number of excitations:   11182028 CPU[min]: 27491.929 Wall[min]: 7870.383
-Spin case 17   Alpha:  5   Beta:  1 Number of excitations:    5600087 CPU[min]: 27850.496 Wall[min]: 7960.457
-Spin case 18   Alpha:  3   Beta:  3 Number of excitations:   10646912 CPU[min]: 28151.318 Wall[min]: 8041.043
-Spin case 19   Alpha:  3   Beta:  3 Number of excitations:  120396796 CPU[min]: 31715.295 Wall[min]: 8943.948
+Spin case  1   Alpha:  3   Beta:  3 Number of excitations:   13414136 CPU[min]: 11715.528 Wall[min]: 3803.240 CPU/exc[s]: 0.052  Wall/exc[s]: 0.017 
+Spin case  2   Alpha:  4   Beta:  2 Number of excitations:   14513395 CPU[min]: 12002.485 Wall[min]: 3877.215 CPU/exc[s]: 0.049  Wall/exc[s]: 0.016       
+Spin case  3   Alpha:  5   Beta:  1 Number of excitations:    1032768 CPU[min]: 12060.970 Wall[min]: 3892.251 CPU/exc[s]: 0.701  Wall/exc[s]: 0.226        
+Spin case  4   Alpha:  3   Beta:  3 Number of excitations:   40249624 CPU[min]: 13145.337 Wall[min]: 4178.344 CPU/exc[s]: 0.020  Wall/exc[s]: 0.006        
+Spin case  5   Alpha:  3   Beta:  3 Number of excitations:   43340724 CPU[min]: 14259.824 Wall[min]: 4464.608 CPU/exc[s]: 0.020  Wall/exc[s]: 0.006      
+Spin case  6   Alpha:  4   Beta:  2 Number of excitations:   60370650 CPU[min]: 15456.724 Wall[min]: 4765.202 CPU/exc[s]: 0.015  Wall/exc[s]: 0.005       
+Spin case  7   Alpha:  4   Beta:  2 Number of excitations:   30116186 CPU[min]: 15972.409 Wall[min]: 4895.729 CPU/exc[s]: 0.032  Wall/exc[s]: 0.010
+Spin case  8   Alpha:  5   Beta:  1 Number of excitations:    5598164 CPU[min]: 16287.014 Wall[min]: 4975.299 CPU/exc[s]: 0.174  Wall/exc[s]: 0.053    
+Spin case  9   Alpha:  5   Beta:  1 Number of excitations:    1033002 CPU[min]: 16342.418 Wall[min]: 4989.691 CPU/exc[s]: 0.949  Wall/exc[s]: 0.290        
+Spin case 10   Alpha:  3   Beta:  3 Number of excitations:   37267728 CPU[min]: 17190.022 Wall[min]: 5212.935 CPU/exc[s]: 0.028  Wall/exc[s]: 0.008       
+Spin case 11   Alpha:  3   Beta:  3 Number of excitations:  130028212 CPU[min]: 20349.798 Wall[min]: 6015.219 CPU/exc[s]: 0.009  Wall/exc[s]: 0.003      
+Spin case 12   Alpha:  3   Beta:  3 Number of excitations:   43342032 CPU[min]: 21320.510 Wall[min]: 6262.982 CPU/exc[s]: 0.030  Wall/exc[s]: 0.009       
+Spin case 13   Alpha:  4   Beta:  2 Number of excitations:   87065956 CPU[min]: 23090.865 Wall[min]: 6732.108 CPU/exc[s]: 0.016  Wall/exc[s]: 0.005       
+Spin case 14   Alpha:  4   Beta:  2 Number of excitations:  125229744 CPU[min]: 26335.583 Wall[min]: 7562.458 CPU/exc[s]: 0.013  Wall/exc[s]: 0.004       
+Spin case 15   Alpha:  4   Beta:  2 Number of excitations:   14520445 CPU[min]: 26674.928 Wall[min]: 7653.351 CPU/exc[s]: 0.110  Wall/exc[s]: 0.032       
+Spin case 16   Alpha:  5   Beta:  1 Number of excitations:   11182028 CPU[min]: 27491.929 Wall[min]: 7870.383 CPU/exc[s]: 0.148  Wall/exc[s]: 0.042      
+Spin case 17   Alpha:  5   Beta:  1 Number of excitations:    5600087 CPU[min]: 27850.496 Wall[min]: 7960.457 CPU/exc[s]: 0.298  Wall/exc[s]: 0.085       
+Spin case 18   Alpha:  3   Beta:  3 Number of excitations:   10646912 CPU[min]: 28151.318 Wall[min]: 8041.043 CPU/exc[s]: 0.159  Wall/exc[s]: 0.045       
+Spin case 19   Alpha:  3   Beta:  3 Number of excitations:  120396796 CPU[min]: 31715.295 Wall[min]: 8943.948 CPU/exc[s]: 0.016  Wall/exc[s]: 0.004       
 Spin case 20   Alpha:  3   Beta:  3 Number of excitations:  130018324
 Spin case 21   Alpha:  3   Beta:  3 Number of excitations:   13415114
 Spin case 22   Alpha:  4   Beta:  2 Number of excitations:   51598440
@@ -89,11 +95,6 @@ Iteration 18 CPU[min]: 10130.061 Wall[min]: 3281.362
 Iteration 19 CPU[min]: 10718.190 Wall[min]: 3471.922 
 Iteration 20 CPU[min]: 11287.735 Wall[min]: 3657.378 
 
-Memory requirements CCSDTQPH /Mbyte/: 
-              Minimal        Optimal
-Real*8:      14691.9283     14691.9283
-Integer:      2182.9144
-Total:       16874.8427     16874.8427
 -----------------------------------------------------------------------------------------
 3. aCV4Z (PySCF-MRCC)
 
@@ -110,6 +111,12 @@ Total(Minimal):  1895312.4280 Total(Optimal):  1895312.4280
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 + CC(6) - 1950GB/36-cores/time=0-23:50 (CANCELLED DUE TO TIME LIMIT)
+
+Memory requirements CCSDTQP /Mbyte/:
+               Minimal        Optimal
+Real*8:      59111.2258     59111.2258
+Integer:     58697.4667
+Total:      117808.6925    117808.6925
 
 Stopping point: CCSDTQ - After 3rd CC iteration of CCSDTQ
 
@@ -274,20 +281,21 @@ Spin case153   Alpha:  3   Beta:  2 Number of excitations:    2716480
 Spin case154   Alpha:  4   Beta:  1 Number of excitations:    1232286
                             Number of 5 -fold excitations: 6016578096
 
-Memory requirements CCSDTQP /Mbyte/:
-               Minimal        Optimal
-Real*8:      59111.2258     59111.2258
-Integer:     58697.4667
-Total:      117808.6925    117808.6925
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 + CC(6) - 1950GB/8-cores/time=0-23:50 (CANCELLED DUE TO TIME LIMIT)
 
+Memory requirements CCSDTQP /Mbyte/:
+              Minimal        Optimal
+Real*8:      15793.7368     15793.7368
+Integer:     57695.9523
+Total:       73489.6891     73489.6891
+
 Stopping point: CCSDTQ(P) - During 3rd spin case in CCSDTQ(P)
 
 Expected spin cases
-Spin case  1   Alpha:  2   Beta:  3 Number of excitations:   40352000 CPU[min]: 6005.370 Wall[min]: 1214.922
-Spin case  2   Alpha:  3   Beta:  2 Number of excitations:  121051632 CPU[min]: 6368.019 Wall[min]: 1267.693
+Spin case  1   Alpha:  2   Beta:  3 Number of excitations:   40352000 CPU[min]: 6005.370 Wall[min]: 1214.922 CPU/exc[s]: 0.009  Wall/exc[s]: 0.002
+Spin case  2   Alpha:  3   Beta:  2 Number of excitations:  121051632 CPU[min]: 6368.019 Wall[min]: 1267.693 CPU/exc[s]: 0.003  Wall/exc[s]: 0.0006
 Spin case  3   Alpha:  4   Beta:  1 Number of excitations:   29122080
 Spin case  4   Alpha:  5   Beta:  0 Number of excitations:     359528
 Spin case  5   Alpha:  2   Beta:  3 Number of excitations:   79151644
@@ -356,11 +364,6 @@ Iteration 20 CPU[min]: 5235.842 Wall[min]: 1060.959
 Iteration 21 CPU[min]: 5501.417 Wall[min]: 1114.997
 Iteration 22 CPU[min]: 5767.345 Wall[min]: 1168.318
 
-Memory requirements CCSDTQP /Mbyte/:
-              Minimal        Optimal
-Real*8:      15793.7368     15793.7368
-Integer:     57695.9523
-Total:       73489.6891     73489.6891
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 + CC(5) - 1950GB/12-cores/time=2-23:30  (Disk Quota Exceeded)
@@ -373,6 +376,12 @@ Iteration  1 CPU[min]: 7464.224   Wall[min]: 1264.206
 4. aCV5Z (PySCF-MRCC) - NodeLocalStorage
 
 CC(5) - 1950GB/12-cores/time=2-23:30 (Program Terminated with Signal Handler)
+
+Memory requirements CCSDTQP /Mbyte/:
+              Minimal        Optimal
+Real*8:     176931.9081    176931.9081
+Integer:    812869.8333
+Total:      989801.7414    989801.7414
 
 Stopping point: CCSDTQ - After 2nd CC Iteration in CCSDTQ
 
@@ -421,12 +430,7 @@ Spin case 38   Alpha:  3   Beta:  2 Number of excitations:  1556483700
 Spin case 39   Alpha:  4   Beta:  1 Number of excitations:   371516427
 Spin case 40   Alpha:  5   Beta:  0 Number of excitations:     4623795
                             Number of 5 -fold excitations: 83607679050
- 
-Memory requirements CCSDTQP /Mbyte/:
-              Minimal        Optimal
-Real*8:     176931.9081    176931.9081
-Integer:    812869.8333
-Total:      989801.7414    989801.7414
+
 -----------------------------------------------------------------------------------------
 5. aCV6Z (PySCF-MRCC)
 
@@ -437,6 +441,12 @@ Stopping point: During The 1st Execution of xmrcc
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 + CC(4) - 975GB/4-cores/time=0-2:50 (CANCELLED DUE TO TIME LIMIT)
+
+Memory requirements CCSDT(Q) /Mbyte/:
+              Minimal        Optimal
+Real*8:      10202.6625     21725.5423
+Integer:       959.5620
+Total:       11162.2245     22685.1043
 
 Stopping point: CCSDT - During the 6th CC Iteration of CCSDT
 
@@ -454,14 +464,15 @@ Spin case  3   Alpha:  3   Beta:  1 Number of excitations: 1622241600
 Spin case  4   Alpha:  4   Beta:  0 Number of excitations:   66066478
                             Number of 4 -fold excitations: 4432226282
 
-Memory requirements CCSDT(Q) /Mbyte/:
-              Minimal        Optimal
-Real*8:      10202.6625     21725.5423
-Integer:       959.5620
-Total:       11162.2245     22685.1043
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 + CC(4)(5) - 975GB/4-cores/time=2-23:00 (CANCELLED DUE TO TIME LIMIT)
+
+Memory requirements CCSDTQ(P) /Mbyte/:
+              Minimal        Optimal
+Real*8:     430216.3257    430216.3257
+Integer:     39952.8928
+Total:      470169.2185    470169.2185
 
 Stopping point: CCSDTQ - During the 1st CC Iteration of CCSDTQ
 
@@ -472,25 +483,29 @@ Spin case  3   Alpha:  4   Beta:  1 Number of excitations:  45235821720
 Spin case  4   Alpha:  5   Beta:  0 Number of excitations:    587329008
                             Number of 5 -fold excitations: 291994771774
 
-Memory requirements CCSDTQ(P) /Mbyte/:
-              Minimal        Optimal
-Real*8:     430216.3257    430216.3257
-Integer:     39952.8928
-Total:      470169.2185    470169.2185
 -----------------------------------------------------------------------------------------
 
 6. aCV7Z (PySCF-MRCC)
 
 + CC(4) - 1950GB/4-cores/time=6-23:00 (CANCELLED DUE TO TIME LIMIT)
 
+Memory requirements CCSDT(Q) /Mbyte/:
+              Minimal        Optimal
+Real*8:      95284.8098    209352.5262
+Integer:      5342.7277
+Total:      100627.5375    214695.2538
+
 Stopping point: CCSDT(Q) - During the 2nd spin case of CCSDT(Q)
 
 Expected Spin cases
-Spin case  1   Alpha:  1   Beta:  3 Number of excitations:  2741611336  CPU[min]: 30296.557  Wall[min]: 8402.601
+Spin case  1   Alpha:  1   Beta:  3 Number of excitations:  2741611336  CPU[min]: 30296.557  Wall[min]: 8402.601 CPU/exc[s]: 0.0007   Wall/exc[s]: 0.0002
 Spin case  2   Alpha:  2   Beta:  2 Number of excitations: 24610760337
 Spin case  3   Alpha:  3   Beta:  1 Number of excitations: 16276773388
 Spin case  4   Alpha:  4   Beta:  0 Number of excitations:   669499953
                             Number of 4 -fold excitations: 44298645014
+
+
+
 
 CCSDT CC Iterations /cctol=6/
 
@@ -514,44 +529,47 @@ Iteration 14 CPU[min]: 3069.207  Wall[min]: 1394.818
 Iteration 15 CPU[min]: 3275.177  Wall[min]: 1486.371 
 Iteration 16 CPU[min]: 3481.229  Wall[min]: 1574.847
 
-Memory requirements CCSDT(Q) /Mbyte/:
-              Minimal        Optimal
-Real*8:      95284.8098    209352.5262
-Integer:      5342.7277
-Total:      100627.5375    214695.2538
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                           Restart (Core Test)
 
 + CCSDTQ - 1950GB/8-cores/time=0-12:00 (CANCELLED DUE TO TIME LIMIT)
 
-Stopping point:  During the calculation of coupling coefficients of CCSDTQ (Didn't enter the CC Iteration cycle)
-
 Memory Reported by xmrcc CCSDTQ /Mbyte/:
 Total(Minimal): 2114345.2954 Total(Optimal): 2114345.2954
 Total(Minimal):  826774.4480 Total(Optimal):  940183.0987
+
+Stopping point:  During the calculation of coupling coefficients of CCSDTQ (Didn't enter the CC Iteration cycle)
+
 =====================================================================
 
 + CCSDTQ - 1950GB/10-cores/time=0-12:00 (CANCELLED DUE TO TIME LIMIT)
 
-Stopping point:  During the 2nd Execution of xmrcc
-
 Memory Reported by xmrcc CCSDTQ /Mbyte/:
 Total(Minimal): 2489876.0329  Total(Optimal): 2489876.0329
+
+Stopping point:  During the 2nd Execution of xmrcc
+
 =====================================================================
 
 + CCSDTQ - 1950GB/12-cores/time=0-12:00 (CANCELLED DUE TO TIME LIMIT)
 
-Stopping point:  During the calculation of coupling coefficients of CCSDTQ (Didn't enter the CC Iteration cycle)
-
 Memory Reported by xmrcc CCSDTQ /Mbyte/:
-
 Total(Minimal): 2865406.7703 Total(Optimal): 2865406.7703
 Total(Minimal): 1015478.6737 Total(Optimal): 1128887.3245
+
+Stopping point:  During the calculation of coupling coefficients of CCSDTQ (Didn't enter the CC Iteration cycle)
+
 -----------------------------------------------------------------------------------------
 
 7. aCV8Z (PySCF-MRCC)
 
 + CCSDT(Q) - 3900GB/4-cores/time=6-23:00 (CANCELLED DUE TO TIME LIMIT)
+
+Memory requirements CCSDT(Q) /Mbyte/:
+              Minimal        Optimal
+Real*8:     359940.7562    799732.0608
+Integer:     14706.3953
+Total:      374647.1515    814438.4561
 
 Stopping point: CCSDT(Q) - During the 1st spin case of CCSDT(Q)
 
@@ -584,11 +602,6 @@ Spin case  3   Alpha:  3   Beta:  1 Number of excitations:  63115406532
 Spin case  4   Alpha:  4   Beta:  0 Number of excitations:   2605663098
                             Number of 4 -fold excitations: 171531235785
 
-Memory requirements CCSDT(Q) /Mbyte/:
-              Minimal        Optimal
-Real*8:     359940.7562    799732.0608
-Integer:     14706.3953
-Total:      374647.1515    814438.4561
 -----------------------------------------------------------------------------------------
 
 
