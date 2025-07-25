@@ -18,11 +18,6 @@ Total:       16874.8427     16874.8427
 
 Stopping point: CCSDTQP(H) After spin case 19
 
-spin case 1 -- spin case 19 Wall[min]:  5140.708
-spin case 1 -- spin case 19 CPU [min]: 19999.767 
-Avg Wall per spin case[min]:  270.563 
-Avg CPU  per spin case[min]: 1052.619 
-
 Expected spin cases
 Spin case  1   Alpha:  3   Beta:  3 Number of excitations:   13414136 CPU[min]: 11715.528 Wall[min]: 3803.240 CPU/exc[s]: 0.052  Wall/exc[s]: 0.017 
 Spin case  2   Alpha:  4   Beta:  2 Number of excitations:   14513395 CPU[min]: 12002.485 Wall[min]: 3877.215 CPU/exc[s]: 0.049  Wall/exc[s]: 0.016       
@@ -503,8 +498,6 @@ Spin case  2   Alpha:  2   Beta:  2 Number of excitations: 24610760337
 Spin case  3   Alpha:  3   Beta:  1 Number of excitations: 16276773388
 Spin case  4   Alpha:  4   Beta:  0 Number of excitations:   669499953
                             Number of 4 -fold excitations: 44298645014
-
-
 
 
 CCSDT CC Iterations /cctol=6/
