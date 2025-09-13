@@ -1,0 +1,658 @@
+Starting run at: Wed 10 Sep 2025 08:19:27 PM EDT
+ **********************************************************************
+                          MRCC program system
+ **********************************************************************
+ 
+                              Written by
+     Mihaly Kallay, Peter R. Nagy, David Mester, Laszlo Gyevi-Nagy,
+        Jozsef Csoka, P. Bernat Szabo, Zoltan Rolik, Gyula Samu,
+      Bence Hegely, Bence Ladoczki, Klara Petrov, Jozsef Csontos,
+     Adam Ganyecz, Istvan Ladjanszki, Lorant Szegedy, Mate Farkas,
+          Pal D. Mezei, Reka A. Horvath, and Balazs D. Lorincz
+ 
+        Department of Physical Chemistry and Materials Science
+            Budapest University of Technology and Economics
+                  Budapest P.O.Box 91, H-1521 Hungary
+ 
+                              www.mrcc.hu
+ 
+                            Version: 25.1.1
+
+ ************************ 2025-09-10 20:19:28 *************************
+ Executing minp...
+
+ Reading input from MINP...
+ 
+ Input file:
+ 
+basis=aCV6Z-MOLP-U
+iface=cfour
+uncontract=off
+calc=CCSDT(Q)
+ccprog=mrcc
+mem=35GB
+core=corr
+itol=18
+scftol=13
+cctol=6
+ccmaxit=999
+scfmaxit=9999
+scfiguess=ao
+scftype=UHF
+#rohftype=semicanonical
+rest=1
+charge=+0
+mult=3
+refdet=serialno
+1-3
+4,5
+
+symm=2
+occ=2,0,0,0,0,1,1,1/2,0,0,0,0,0,0,1
+geom
+O
+
+#Li 1 R
+#R=3.065
+
+#unit=angstroms
+
+tprint=0.01
+verbosity=3
+#nstate=4
+ 
+ 
+ Checking keyword combinations...
+ 
+ Keywords:
+ 
+ active=none
+ agrid=ld0006-ld0590
+ agrid_pssp=ld0006-ld0194
+ agrid_pssp_sm=ld0006-ld0074
+ basis=acv6z-molp-u
+ basis_sm=none
+ basopt=off
+ bfbasis=none
+ bfgsmem=10
+ bfgstol=1.0d-3
+ boysalg=jacobi
+ bpcompo=0.985
+ bpcompv=0.98
+ bpdfo=0.985
+ bpocc=0.985
+ bppdo=0.985
+ bppdv=0.98
+ bpedo=0.985
+ bpedv=0.98
+ bp_subsyso=0.95
+ bp_subsysv=0.95
+ cabscorr=off
+ cabsdual=off
+ calc=ccsdt(q)
+ ccmaxit=999
+ ccprog=mrcc
+ ccsdalg=disk
+ ccsdmkl=seq
+ ccsdrest=off
+ ccsdthreads=2
+ cctol=6
+ charge=+0
+ cialg=disk
+ ciguess=off
+ cmpgrp=auto
+ comprest=off
+ coord_sys=ric
+ core=corr
+ corembed=off
+ csapprox=off
+ cvs=off
+ dboc=off
+ deltaf12=off
+ delocsomofact=
+ dendec=cholesky
+ dens=0
+ denscorr=0
+ dfalg=lineq
+ dfbasis_cab=none
+ dfbasis_cor=none
+ dfbasis_scf=none
+ dfbasis_scf_sm=auto
+ dfintran=ovirt
+ dft=off
+ dhexc=adc(2)
+ diag=david
+ docc=
+ domrad=10.d0
+ drpaalg=fit
+ dual=off
+ dual_df=off
+ dyson=off
+ ecp=auto
+ edisp=off
+ edisp_embed=off
+ embed=off
+ epairestfact=off
+ epairscale=1.d0
+ etemp=300
+ epert=none
+ eps=
+ espcharge=off
+ excrad=0.d0
+ excrad_f12=0.d0
+ excrad_fin=0.000000000D+00
+ fastdbbsc=v2
+ fitting=coulomb
+ fmm=off
+ fmmord=8
+ fnonorb=
+ freq=off
+ gamma=1.d0
+ gauss=spher
+ geom=zmat
+ gopt=off
+ ghost=none
+ gtol=7
+ grdens=off
+ grid=auto
+ grid_sm=auto
+ gridbatch_cos=2000
+ grtol=10
+ guido_ct=off
+ hamilton=dc
+ iface=cfour
+ incore=off
+ intalg=auto
+ ip_ea=off
+ itol=18
+ laptol=1.d-2
+ lccoporder=trffirst
+ lcorthr=normal
+ lccrest=off
+ ldfgrad_tol=8
+ lmp2dens=on
+ lnoepso=0.d0
+ lnoepsv=1e-6
+ localcc=off
+ localcorrsymm=off
+ locintrf=disk
+ mact=
+ maxact=off
+ maxdim=200
+ maxex=0
+ maxmicroit=100
+ mcscfiguess=hf
+ mem=35gb
+ mmprog=
+ molden=on
+ mp2ongrid=off
+ mpitasks=1
+ mulmet=0
+ mult=3
+ nab=off
+ nacto=0
+ nactv=0
+ naf_amp=3.16d-3
+ naf_cor=off
+ naf_f12=off
+ naf_scf=off
+ nafalg=albe
+ nafdens=off
+ naftyp=
+ nchol=auto
+ ndeps=1e-3
+ nstate=1
+ nsing=0
+ nto=off
+ ntrip=0
+ num_grad=off
+ occ=2,0,0,0,0,1,1,1/2,0,0,0,0,0,0,1
+ occri=off
+ oniom=off
+ oniom_eechg=off
+ oniom_pcm=off
+ oniom_qcorr=off
+ optalg=
+ optmaxit=50
+ optetol=1e-6
+ optex=0
+ optgtol=1e-4
+ optstol=1e-3
+ orblocc=off
+ orbloce=off
+ orbloco=off
+ orblocv=off
+ orblocguess=cholesky
+ osveps=1e-3
+ ovirt=off
+ ovltol=1e-7
+ ovosnorb=80.0
+ pao_subsys_tol=1e-3
+ pao_tol=1e-3
+ pcm=off
+ popul=off
+ pressure=100000
+ pssp=off
+ ptfreq=0.0
+ ptthreads=2
+ qmreg=
+ qmmm=off
+ qro=off
+ qscf=off
+ redcost_exc=off
+ redcost_tddft=off
+ refdet=serialno
+ rest=1
+ rgrid=log3
+ rism=off
+ rohfcore=semicanonical
+ rohftype=semicanonical
+ scfalg=auto
+ scf_conv=auto
+ scfdamp=0.0d0
+ scfdamp_mode=off
+ scfdamp_end=9999
+ scfdamp_dampstep=0.d0
+ scfdamp_dtol=0.0d0
+ scfdamp_maxfact=0.0d0
+ scfdamp_minfact=0.0d0
+ scfdiis=on
+ scfdiis_dtol=0.0d0
+ scfdiis_end=9999
+ scfdiis_start=2
+ scfdiis_step=1
+ scfdiis_watch=off
+ scfdiis_wrange=10
+ scfdiis_wlimit=5
+ scfdiis_delmax=2
+ scfdtol=14
+ scfext=10
+ scfguessdens=
+ scfiguess=ao
+ scfloc=off
+ scflshift=0.20
+ scflshift_end=8
+ scflshift_dtol=0.0
+ scflshift_gaptol=0.20
+ scfmaxit=9999
+ scftype=uhf
+ scftol=13
+ scspe=1.d0
+ scsph=1.d0
+ scsps=1.2d0
+ scsps_t=1.2d0
+ scspt=0.33333333333333
+ scspt_t=0.33333333333333
+ scspv=1.d0
+ spairtol=1e-4
+ sqmprog=
+ subminp=top
+ subsys_bopu=on
+ symm=2
+ talg=occ
+ temp=298.15
+ test=off
+ theodore=off
+ tlmo=0.999
+ tpao=0.94
+ tprint=0.01
+ uncontract=off
+ unit=angs
+ usedisk=2
+ verbosity=3
+ wpairtol=0.100000000E-05
+ ispstart=
+ ispend=
+
+ ************************ 2025-09-10 20:19:28 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    50
+ Number of diagrams in T^4 equations:     5
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   6.6667E+13
+ Probable CPU time per iteration step (hours):          666.67
+ Required memory (Mbytes):        492530.4
+ Number of intermediates:                                  80
+ Number of intermediates to be stored:                     32
+ Length of intermediate file (Mbytes):          7960.9
+
+ ************************ 2025-09-10 20:19:28 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(3)(4) calculation 
+ 
+ 
+ Allocation of        35840.0 Mbytes of memory...
+ Number of spinorbitals:                   504
+ Number of alpha electrons:                        5
+ Number of beta electrons:                         3
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-06
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                    376
+ Number of                     2 -fold excitations:                 176407
+ Number of                     3 -fold excitations:               46414986
+ Total number of configurations:               46591770
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):          6042.4
+ 
+ ======================================================================
+ 
+ Spin case  1   Alpha:  1   Beta:  3
+ Number of excitations:              392963211
+ Spin case  2   Alpha:  2   Beta:  2
+ Number of excitations:             3520883652
+ Spin case  3   Alpha:  3   Beta:  1
+ Number of excitations:             2313957507
+ Spin case  4   Alpha:  4   Beta:  0
+ Number of excitations:               94257730
+ Number of                     4 -fold excitations:             6322062100
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:      14431.1046     30769.4438
+ Integer:      1272.5218
+ Total:       15703.6264     32041.9656
+ 
+
+ ************************ 2025-09-10 20:21:20 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSDT(Q) calculation                                                   
+ 
+ 
+ OpenMP parallel version is running.
+ Number of CPU cores:   4
+ Allocation of        30769.4 Mbytes of memory...
+ Number of spinorbitals: 504
+ Number of alpha electrons:  5
+ Number of beta  electrons:  3
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-06
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 376
+ Number of 2-fold excitations: 176407
+ Number of 3-fold excitations: 46414986
+ Total number of determinants: 46591770
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are read from unit 16.
+ Length of intermediate file (Mbytes):    6042.4
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -74.702376421885
+ Calculation of MP denominators...
+ 
+ Starting CC iteration...
+ ======================================================================
+ Norm of residual vector:     0.00035257
+ CPU time [min]:    32.051                   Wall time [min]:    19.285
+ 
+ Iteration  1  CC energy:   -75.06415482  Energy decrease:   5.7715E-10
+ ======================================================================
+ Norm of residual vector:     0.00167545
+ CPU time [min]:    52.932                   Wall time [min]:    28.619
+ 
+ Iteration  2  CC energy:   -75.06415482  Energy decrease:   3.0887E-10
+ ======================================================================
+ Norm of residual vector:     0.00076423
+ CPU time [min]:    74.030                   Wall time [min]:    38.043
+ 
+ Iteration  3  CC energy:   -75.06415482  Energy decrease:   9.1987E-11
+ ======================================================================
+ Norm of residual vector:     0.00047275
+ CPU time [min]:    95.560                   Wall time [min]:    48.092
+ 
+ Iteration  4  CC energy:   -75.06415482  Energy decrease:   6.1505E-11
+ ======================================================================
+ Norm of residual vector:     0.00033381
+ CPU time [min]:   116.854                   Wall time [min]:    57.501
+ 
+ Iteration  5  CC energy:   -75.06415482  Energy decrease:   9.3507E-12
+ ======================================================================
+ Norm of residual vector:     0.00024130
+ CPU time [min]:   137.990                   Wall time [min]:    66.936
+ 
+ Iteration  6  CC energy:   -75.06415482  Energy decrease:   2.3633E-11
+ ======================================================================
+ Norm of residual vector:     0.00018280
+ CPU time [min]:   160.154                   Wall time [min]:    77.247
+ 
+ Iteration  7  CC energy:   -75.06415482  Energy decrease:   5.2580E-13
+ ======================================================================
+ Norm of residual vector:     0.00020356
+ CPU time [min]:   181.564                   Wall time [min]:    86.757
+ 
+ Iteration  8  CC energy:   -75.06415482  Energy decrease:   4.9894E-11
+ ======================================================================
+ Norm of residual vector:     0.00020123
+ CPU time [min]:   203.549                   Wall time [min]:    96.674
+ 
+ Iteration  9  CC energy:   -75.06415482  Energy decrease:   3.2571E-11
+ ======================================================================
+ Norm of residual vector:     0.00012393
+ CPU time [min]:   225.633                   Wall time [min]:   106.583
+ 
+ Iteration 10  CC energy:   -75.06415482  Energy decrease:   8.1855E-12
+ ======================================================================
+ Norm of residual vector:     0.00010499
+ CPU time [min]:   247.295                   Wall time [min]:   116.126
+ 
+ Iteration 11  CC energy:   -75.06415482  Energy decrease:   9.7444E-11
+ ======================================================================
+ Norm of residual vector:     0.00014332
+ CPU time [min]:   269.002                   Wall time [min]:   125.731
+ 
+ Iteration 12  CC energy:   -75.06415482  Energy decrease:   2.3198E-10
+ ======================================================================
+ Norm of residual vector:     0.00013698
+ CPU time [min]:   290.672                   Wall time [min]:   135.429
+ 
+ Iteration 13  CC energy:   -75.06415482  Energy decrease:   2.0316E-10
+ ======================================================================
+ Norm of residual vector:     0.00008321
+ CPU time [min]:   312.617                   Wall time [min]:   145.162
+ 
+ Iteration 14  CC energy:   -75.06415482  Energy decrease:   8.1769E-11
+ ======================================================================
+ Norm of residual vector:     0.00005675
+ CPU time [min]:   334.666                   Wall time [min]:   155.136
+ 
+ Iteration 15  CC energy:   -75.06415482  Energy decrease:   3.1591E-11
+ ======================================================================
+ Norm of residual vector:     0.00006209
+ CPU time [min]:   358.550                   Wall time [min]:   165.648
+ 
+ Iteration 16  CC energy:   -75.06415482  Energy decrease:   1.7123E-10
+ ======================================================================
+ Norm of residual vector:     0.00007211
+ CPU time [min]:   382.333                   Wall time [min]:   176.093
+ 
+ Iteration 17  CC energy:   -75.06415482  Energy decrease:   1.8272E-10
+ ======================================================================
+ Norm of residual vector:     0.00005669
+ CPU time [min]:   406.334                   Wall time [min]:   186.693
+ 
+ Iteration 18  CC energy:   -75.06415482  Energy decrease:   3.2315E-11
+ ======================================================================
+ Norm of residual vector:     0.00004235
+ CPU time [min]:   433.804                   Wall time [min]:   203.265
+ 
+ Iteration 19  CC energy:   -75.06415482  Energy decrease:   8.6686E-13
+ ======================================================================
+ Norm of residual vector:     0.00004100
+ CPU time [min]:   488.111                   Wall time [min]:   271.085
+ 
+ Iteration 20  CC energy:   -75.06415482  Energy decrease:   2.9630E-11
+ ======================================================================
+ Norm of residual vector:     0.00004885
+ CPU time [min]:   516.737                   Wall time [min]:   291.942
+ 
+ Iteration 21  CC energy:   -75.06415482  Energy decrease:   4.4963E-11
+ ======================================================================
+ Norm of residual vector:     0.00004884
+ CPU time [min]:   539.307                   Wall time [min]:   301.991
+ 
+ Iteration 22  CC energy:   -75.06415482  Energy decrease:   2.5111E-11
+ ======================================================================
+ Norm of residual vector:     0.00003781
+ CPU time [min]:   561.791                   Wall time [min]:   312.004
+ 
+ Iteration 23  CC energy:   -75.06415482  Energy decrease:   4.2490E-12
+ ======================================================================
+ Norm of residual vector:     0.00002410
+ CPU time [min]:   584.526                   Wall time [min]:   322.205
+ 
+ Iteration 24  CC energy:   -75.06415482  Energy decrease:   2.4016E-12
+ ======================================================================
+ Norm of residual vector:     0.00002308
+ CPU time [min]:   607.645                   Wall time [min]:   332.543
+ 
+ Iteration 25  CC energy:   -75.06415482  Energy decrease:   3.1605E-11
+ ======================================================================
+ Norm of residual vector:     0.00002751
+ CPU time [min]:   630.977                   Wall time [min]:   343.077
+ 
+ Iteration 26  CC energy:   -75.06415482  Energy decrease:   4.8161E-11
+ ======================================================================
+ Norm of residual vector:     0.00002424
+ CPU time [min]:   654.250                   Wall time [min]:   353.394
+ 
+ Iteration 27  CC energy:   -75.06415482  Energy decrease:   3.4476E-11
+ ======================================================================
+ Norm of residual vector:     0.00001269
+ CPU time [min]:   677.597                   Wall time [min]:   363.913
+ 
+ Iteration 28  CC energy:   -75.06415482  Energy decrease:   1.3074E-12
+ ======================================================================
+ Norm of residual vector:     0.00000967
+ CPU time [min]:   700.897                   Wall time [min]:   374.495
+ 
+ Iteration 29  CC energy:   -75.06415482  Energy decrease:   5.8122E-12
+ ======================================================================
+ Norm of residual vector:     0.00001397
+ CPU time [min]:   724.374                   Wall time [min]:   385.058
+ 
+ Iteration 30  CC energy:   -75.06415482  Energy decrease:   1.5348E-11
+ ======================================================================
+ Norm of residual vector:     0.00001400
+ CPU time [min]:   748.022                   Wall time [min]:   395.705
+ 
+ Iteration 31  CC energy:   -75.06415482  Energy decrease:   6.3096E-12
+ ======================================================================
+ Norm of residual vector:     0.00000927
+ CPU time [min]:   771.492                   Wall time [min]:   406.217
+ 
+ Iteration 32  CC energy:   -75.06415482  Energy decrease:   1.4211E-13
+ ======================================================================
+ Norm of residual vector:     0.00000563
+ CPU time [min]:   795.226                   Wall time [min]:   417.277
+ 
+ Iteration 33  CC energy:   -75.06415482  Energy decrease:   1.4921E-12
+ ======================================================================
+ Norm of residual vector:     0.00000666
+ CPU time [min]:   818.835                   Wall time [min]:   427.839
+ 
+ Iteration 34  CC energy:   -75.06415482  Energy decrease:   1.0033E-11
+ ======================================================================
+ Norm of residual vector:     0.00000796
+ CPU time [min]:   842.588                   Wall time [min]:   438.382
+ 
+ Iteration 35  CC energy:   -75.06415482  Energy decrease:   1.4126E-11
+ ======================================================================
+ Norm of residual vector:     0.00000526
+ CPU time [min]:   866.458                   Wall time [min]:   449.156
+ 
+ Iteration 36  CC energy:   -75.06415482  Energy decrease:   4.2348E-12
+ ======================================================================
+ Norm of residual vector:     0.00000264
+ CPU time [min]:   890.441                   Wall time [min]:   459.880
+ 
+ Iteration 37  CC energy:   -75.06415482  Energy decrease:   2.2737E-13
+ ======================================================================
+ Norm of residual vector:     0.00000283
+ CPU time [min]:   914.119                   Wall time [min]:   470.565
+ 
+ Iteration 38  CC energy:   -75.06415482  Energy decrease:   3.4674E-12
+ ======================================================================
+ Norm of residual vector:     0.00000397
+ CPU time [min]:   938.638                   Wall time [min]:   481.646
+ 
+ Iteration 39  CC energy:   -75.06415482  Energy decrease:   2.4727E-12
+ ======================================================================
+ Norm of residual vector:     0.00000211
+ CPU time [min]:   962.781                   Wall time [min]:   492.493
+ 
+ Iteration 40  CC energy:   -75.06415482  Energy decrease:   3.8369E-13
+ ======================================================================
+ Norm of residual vector:     0.00000123
+ CPU time [min]:   987.278                   Wall time [min]:   503.579
+ 
+ Iteration 41  CC energy:   -75.06415482  Energy decrease:   6.3949E-13
+ ======================================================================
+ Norm of residual vector:     0.00000159
+ CPU time [min]:  1011.895                   Wall time [min]:   514.552
+ 
+ Iteration 42  CC energy:   -75.06415482  Energy decrease:   3.2401E-12
+ ======================================================================
+ Norm of residual vector:     0.00000190
+ CPU time [min]:  1036.599                   Wall time [min]:   525.619
+ 
+ Iteration 43  CC energy:   -75.06415482  Energy decrease:   1.8758E-12
+ ======================================================================
+ Norm of residual vector:     0.00000143
+ CPU time [min]:  1061.382                   Wall time [min]:   536.813
+ 
+ Iteration 44  CC energy:   -75.06415482  Energy decrease:   2.5580E-13
+ ======================================================================
+ Norm of residual vector:     0.00000114
+ CPU time [min]:  1086.822                   Wall time [min]:   548.497
+ 
+ Iteration 45  CC energy:   -75.06415482  Energy decrease:   1.4211E-14
+ ======================================================================
+ Norm of residual vector:     0.00000119
+ CPU time [min]:  1112.009                   Wall time [min]:   559.902
+ 
+ Iteration 46  CC energy:   -75.06415482  Energy decrease:   1.9895E-13
+ ======================================================================
+ Norm of residual vector:     0.00000136
+ CPU time [min]:  1137.177                   Wall time [min]:   571.155
+ 
+ Iteration 47  CC energy:   -75.06415482  Energy decrease:   4.1211E-13
+ ======================================================================
+ Norm of residual vector:     0.00000117
+ CPU time [min]:  1162.433                   Wall time [min]:   582.462
+ 
+ Iteration 48  CC energy:   -75.06415482  Energy decrease:   2.8422E-14
+ ======================================================================
+ Norm of residual vector:     0.00000075
+ CPU time [min]:  1187.799                   Wall time [min]:   593.874
+ 
+ Iteration 49  CC energy:   -75.06415482  Energy decrease:   1.7053E-13
+ ======================================================================
+ 
+ Iteration has converged in 49 steps.
+ 
+ Final results:
+ Total CCSDT energy [au]:                     -75.064154817198
+ 
+ Perturbative corrections are calculated...
+ ======================================================================
+ Spin case  1   Alpha:  1   Beta:  3
+ Number of excitations:        392963211
