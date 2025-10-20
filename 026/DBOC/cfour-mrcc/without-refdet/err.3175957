@@ -1,0 +1,18 @@
+
+Lmod is automatically replacing "gcc/12.3" with "intel/2023.2.1".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) aocl-blas/5.1     2) aocl-lapack/5.1     3) flexiblas/3.3.1     4) openmpi/4.1.5
+
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libc.so.6          0000150629063790  Unknown               Unknown  Unknown
+mrcc               0000000000431973  intwrt_                 14245  mrcc.f
+mrcc               0000000000426F47  intinp_                  1882  mrcc.f
+mrcc               000000000040A68B  MAIN__                    906  mrcc.f
+mrcc               00000000004056ED  Unknown               Unknown  Unknown
+libc.so.6          000015062904E94A  Unknown               Unknown  Unknown
+libc.so.6          000015062904EA05  __libc_start_main     Unknown  Unknown
+mrcc               0000000000405601  Unknown               Unknown  Unknown
+1
