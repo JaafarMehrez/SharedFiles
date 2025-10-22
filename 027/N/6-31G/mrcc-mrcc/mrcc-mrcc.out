@@ -1,0 +1,1160 @@
+ **********************************************************************
+                          MRCC program system
+ **********************************************************************
+ 
+                              Written by
+     Mihaly Kallay, Peter R. Nagy, David Mester, Laszlo Gyevi-Nagy,
+        Jozsef Csoka, P. Bernat Szabo, Zoltan Rolik, Gyula Samu,
+      Bence Hegely, Bence Ladoczki, Klara Petrov, Jozsef Csontos,
+     Adam Ganyecz, Istvan Ladjanszki, Lorant Szegedy, Mate Farkas,
+          Pal D. Mezei, Reka A. Horvath, and Balazs D. Lorincz
+ 
+        Department of Physical Chemistry and Materials Science
+            Budapest University of Technology and Economics
+                  Budapest P.O.Box 91, H-1521 Hungary
+ 
+                              www.mrcc.hu
+ 
+                            Version: 25.1.0
+
+ ************************ 2025-10-21 00:07:56 *************************
+ Executing minp...
+
+ Reading input from MINP...
+ 
+ Input file:
+ 
+basis=6-31G-EMSL
+#iface=cfour
+uncontract=off
+calc=CCSD
+ccprog=mrcc
+mem=4GB
+core=frozen
+itol=18
+scftol=13
+cctol=6
+ccmaxit=999
+scfmaxit=9999
+scfiguess=ao
+scftype=UHF
+#rohftype=semicanonical
+rest=2
+charge=+0
+mult=4
+#refdet=serialno
+symm=5
+occ=2,0,0,0,0,1,1,1/2,0,0,0,0,0,0,0
+geom
+N
+
+#Li 1 R
+#R=3.065
+
+#unit=angstroms
+
+tprint=0.01
+verbosity=3
+#nstate=4
+ 
+ 
+ Checking keyword combinations...
+ 
+ Keywords:
+ 
+ active=none
+ agrid=ld0006-ld0590
+ agrid_pssp=ld0006-ld0194
+ agrid_pssp_sm=ld0006-ld0074
+ basis=6-31g-emsl
+ basis_sm=none
+ basopt=off
+ bfbasis=none
+ bfgsmem=10
+ bfgstol=1.0d-3
+ boysalg=jacobi
+ bpcompo=0.985
+ bpcompv=0.98
+ bpdfo=0.985
+ bpocc=0.985
+ bppdo=0.985
+ bppdv=0.98
+ bpedo=0.985
+ bpedv=0.98
+ bp_subsyso=0.95
+ bp_subsysv=0.95
+ cabscorr=off
+ cabsdual=off
+ calc=ccsd
+ ccmaxit=999
+ ccprog=mrcc
+ ccsdalg=disk
+ ccsdmkl=seq
+ ccsdrest=off
+ ccsdthreads=2
+ cctol=6
+ charge=+0
+ cialg=disk
+ ciguess=off
+ cmpgrp=auto
+ comprest=off
+ coord_sys=ric
+ core=frozen
+ corembed=off
+ csapprox=off
+ cvs=off
+ dboc=off
+ deltaf12=off
+ delocsomofact=
+ dendec=cholesky
+ dens=0
+ denscorr=0
+ dfalg=lineq
+ dfbasis_cab=none
+ dfbasis_cor=none
+ dfbasis_scf=none
+ dfbasis_scf_sm=auto
+ dfintran=ovirt
+ dft=off
+ dhexc=adc(2)
+ diag=david
+ docc=
+ domrad=10.d0
+ drpaalg=fit
+ dual=off
+ dual_df=off
+ dyson=off
+ ecp=auto
+ edisp=off
+ edisp_embed=off
+ embed=off
+ epairestfact=off
+ epairscale=1.d0
+ etemp=300
+ epert=none
+ eps=
+ espcharge=off
+ excrad=0.d0
+ excrad_f12=0.d0
+ excrad_fin=0.000000000D+00
+ fastdbbsc=v2
+ fitting=coulomb
+ fmm=off
+ fmmord=8
+ fnonorb=
+ freq=off
+ gamma=1.d0
+ gauss=spher
+ geom=zmat
+ gopt=off
+ ghost=none
+ gtol=7
+ grdens=off
+ grid=auto
+ grid_sm=auto
+ gridbatch_cos=2000
+ grtol=10
+ guido_ct=off
+ hamilton=dc
+ iface=none
+ incore=off
+ intalg=auto
+ ip_ea=off
+ itol=18
+ laptol=1.d-2
+ lccoporder=trffirst
+ lcorthr=normal
+ lccrest=off
+ ldfgrad_tol=8
+ lmp2dens=on
+ lnoepso=0.d0
+ lnoepsv=1e-6
+ localcc=off
+ localcorrsymm=off
+ locintrf=disk
+ mact=
+ maxact=off
+ maxdim=200
+ maxex=0
+ maxmicroit=100
+ mcscfiguess=hf
+ mem=4gb
+ mmprog=
+ molden=on
+ mp2ongrid=off
+ mpitasks=1
+ mulmet=0
+ mult=4
+ nab=off
+ nacto=0
+ nactv=0
+ naf_amp=3.16d-3
+ naf_cor=off
+ naf_f12=off
+ naf_scf=off
+ nafalg=albe
+ nafdens=off
+ naftyp=
+ nchol=auto
+ ndeps=1e-3
+ nstate=1
+ nsing=0
+ nto=off
+ ntrip=0
+ num_grad=off
+ occ=2,0,0,0,0,1,1,1/2,0,0,0,0,0,0,0
+ occri=off
+ oniom=off
+ oniom_eechg=off
+ oniom_pcm=off
+ oniom_qcorr=off
+ optalg=
+ optmaxit=50
+ optetol=1e-6
+ optex=0
+ optgtol=1e-4
+ optstol=1e-3
+ orblocc=off
+ orbloce=off
+ orbloco=off
+ orblocv=off
+ orblocguess=cholesky
+ osveps=1e-3
+ ovirt=off
+ ovltol=1e-7
+ ovosnorb=80.0
+ pao_subsys_tol=1e-3
+ pao_tol=1e-3
+ pcm=off
+ popul=off
+ pressure=100000
+ pssp=off
+ ptfreq=0.0
+ ptthreads=2
+ qmreg=
+ qmmm=off
+ qro=off
+ qscf=off
+ redcost_exc=off
+ redcost_tddft=off
+ refdet=none
+ rest=2
+ rgrid=log3
+ rism=off
+ rohfcore=semicanonical
+ rohftype=standard
+ scfalg=auto
+ scf_conv=auto
+ scfdamp=0.0d0
+ scfdamp_mode=off
+ scfdamp_end=9999
+ scfdamp_dampstep=0.d0
+ scfdamp_dtol=0.0d0
+ scfdamp_maxfact=0.0d0
+ scfdamp_minfact=0.0d0
+ scfdiis=on
+ scfdiis_dtol=0.0d0
+ scfdiis_end=9999
+ scfdiis_start=2
+ scfdiis_step=1
+ scfdiis_watch=off
+ scfdiis_wrange=10
+ scfdiis_wlimit=5
+ scfdiis_delmax=2
+ scfdtol=14
+ scfext=10
+ scfguessdens=
+ scfiguess=ao
+ scfloc=off
+ scflshift=0.20
+ scflshift_end=8
+ scflshift_dtol=0.0
+ scflshift_gaptol=0.20
+ scfmaxit=9999
+ scftype=uhf
+ scftol=13
+ scspe=1.d0
+ scsph=1.d0
+ scsps=1.2d0
+ scsps_t=1.2d0
+ scspt=0.33333333333333
+ scspt_t=0.33333333333333
+ scspv=1.d0
+ spairtol=1e-4
+ sqmprog=
+ subminp=top
+ subsys_bopu=on
+ symm=5
+ talg=occ
+ temp=298.15
+ test=off
+ theodore=off
+ tlmo=0.999
+ tpao=0.94
+ tprint=0.01
+ uncontract=off
+ unit=angs
+ usedisk=2
+ verbosity=3
+ wpairtol=0.100000000E-05
+ ispstart=
+ ispend=
+
+ ************************ 2025-10-21 00:07:56 *************************
+ Executing integ...
+
+ Allocation of 4096.0 Mbytes of memory...
+ 
+ Number of atoms:                  1
+ Charge:                           0
+ Number of electrons:              7
+ Number of core electrons:         2
+ Spin multiplicity:                4
+ 
+                 Cartesian coordinates [bohr]      Atomic mass [AMU]  Z
+   1  N     0.00000000    0.00000000    0.00000000    14.003074       7
+ 
+ This molecule is a spherical top.
+ 
+ Rotational constants [cm-1]: 
+
+ 
+ Point group: Oh  
+ Computational point group: D2h 
+ 
+ Cartesian coordinates in standard orientation [bohr]
+   1  N     0.00000000    0.00000000    0.00000000
+ 
+ Nuclear repulsion energy [au]:          0.000000000000
+ 
+ 
+ Basis set information:
+ 
+ Maximum angular momentum: p
+ Maximum number of contracted Gaussians:    3
+ Maximum number of primitive Gaussians:    10
+ Spherical harmonic GTOs are used.
+ 
+   1  N  6-31g-emsl [ 10s 4p | 3s 2p ]
+ 
+ Basis functions:
+            1             2             3             4             5             6             7             8             9            10
+    0    1N1s          1N2s          1N3s          1N1pz         1N1py         1N1px         1N2pz         1N2py         1N2px     
+ 
+ Maximum number of basis functions per shell:    6
+ Total number of basis functions:      9
+ 
+ 
+ Character table for point group D2h:
+ 
+          E  C2z C2y C2x  i  Qxy Qxz Qyz 
+    Ag    1   1   1   1   1   1   1   1
+    B1g   1   1  -1  -1   1   1  -1  -1
+    B2g   1  -1   1  -1   1  -1   1  -1
+    B3g   1  -1  -1   1   1  -1  -1   1
+    Au    1   1   1   1  -1  -1  -1  -1
+    B1u   1   1  -1  -1  -1  -1   1   1
+    B2u   1  -1   1  -1  -1   1  -1   1
+    B3u   1  -1  -1   1  -1   1   1  -1
+ 
+ Number of basis functions per irrep:
+    Ag      3
+    B1g     0
+    B2g     0
+    B3g     0
+    Au      0
+    B1u     2
+    B2u     2
+    B3u     2
+ 
+ 
+ Calculation of overlap integrals...
+ CPU time [min]:     0.271                   Wall time [min]:     0.012
+ 
+ Calculation of the square root of the overlap matrix...
+ Minimum eigenvalue of the overlap matrix: 0.222750E+00
+ CPU time [min]:     0.346                   Wall time [min]:     0.013
+ 
+ Calculation of kinetic energy integrals...
+ CPU time [min]:     0.360                   Wall time [min]:     0.014
+ Calculation of nuclear attraction integrals...
+ CPU time [min]:     0.407                   Wall time [min]:     0.015
+ 
+ Calculation of prescreening integrals...
+ Memory requirement   0.000 Gb/thread,   0.057 Mb/thread,   0.004 Gb total
+ CPU time [min]:     0.434                   Wall time [min]:     0.015
+ 
+ Calculation of two-electron integrals...
+ Memory requirement   0.000 Gb/thread,   0.057 Mb/thread,   0.004 Gb total
+   2% done.
+ 100% done.
+ CPU time [min]:     0.453                   Wall time [min]:     0.015
+
+ ************************ 2025-10-21 00:07:57 *************************
+ Executing scf...
+
+ @scfsetup: integrals taken from disk
+            mrcc/integ binary format
+ @scfsetup: calc on blockdiagonal matrices
+            using symmetry adapted basis
+ @scfsetup: diis switched on
+ @scfsetup: number of steps to extrapolate from  10
+ @scfsetup: tolerance in energy deviation    0.100000E-12
+            tolerance in density deviation    0.100000E-13
+ @scfsetup: maximum number of iterations:9999
+ @scfsetup: unrestricted hf calc
+ @scfsetup: starting scf from diagonal ao guess
+ @scfsetup: occupation set:
+            by user in MINP
+ @scfsetup: the forced occuapation is
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ @scfsetup: Parameter-set for SCF acceleration: normal
+ @scfsetup: diis runs from iteration:   2
+ @scfsetup: diis runs to iteration:9999
+ @scfsetup: diis runs in every iteration
+ @scfsetup: diiswatch is disabled                   
+ @scfsetup: diis dtol criteria to switch on:      0.0000E+00
+           (or the iteration number below is reached)
+ @scfsetup: static damping scheme
+            iteration step criteria to turn damping off: 3
+ @scfsetup: dynamic level shifting
+            tolarance in HOMO-LUMO gap:  0.200
+            tolarance in density deviation:     0.0000E+00
+            iteration step criteria to turn level shifting off: 8
+ Allocation of 4096.0 Mbytes of memory...
+ ======================================================================
+ ITERATION STEP   1
+ CPU time [min]:     0.003                   Wall time [min]:     0.015
+ 
+
+ SCF control                  : initial
+ Damping factor/level shift   : 0.000/0.200
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      0.0000E+00
+ RMS of alpha [F,P] :                                  1.05410604736436
+ RMS of beta  [F,P] :                                  0.17578698289329
+ RMS of alpha difference density:                      0.35211749544178
+ RMS of beta  difference density:                      0.25773130852297
+ Gap [au]:  0.39878607
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   1 IS        -54.9663314494256525 [AU]
+ ======================================================================
+ ITERATION STEP   2
+ CPU time [min]:     0.003                   Wall time [min]:     0.018
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      1.4950E+00
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.07155301507254
+ RMS of beta  [F,P] :                                  0.07047191448556
+ RMS of alpha difference density:                      0.06971643370558
+ RMS of beta  difference density:                      0.09368470403340
+ Gap [au]:  0.85976544
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   2 IS        -54.2855089622453733 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        1           -6.8082E-01         9.6823E-01      -1.4950E+00
+        2            5.4286E+01         1.0000E-14      -1.4950E+00
+ Warning! The energy goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   3
+ CPU time [min]:     0.003                   Wall time [min]:     0.019
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      1.9595E-01
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.01698818425491
+ RMS of beta  [F,P] :                                  0.00976577124553
+ RMS of alpha difference density:                      0.01385651465396
+ RMS of beta  difference density:                      0.00052119758962
+ Gap [au]:  0.87597797
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   3 IS        -54.3823723333689131 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        2            9.6863E-02         8.0835E-02       1.2990E+00
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   4
+ CPU time [min]:     0.003                   Wall time [min]:     0.019
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      5.4857E-02
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00386554302985
+ RMS of beta  [F,P] :                                  0.00148100364623
+ RMS of alpha difference density:                      0.00469172663012
+ RMS of beta  difference density:                      0.00496765024186
+ Gap [au]:  0.88552138
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   4 IS        -54.3846916698888236 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        3            2.3193E-03         1.5456E-02       1.4109E-01
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   5
+ CPU time [min]:     0.004                   Wall time [min]:     0.019
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      1.1879E-02
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00061083094216
+ RMS of beta  [F,P] :                                  0.00048834498913
+ RMS of alpha difference density:                      0.00071889649422
+ RMS of beta  difference density:                      0.00119162031449
+ Gap [au]:  0.88703432
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   5 IS        -54.3849934017832410 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        4            3.0173E-04         3.3575E-03       4.2978E-02
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   6
+ CPU time [min]:     0.004                   Wall time [min]:     0.019
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      2.6559E-03
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00016372031888
+ RMS of beta  [F,P] :                                  0.00014501832796
+ RMS of alpha difference density:                      0.00017487586023
+ RMS of beta  difference density:                      0.00025729979705
+ Gap [au]:  0.88751206
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   6 IS        -54.3850068403934372 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        5            1.3439E-05         5.6333E-04       9.2236E-03
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   7
+ CPU time [min]:     0.004                   Wall time [min]:     0.020
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      7.8325E-04
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00004723262813
+ RMS of beta  [F,P] :                                  0.00004180021962
+ RMS of alpha difference density:                      0.00005673692639
+ RMS of beta  difference density:                      0.00008492929145
+ Gap [au]:  0.88766268
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   7 IS        -54.3850076199640426 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        6            7.7957E-07         1.5564E-04       1.8726E-03
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   8
+ CPU time [min]:     0.004                   Wall time [min]:     0.020
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      1.6129E-04
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000969503139
+ RMS of beta  [F,P] :                                  0.00000858007140
+ RMS of alpha difference density:                      0.00001307389270
+ RMS of beta  difference density:                      0.00001960772751
+ Gap [au]:  0.88769721
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   8 IS        -54.3850076894990409 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        7            6.9535E-08         5.0126E-05       6.2196E-04
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP   9
+ CPU time [min]:     0.004                   Wall time [min]:     0.020
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      1.7555E-05
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000105304307
+ RMS of beta  [F,P] :                                  0.00000093197888
+ RMS of alpha difference density:                      0.00000149332371
+ RMS of beta  difference density:                      0.00000224208625
+ Gap [au]:  0.88770114
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP   9 IS        -54.3850076925322341 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        8            3.0332E-09         1.1540E-05       1.4374E-04
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  10
+ CPU time [min]:     0.004                   Wall time [min]:     0.020
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      1.1099E-06
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000006648320
+ RMS of beta  [F,P] :                                  0.00000005884346
+ RMS of alpha difference density:                      0.00000008088664
+ RMS of beta  difference density:                      0.00000012157456
+ Gap [au]:  0.88770135
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  10 IS        -54.3850076925683723 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+        9            3.6138E-11         1.3174E-06       1.6446E-05
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  11
+ CPU time [min]:     0.005                   Wall time [min]:     0.021
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      2.1758E-07
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000001307663
+ RMS of beta  [F,P] :                                  0.00000001157331
+ RMS of alpha difference density:                      0.00000004071518
+ RMS of beta  difference density:                      0.00000006102550
+ Gap [au]:  0.88770146
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  11 IS        -54.3850076925684789 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       10            1.0658E-13         7.1321E-08       8.9229E-07
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  12
+ CPU time [min]:     0.005                   Wall time [min]:     0.021
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      2.2968E-07
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000001384413
+ RMS of beta  [F,P] :                                  0.00000001225196
+ RMS of alpha difference density:                      0.00000002093834
+ RMS of beta  difference density:                      0.00000003136191
+ Gap [au]:  0.88770140
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  12 IS        -54.3850076925684860 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       11            7.1054E-15        -1.0245E-09      -1.2102E-08
+ Warning! The DIIS error goes uphill (with respect to previous step).
+ Warning! The DIIS error goes uphill (with respect to step  11 ).
+ Warning! The gradient goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  13
+ CPU time [min]:     0.005                   Wall time [min]:     0.021
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      9.2724E-11
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000000000499
+ RMS of beta  [F,P] :                                  0.00000000000444
+ RMS of alpha difference density:                      0.00000000000783
+ RMS of beta  difference density:                      0.00000000001236
+ Gap [au]:  0.88770140
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  13 IS        -54.3850076925685002 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       12            1.4211E-14         1.8480E-08       2.2959E-07
+       13            2.1316E-14         1.7456E-08      -9.2724E-11
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  14
+ CPU time [min]:     0.005                   Wall time [min]:     0.021
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      7.5140E-13
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000000000004
+ RMS of beta  [F,P] :                                  0.00000000000003
+ RMS of alpha difference density:                      0.00000000000071
+ RMS of beta  difference density:                      0.00000000000110
+ Gap [au]:  0.88770140
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  14 IS        -54.3850076925685144 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       13            1.4211E-14         6.6291E-12       9.1973E-11
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  15
+ CPU time [min]:     0.005                   Wall time [min]:     0.021
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      9.0123E-12
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000000000050
+ RMS of beta  [F,P] :                                  0.00000000000044
+ RMS of alpha difference density:                      0.00000000000082
+ RMS of beta  difference density:                      0.00000000000127
+ Gap [au]:  0.88770140
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  15 IS        -54.3850076925685073 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       14           -7.1054E-15        -6.1398E-13      -8.2609E-12
+ Warning! The energy goes uphill (with respect to previous step).
+ Warning! The DIIS error goes uphill (with respect to previous step).
+ Warning! The DIIS error goes uphill (with respect to step  14 ).
+ Warning! The gradient goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  16
+ CPU time [min]:     0.005                   Wall time [min]:     0.022
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      4.8495E-13
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000000000003
+ RMS of beta  [F,P] :                                  0.00000000000002
+ RMS of alpha difference density:                      0.00000000000004
+ RMS of beta  difference density:                      0.00000000000005
+ Gap [au]:  0.88770140
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  16 IS        -54.3850076925685002 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       15           -7.1054E-15         6.2983E-13       8.5274E-12
+       16           -1.4211E-14         1.5849E-14      -4.8495E-13
+ Warning! The energy goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  17
+ CPU time [min]:     0.005                   Wall time [min]:     0.022
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      1.0481E-13
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000000000001
+ RMS of beta  [F,P] :                                  0.00000000000001
+ RMS of alpha difference density:                      0.00000000000002
+ RMS of beta  difference density:                      0.00000000000004
+ Gap [au]:  0.88770140
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  17 IS        -54.3850076925685002 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       16            0.0000E+00         2.8528E-14       3.8014E-13
+ Warning! The energy goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ ITERATION STEP  18
+ CPU time [min]:     0.006                   Wall time [min]:     0.022
+ 
+
+ SCF control                  : diis
+ Damping factor/level shift   : 0.000/0.000
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:      4.0190E-13
+ DIIS is running in this iteration step.
+ RMS of alpha [F,P] :                                  0.00000000000002
+ RMS of beta  [F,P] :                                  0.00000000000002
+ RMS of alpha difference density:                      0.00000000000000
+ RMS of beta  difference density:                      0.00000000000001
+ Gap [au]:  0.88770140
+ ALPHA OCC:   2   0   0   0   0   1   1   1
+ BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***HARTREE-FOCK ENERGY IN STEP  18 IS        -54.3850076925684931 [AU]
+ 
+ Step comparison  Energy Drift [au]  DIIS error drift  Gradient drift
+       17           -7.1054E-15        -2.1413E-14      -2.9710E-13
+ Warning! The energy goes uphill (with respect to previous step).
+ Warning! The DIIS error goes uphill (with respect to previous step).
+ Warning! The DIIS error goes uphill (with respect to step  17 ).
+ Warning! The gradient goes uphill (with respect to previous step).
+ Warning! The gradient goes uphill (with respect to step   1 ).
+ ======================================================================
+ 
+ SUCCESS...
+ THE SCF ITERATION HAS CONVERGED!
+ 
+                   Ag  B1g B2g B3g Au  B1u B2u B3u 
+ FINAL ALPHA OCC:   2   0   0   0   0   1   1   1
+ FINAL BETA  OCC:   2   0   0   0   0   0   0   0
+ 
+ ***FINAL HARTREE-FOCK ENERGY:        -54.3850076925684931 [AU]
+ 
+ Expectation value of S^2:  3.7546
+ Average multiplicity:      4.0023
+ 
+ Orbital energies [au]:
+      Irrep         Alpha          Beta
+    1   Ag       -15.676595     -15.585751
+    2   Ag        -1.158726      -0.725686
+ 
+    3   B3u       -0.567406       0.162016
+    4   B2u       -0.567406       0.162016
+    5   B1u       -0.567406       0.162016
+ 
+    6   B3u        0.844900       1.059117
+    7   B2u        0.844900       1.059117
+    8   B1u        0.844900       1.059117
+    9   Ag         0.926161       1.057091
+ 
+ RETURNING FROM SCF ALGORITHM
+ ======================================================================
+
+ ************************ 2025-10-21 00:07:59 *************************
+ Executing ovirt...
+
+ ovirt, the routine of orbital optimization and integral transformation 
+Tue Oct 21 00:07:59 PDT 2025
+ memory =                   4096  Mb             536870912  8 byte word
+ mrccboot = T
+ scftype  = uhf  
+ localcc  = off 
+ core     = frozen
+ ovirt    = off  
+ ccprog   = mrcc
+ dfnbasis =                      0
+ dfbasis_cor =none                
+ lmp2dens = on 
+ dens =                      0
+ verblev =                      3
+ task     =                      4
+ epsilon =   0.000000000000000E+000
+ lmp2= on 
+ localNO  =  F
+ localMP2 =  F
+ localMP2_TEST =  F
+ LMP2_shortcut =  F
+ FOCKTR   =  T
+ Allocated memory:                    4096  Mb
+ onbasis=                     9
+ UHF calculation! 
+ integral transformation: AOs --- MOs (alpha-alpha)
+ # of basis functions, # of int. blocks     9     1
+100 % 
+ second part
+100 %
+ integral transformation is completed! 
+ integral transformation: AOs ------ MOs (beta-beta)
+ # of basis functions, # of int. blocks     9     1
+100 % 
+ second part
+100 %
+ integral transformation is completed! 
+ integral transformation: AOs ----- MOs (alpha-beta)
+# of basis functions, # of int. blocks     9     1
+ integral transformation
+======================================== 
+Tue Oct 21 00:08:00 PDT 2025
+  ovirt terminated normally 
+
+ ************************ 2025-10-21 00:08:00 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    14
+ Number of diagrams in T^2 equations:    31
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   4.9260E+03
+ Probable CPU time per iteration step (hours):            0.00
+ Required memory (Mbytes):             0.1
+ Number of intermediates:                                  43
+ Number of intermediates to be stored:                     20
+ Length of intermediate file (Mbytes):             0.0
+
+ ************************ 2025-10-21 00:08:00 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(                     2 ) calculation 
+ 
+ 
+ Allocation of         4096.0 Mbytes of memory...
+ Number of spinorbitals:                    16
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         1
+ Spin multiplicity:                     2
+ z-component of spin:  1.5
+ Spatial symmetry:                      5
+ Convergence criterion:  1.0E-06
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                      5
+ Number of                     2 -fold excitations:                     22
+ Total number of configurations:                     28
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):             0.2
+ 
+ ======================================================================
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:          0.0620         0.0620
+ Integer:         3.3144
+ Total:           3.3764         3.3764
+ 
+
+ ************************ 2025-10-21 00:08:00 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    14
+ Number of diagrams in T^2 equations:    31
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   4.9260E+03
+ Probable CPU time per iteration step (hours):            0.00
+ Required memory (Mbytes):             0.1
+ Number of intermediates:                                  43
+ Number of intermediates to be stored:                     20
+ Length of intermediate file (Mbytes):             0.0
+
+ ************************ 2025-10-21 00:08:00 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(                     2 ) calculation 
+ 
+ 
+ Allocation of         4096.0 Mbytes of memory...
+ Number of spinorbitals:                    16
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         1
+ Spin multiplicity:                     2
+ z-component of spin:  1.5
+ Spatial symmetry:                      5
+ Convergence criterion:  1.0E-06
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                      5
+ Number of                     2 -fold excitations:                     22
+ Total number of configurations:                     28
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):             0.2
+ 
+ ======================================================================
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:          0.0620         0.0620
+ Integer:         3.3144
+ Total:           3.3764         3.3764
+ 
+
+ ************************ 2025-10-21 00:08:00 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSD calculation                                                       
+ 
+ 
+ OpenMP parallel version is running.
+ Number of CPU cores:  64
+ Allocation of            0.1 Mbytes of memory...
+ Number of spinorbitals:  16
+ Number of alpha electrons:  4
+ Number of beta  electrons:  1
+ Spin multiplicity: 4
+ z-component of spin:  1.5
+ Spatial symmetry: 5
+ Convergence criterion:  1.0E-06
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 5
+ Number of 2-fold excitations: 22
+ Total number of determinants: 28
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are generated.
+ Length of intermediate file (Mbytes):       0.2
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Calculation of MP denominators...
+ 
+ Starting CC iteration...
+ ======================================================================
+ Norm of residual vector:     0.29236368
+ CPU time [min]:     0.302                   Wall time [min]:     0.007
+ 
+ Iteration  1  CC energy:   -54.41177849  Energy decrease:   0.02677080
+ ======================================================================
+ Norm of residual vector:     0.06349086
+ CPU time [min]:     0.376                   Wall time [min]:     0.008
+ 
+ Iteration  2  CC energy:   -54.41798285  Energy decrease:   0.00620436
+ ======================================================================
+ Norm of residual vector:     0.01443201
+ CPU time [min]:     0.428                   Wall time [min]:     0.009
+ 
+ Iteration  3  CC energy:   -54.41873585  Energy decrease:   0.00075299
+ ======================================================================
+ Norm of residual vector:     0.00364630
+ CPU time [min]:     0.645                   Wall time [min]:     0.013
+ 
+ Iteration  4  CC energy:   -54.41886948  Energy decrease:   0.00013363
+ ======================================================================
+ Norm of residual vector:     0.00059052
+ CPU time [min]:     0.725                   Wall time [min]:     0.014
+ 
+ Iteration  5  CC energy:   -54.41886514  Energy decrease:   0.00000433
+ ======================================================================
+ Norm of residual vector:     0.00005365
+ CPU time [min]:     0.773                   Wall time [min]:     0.015
+ 
+ Iteration  6  CC energy:   -54.41886801  Energy decrease:   0.00000286
+ ======================================================================
+ Norm of residual vector:     0.00000624
+ CPU time [min]:     0.841                   Wall time [min]:     0.016
+ 
+ Iteration  7  CC energy:   -54.41886740  Energy decrease:   0.00000061
+ ======================================================================
+ Norm of residual vector:     0.00000107
+ CPU time [min]:     0.901                   Wall time [min]:     0.017
+ 
+ Iteration  8  CC energy:   -54.41886751  Energy decrease:   0.00000011
+ ======================================================================
+ Norm of residual vector:     0.00000007
+ CPU time [min]:     1.002                   Wall time [min]:     0.019
+ 
+ Iteration  9  CC energy:   -54.41886751  Energy decrease:   2.8090E-09
+ ======================================================================
+ 
+ Iteration has converged in  9 steps.
+ 
+ Final results:
+ Total CCSD energy [au]:                      -54.418867509535
+ Total MP2 energy [au]:                       -54.411778488207
+ 
+ Dominant cluster amplitudes
+ Printing threshold:  1.00E-02
+ 
+    1.000000  Reference determinant                                     
+   -0.028861  2a 2b -> 9a 9b                                            
+   -0.016171  2a 2b -> 8a 5b                                            
+   -0.016888  2a 2b -> 8a 8b                                            
+   -0.016171  2a 2b -> 7a 4b                                            
+   -0.016888  2a 2b -> 7a 7b                                            
+   -0.016171  2a 2b -> 6a 3b                                            
+   -0.016888  2a 2b -> 6a 6b                                            
+    0.015243  5a 2b -> 9a 5b                                            
+    0.020740  5a 2b -> 9a 8b                                            
+    0.036295  5a 2b -> 8a 9b                                            
+    0.015243  4a 2b -> 9a 4b                                            
+    0.020740  4a 2b -> 9a 7b                                            
+    0.036295  4a 2b -> 7a 9b                                            
+    0.015243  3a 2b -> 9a 3b                                            
+    0.020740  3a 2b -> 9a 6b                                            
+    0.036295  3a 2b -> 6a 9b                                            
+   -0.037366  3a 4a -> 6a 7a                                            
+   -0.037366  3a 5a -> 6a 8a                                            
+   -0.037366  4a 5a -> 7a 8a                                            
+   -0.021577  2a 5a -> 8a 9a                                            
+   -0.021577  2a 4a -> 7a 9a                                            
+   -0.021577  2a 3a -> 6a 9a                                            
+ 
+ ************************ 2025-10-21 00:08:02 *************************
+                      Normal termination of mrcc.
+ **********************************************************************
