@@ -1,0 +1,754 @@
+{
+  "name": "converted-from-gbs",
+  "format": "gaussian94-converted",
+  "elements": {
+    "O": {
+      "symbol": "O",
+      "electron_shells": [
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            570800.0,
+            85480.0,
+            19460.0,
+            5512.0,
+            1798.0,
+            648.9,
+            253.1,
+            104.9,
+            45.65,
+            20.62,
+            9.587
+          ],
+          "coefficients": [
+            [
+              5.55e-06,
+              4.311e-05,
+              0.00022667,
+              0.00095637,
+              0.0034732,
+              0.01119778,
+              0.03238766,
+              0.08285977,
+              0.17958381,
+              0.3052211,
+              0.34089349
+            ],
+            [
+              -1.26e-06,
+              -9.77e-06,
+              -5.148e-05,
+              -0.00021696,
+              -0.00079162,
+              -0.002559,
+              -0.00753313,
+              -0.01978897,
+              -0.04606288,
+              -0.0891956,
+              -0.13754216
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            4.493
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            1.837
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            0.8349
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            0.3658
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            0.157
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            525.6,
+            124.6,
+            40.34,
+            15.18,
+            6.245
+          ],
+          "coefficients": [
+            [
+              0.00016664,
+              0.00143336,
+              0.00754762,
+              0.02859456,
+              0.08438858
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            2.732
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            1.227
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            0.5492
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            0.2418
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            0.1025
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            8.253
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            3.597
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            1.568
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            0.684
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            0.298
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            5.43
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            2.416
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            1.075
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            0.478
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            4
+          ],
+          "exponents": [
+            5.211
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            4
+          ],
+          "exponents": [
+            2.19
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            4
+          ],
+          "exponents": [
+            0.92
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            5
+          ],
+          "exponents": [
+            3.872
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            5
+          ],
+          "exponents": [
+            1.505
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            6
+          ],
+          "exponents": [
+            2.773
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            317.096
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            160.393
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            81.129
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            41.037
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            20.757
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            358.911
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            161.818
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            72.957
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            32.893
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            14.83
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            250.83
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            108.163
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            46.642
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            20.113
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            136.111
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            48.855
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            17.536
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            4
+          ],
+          "exponents": [
+            81.628
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            4
+          ],
+          "exponents": [
+            24.065
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            5
+          ],
+          "exponents": [
+            62.85
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            0
+          ],
+          "exponents": [
+            0.05935
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            1
+          ],
+          "exponents": [
+            0.0338
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            2
+          ],
+          "exponents": [
+            0.115
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            3
+          ],
+          "exponents": [
+            0.195
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            4
+          ],
+          "exponents": [
+            0.406
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            5
+          ],
+          "exponents": [
+            0.748
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        },
+        {
+          "angular_momentum": [
+            6
+          ],
+          "exponents": [
+            1.345
+          ],
+          "coefficients": [
+            [
+              1.0
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
