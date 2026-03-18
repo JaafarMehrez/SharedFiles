@@ -1,0 +1,475 @@
+Starting run at: Thu 12 Mar 2026 09:24:50 AM EDT
+ **********************************************************************
+                          MRCC program system
+ **********************************************************************
+ 
+                              Written by
+     Mihaly Kallay, Peter R. Nagy, David Mester, Laszlo Gyevi-Nagy,
+        Jozsef Csoka, P. Bernat Szabo, Zoltan Rolik, Gyula Samu,
+      Bence Hegely, Bence Ladoczki, Klara Petrov, Jozsef Csontos,
+     Adam Ganyecz, Istvan Ladjanszki, Lorant Szegedy, Mate Farkas,
+          Pal D. Mezei, Reka A. Horvath, and Balazs D. Lorincz
+ 
+        Department of Physical Chemistry and Materials Science
+            Budapest University of Technology and Economics
+                  Budapest P.O.Box 91, H-1521 Hungary
+ 
+                              www.mrcc.hu
+ 
+                            Version: 25.1.1
+
+ ************************ 2026-03-12 09:24:50 *************************
+ Executing minp...
+
+ Reading input from MINP...
+ 
+ Input file:
+ 
+basis=aug-cc-pCV6Zps-mrcc
+#iface=cfour
+uncontract=off
+calc=CC(3)
+ccprog=mrcc
+mem=32GB
+core=corr
+itol=18
+scftol=12
+cctol=10
+ccmaxit=999
+scfmaxit=9999
+scfiguess=ao
+scftype=UHF
+#rohftype=semicanonical
+rest=2
+charge=+5
+mult=2
+refdet=serialno
+1
+2
+
+symm=1
+occ=2,0,0,0,0,0,0,0/1,0,0,0,0,0,0,0
+geom
+O
+
+#Li 1 R
+#R=3.065
+
+#unit=angstroms
+
+tprint=0.01
+verbosity=3
+#nstate=4
+ 
+ 
+ Checking keyword combinations...
+ 
+ Keywords:
+ 
+ active=none
+ agrid=ld0006-ld0590
+ agrid_pssp=ld0006-ld0194
+ agrid_pssp_sm=ld0006-ld0074
+ basis=aug-cc-pcv6zps-mrcc
+ basis_sm=none
+ basopt=off
+ bfbasis=none
+ bfgsmem=10
+ bfgstol=1.0d-3
+ boysalg=jacobi
+ bpcompo=0.985
+ bpcompv=0.98
+ bpdfo=0.985
+ bpocc=0.985
+ bppdo=0.985
+ bppdv=0.98
+ bpedo=0.985
+ bpedv=0.98
+ bp_subsyso=0.95
+ bp_subsysv=0.95
+ cabscorr=off
+ cabsdual=off
+ calc=cc(3)
+ ccmaxit=999
+ ccprog=mrcc
+ ccsdalg=disk
+ ccsdmkl=seq
+ ccsdrest=off
+ ccsdthreads=2
+ cctol=10
+ charge=+5
+ cialg=disk
+ ciguess=off
+ cmpgrp=auto
+ comprest=off
+ coord_sys=ric
+ core=corr
+ corembed=off
+ csapprox=off
+ cvs=off
+ dboc=off
+ deltaf12=off
+ delocsomofact=
+ dendec=cholesky
+ dens=0
+ denscorr=0
+ dfalg=lineq
+ dfbasis_cab=none
+ dfbasis_cor=none
+ dfbasis_scf=none
+ dfbasis_scf_sm=auto
+ dfintran=ovirt
+ dft=off
+ dhexc=adc(2)
+ diag=david
+ docc=
+ domrad=10.d0
+ drpaalg=fit
+ dual=off
+ dual_df=off
+ dyson=off
+ ecp=auto
+ edisp=off
+ edisp_embed=off
+ embed=off
+ epairestfact=off
+ epairscale=1.d0
+ etemp=300
+ epert=none
+ eps=
+ espcharge=off
+ excrad=0.d0
+ excrad_f12=0.d0
+ excrad_fin=0.000000000D+00
+ fastdbbsc=v2
+ fitting=coulomb
+ fmm=off
+ fmmord=8
+ fnonorb=
+ freq=off
+ gamma=1.d0
+ gauss=spher
+ geom=zmat
+ gopt=off
+ ghost=none
+ gtol=7
+ grdens=off
+ grid=auto
+ grid_sm=auto
+ gridbatch_cos=2000
+ grtol=10
+ guido_ct=off
+ hamilton=dc
+ iface=none
+ incore=off
+ intalg=auto
+ ip_ea=off
+ itol=18
+ laptol=1.d-2
+ lccoporder=trffirst
+ lcorthr=normal
+ lccrest=off
+ ldfgrad_tol=8
+ lmp2dens=on
+ lnoepso=0.d0
+ lnoepsv=1e-6
+ localcc=off
+ localcorrsymm=off
+ locintrf=disk
+ mact=
+ maxact=off
+ maxdim=200
+ maxex=0
+ maxmicroit=100
+ mcscfiguess=hf
+ mem=32gb
+ mmprog=
+ molden=on
+ mp2ongrid=off
+ mpitasks=1
+ mulmet=0
+ mult=2
+ nab=off
+ nacto=0
+ nactv=0
+ naf_amp=3.16d-3
+ naf_cor=off
+ naf_f12=off
+ naf_scf=off
+ nafalg=albe
+ nafdens=off
+ naftyp=
+ nchol=auto
+ ndeps=1e-3
+ nstate=1
+ nsing=0
+ nto=off
+ ntrip=0
+ num_grad=off
+ occ=2,0,0,0,0,0,0,0/1,0,0,0,0,0,0,0
+ occri=off
+ oniom=off
+ oniom_eechg=off
+ oniom_pcm=off
+ oniom_qcorr=off
+ optalg=
+ optmaxit=50
+ optetol=1e-6
+ optex=0
+ optgtol=1e-4
+ optstol=1e-3
+ orblocc=off
+ orbloce=off
+ orbloco=off
+ orblocv=off
+ orblocguess=cholesky
+ osveps=1e-3
+ ovirt=off
+ ovltol=1e-7
+ ovosnorb=80.0
+ pao_subsys_tol=1e-3
+ pao_tol=1e-3
+ pcm=off
+ popul=off
+ pressure=100000
+ pssp=off
+ ptfreq=0.0
+ ptthreads=2
+ qmreg=
+ qmmm=off
+ qro=off
+ qscf=off
+ redcost_exc=off
+ redcost_tddft=off
+ refdet=serialno
+ rest=2
+ rgrid=log3
+ rism=off
+ rohfcore=semicanonical
+ rohftype=standard
+ scfalg=auto
+ scf_conv=auto
+ scfdamp=0.0d0
+ scfdamp_mode=off
+ scfdamp_end=9999
+ scfdamp_dampstep=0.d0
+ scfdamp_dtol=0.0d0
+ scfdamp_maxfact=0.0d0
+ scfdamp_minfact=0.0d0
+ scfdiis=on
+ scfdiis_dtol=0.0d0
+ scfdiis_end=9999
+ scfdiis_start=2
+ scfdiis_step=1
+ scfdiis_watch=off
+ scfdiis_wrange=10
+ scfdiis_wlimit=5
+ scfdiis_delmax=2
+ scfdtol=13
+ scfext=10
+ scfguessdens=
+ scfiguess=ao
+ scfloc=off
+ scflshift=0.20
+ scflshift_end=8
+ scflshift_dtol=0.0
+ scflshift_gaptol=0.20
+ scfmaxit=9999
+ scftype=uhf
+ scftol=12
+ scspe=1.d0
+ scsph=1.d0
+ scsps=1.2d0
+ scsps_t=1.2d0
+ scspt=0.33333333333333
+ scspt_t=0.33333333333333
+ scspv=1.d0
+ spairtol=1e-4
+ sqmprog=
+ subminp=top
+ subsys_bopu=on
+ symm=1
+ talg=occ
+ temp=298.15
+ test=off
+ theodore=off
+ tlmo=0.999
+ tpao=0.94
+ tprint=0.01
+ uncontract=off
+ unit=angs
+ usedisk=2
+ verbosity=3
+ wpairtol=0.100000000E-05
+ ispstart=
+ ispend=
+
+ ************************ 2026-03-12 09:24:50 *************************
+ Executing integ...
+
+ Allocation of 32.0 Gbytes of memory...
+ 
+ Number of atoms:                  1
+ Charge:                           5
+ Number of electrons:              3
+ Number of core electrons:         2
+ Spin multiplicity:                2
+ 
+                 Cartesian coordinates [bohr]      Atomic mass [AMU]  Z
+   1  O     0.00000000    0.00000000    0.00000000    15.994915       8
+ 
+ This molecule is a spherical top.
+ 
+ Rotational constants [cm-1]: 
+
+ 
+ Point group: Oh  
+ Computational point group: D2h 
+ 
+ Cartesian coordinates in standard orientation [bohr]
+   1  O     0.00000000    0.00000000    0.00000000
+ 
+ Nuclear repulsion energy [au]:          0.000000000000
+ 
+ 
+ Basis set information:
+ 
+ Maximum angular momentum: i
+ Maximum number of contracted Gaussians:   10
+ Maximum number of primitive Gaussians:    10
+ Spherical harmonic GTOs are used.
+ 
+   1  O  aug-cc-pcv6zps-mrcc [ 10d 8f 6g 4h 2i | 10d 8f 6g 4h 2i ]
+ 
+ Basis functions:
+            1             2             3             4             5             6             7             8             9            10
+    0    1O1d-2        1O1d-1        1O1d0         1O1d+1        1O1d+2        1O2d-2        1O2d-1        1O2d0         1O2d+1        1O2d+2    
+    1    1O3d-2        1O3d-1        1O3d0         1O3d+1        1O3d+2        1O4d-2        1O4d-1        1O4d0         1O4d+1        1O4d+2    
+    2    1O5d-2        1O5d-1        1O5d0         1O5d+1        1O5d+2        1O6d-2        1O6d-1        1O6d0         1O6d+1        1O6d+2    
+    3    1O7d-2        1O7d-1        1O7d0         1O7d+1        1O7d+2        1O8d-2        1O8d-1        1O8d0         1O8d+1        1O8d+2    
+    4    1O9d-2        1O9d-1        1O9d0         1O9d+1        1O9d+2        1O10d-2       1O10d-1       1O10d0        1O10d+1       1O10d+2   
+    5    1O1f-3        1O1f-2        1O1f-1        1O1f0         1O1f+1        1O1f+2        1O1f+3        1O2f-3        1O2f-2        1O2f-1    
+    6    1O2f0         1O2f+1        1O2f+2        1O2f+3        1O3f-3        1O3f-2        1O3f-1        1O3f0         1O3f+1        1O3f+2    
+    7    1O3f+3        1O4f-3        1O4f-2        1O4f-1        1O4f0         1O4f+1        1O4f+2        1O4f+3        1O5f-3        1O5f-2    
+    8    1O5f-1        1O5f0         1O5f+1        1O5f+2        1O5f+3        1O6f-3        1O6f-2        1O6f-1        1O6f0         1O6f+1    
+    9    1O6f+2        1O6f+3        1O7f-3        1O7f-2        1O7f-1        1O7f0         1O7f+1        1O7f+2        1O7f+3        1O8f-3    
+   10    1O8f-2        1O8f-1        1O8f0         1O8f+1        1O8f+2        1O8f+3        1O1g-4        1O1g-3        1O1g-2        1O1g-1    
+   11    1O1g0         1O1g+1        1O1g+2        1O1g+3        1O1g+4        1O2g-4        1O2g-3        1O2g-2        1O2g-1        1O2g0     
+   12    1O2g+1        1O2g+2        1O2g+3        1O2g+4        1O3g-4        1O3g-3        1O3g-2        1O3g-1        1O3g0         1O3g+1    
+   13    1O3g+2        1O3g+3        1O3g+4        1O4g-4        1O4g-3        1O4g-2        1O4g-1        1O4g0         1O4g+1        1O4g+2    
+   14    1O4g+3        1O4g+4        1O5g-4        1O5g-3        1O5g-2        1O5g-1        1O5g0         1O5g+1        1O5g+2        1O5g+3    
+   15    1O5g+4        1O6g-4        1O6g-3        1O6g-2        1O6g-1        1O6g0         1O6g+1        1O6g+2        1O6g+3        1O6g+4    
+   16    1O1h-5        1O1h-4        1O1h-3        1O1h-2        1O1h-1        1O1h0         1O1h+1        1O1h+2        1O1h+3        1O1h+4    
+   17    1O1h+5        1O2h-5        1O2h-4        1O2h-3        1O2h-2        1O2h-1        1O2h0         1O2h+1        1O2h+2        1O2h+3    
+   18    1O2h+4        1O2h+5        1O3h-5        1O3h-4        1O3h-3        1O3h-2        1O3h-1        1O3h0         1O3h+1        1O3h+2    
+   19    1O3h+3        1O3h+4        1O3h+5        1O4h-5        1O4h-4        1O4h-3        1O4h-2        1O4h-1        1O4h0         1O4h+1    
+   20    1O4h+2        1O4h+3        1O4h+4        1O4h+5        1O1i-6        1O1i-5        1O1i-4        1O1i-3        1O1i-2        1O1i-1    
+   21    1O1i0         1O1i+1        1O1i+2        1O1i+3        1O1i+4        1O1i+5        1O1i+6        1O2i-6        1O2i-5        1O2i-4    
+   22    1O2i-3        1O2i-2        1O2i-1        1O2i0         1O2i+1        1O2i+2        1O2i+3        1O2i+4        1O2i+5        1O2i+6    
+ 
+ Maximum number of basis functions per shell:   56
+ Total number of basis functions:    230
+ 
+ 
+ Character table for point group D2h:
+ 
+          E  C2z C2y C2x  i  Qxy Qxz Qyz 
+    Ag    1   1   1   1   1   1   1   1
+    B1g   1   1  -1  -1   1   1  -1  -1
+    B2g   1  -1   1  -1   1  -1   1  -1
+    B3g   1  -1  -1   1   1  -1  -1   1
+    Au    1   1   1   1  -1  -1  -1  -1
+    B1u   1   1  -1  -1  -1  -1   1   1
+    B2u   1  -1   1  -1  -1   1  -1   1
+    B3u   1  -1  -1   1  -1   1   1  -1
+ 
+ Number of basis functions per irrep:
+    Ag     46
+    B1g    28
+    B2g    28
+    B3g    28
+    Au     16
+    B1u    28
+    B2u    28
+    B3u    28
+ 
+ 
+ Calculation of overlap integrals...
+ CPU time [min]:     0.011                   Wall time [min]:     0.006
+ 
+ Calculation of the square root of the overlap matrix...
+ Minimum eigenvalue of the overlap matrix: 0.175708E-01
+ CPU time [min]:     0.016                   Wall time [min]:     0.007
+ 
+ Calculation of kinetic energy integrals...
+ CPU time [min]:     0.016                   Wall time [min]:     0.007
+ Calculation of nuclear attraction integrals...
+ CPU time [min]:     0.018                   Wall time [min]:     0.008
+ 
+ Calculation of prescreening integrals...
+ Memory requirement   6.457 Gb/thread, ******* Mb/thread,  25.829 Gb total
+ CPU time [min]:     0.095                   Wall time [min]:     0.075
+ 
+ Calculation of two-electron integrals...
+ Switiching from (    4) to (    3) threads due to memory limits.
+ Memory requirement   6.457 Gb/thread, ******* Mb/thread,  19.372 Gb total
+   5% done.
+  24% done.
+  62% done.
+ 100% done.
+ CPU time [min]:     0.653                   Wall time [min]:     0.630
+
+ ************************ 2026-03-12 09:25:28 *************************
+ Executing scf...
+
+ @scfsetup: integrals taken from disk
+            mrcc/integ binary format
+ @scfsetup: calc on blockdiagonal matrices
+            using symmetry adapted basis
+ @scfsetup: diis switched on
+ @scfsetup: number of steps to extrapolate from  10
+ @scfsetup: tolerance in energy deviation    0.100000E-11
+            tolerance in density deviation    0.100000E-12
+ @scfsetup: maximum number of iterations:9999
+ @scfsetup: unrestricted hf calc
+ @scfsetup: starting scf from diagonal ao guess
+ @scfsetup: occupation set:
+            by user in MINP
+ @scfsetup: the forced occuapation is
+ ALPHA OCC:   2   0   0   0   0   0   0   0
+ BETA  OCC:   1   0   0   0   0   0   0   0
+ @scfsetup: Parameter-set for SCF acceleration: normal
+ @scfsetup: diis runs from iteration:   2
+ @scfsetup: diis runs to iteration:9999
+ @scfsetup: diis runs in every iteration
+ @scfsetup: diiswatch is disabled                   
+ @scfsetup: diis dtol criteria to switch on:      0.0000E+00
+           (or the iteration number below is reached)
+ @scfsetup: static damping scheme
+            iteration step criteria to turn damping off: 3
+ @scfsetup: dynamic level shifting
+            tolarance in HOMO-LUMO gap:  0.200
+            tolarance in density deviation:     0.0000E+00
+            iteration step criteria to turn level shifting off: 8
+ Allocation of 32.0 Gbytes of memory...
+ ======================================================================
+ ITERATION STEP   1
+ CPU time [min]:     0.007                   Wall time [min]:     0.012
+ 
+
+ SCF control                  : initial
+ Damping factor/level shift   : 0.000/0.200
+ DIIS [start/end/frequency]   :   2 /*** /  1
+
+ Gradient norm:             NaN
+ RMS of alpha [F,P] :                                               NaN
+ RMS of beta  [F,P] :                                               NaN
+ Fatal error at diagonalization!
+ 
+ Fatal error in scf.
+ Program will stop.
+ 
+ ************************ 2026-03-12 09:25:30 *************************
+                   Error at the termination of mrcc.
+ **********************************************************************
+Program finished with exit code 1 at: Thu 12 Mar 2026 09:25:30 AM EDT
