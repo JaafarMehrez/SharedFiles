@@ -1,0 +1,14 @@
+&GATEWAY
+  Coord = O.xyz
+  Basis = STO-3G
+&SEWARD
+&SCF
+  UHF
+  Occupied
+    2 1 1 0 1 0 0 0
+    2 0 0 0 1 0 0 0
+&RASSCF
+  OutOrbitals = Canonical
+  nActEl = 8 0 0
+  Ras2 = 2 1 1 0 1 0 0 0
+  DMPO
