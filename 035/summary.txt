@@ -1,0 +1,150 @@
+The following tables are meant for comparing results to Klopper et al., we are here using dawCVXZ type of basis sets
+
+
+The following Table is for the total energies of (O), Non-relativistic contraction, NR Hamiltonian 
+-----------------------------------------------------------------------------------------------------
+                    aug-cc-pwCV2Z        aug-cc-pwCV3Z          aug-cc-pwCV4Z         aug-cc-pwCV5Z   
+-----------------------------------------------------------------------------------------------------
+UHF               -74.787686087594     -74.813084970954       -74.817662618929      -74.818846096558
+CCSD              -74.954145334366     -75.032248751317       -75.051633778384      -75.057653377310
+CCSD(T)           -74.956209676428     -75.036178229308       -75.055931123599      -75.062073267468
+CCSDT             -74.956473361878     -75.036520854220       -75.056243008342      -75.062360583982
+CCSDT(Q)          -74.956548045971     -75.036598475586       -75.056335559617      -75.062456107537
+CCSDTQ            -74.956556440995     -75.036601855624              (--)           -75.062460225727
+CCSDTQ(P)         -74.956555728813           (--)                    (--)                 (--)    
+CCSDTQP           -74.956557138416           (--)                    (--)                 (--)    
+CCSDTQP(H)        -74.956557082900           (--)                    (--)                 (--)    
+CCSDTQPH          -74.956557089878           (--)                    (--)                 (--)    
+CCSDTQPH(S)       -74.956557089839           (--)                    (--)                 (--)    
+CCSDTQPHS         -74.956557089861           (--)                    (--)                 (--)    
+CCSDTQPHS(O)      -74.956557089861           (--)                    (--)                 (--)    
+FCI: CCSDTQPHSO   -74.956557089859           (--)                    (--)                 (--)    
+-----------------------------------------------------------------------------------------------------
+
+The following Table is for the total energies of (O+), Non-relativistic contraction, NR Hamiltonian 
+-----------------------------------------------------------------------------------------------------
+                    aug-cc-pwCV2Z         aug-cc-pwCV3Z         aug-cc-pwCV4Z        aug-cc-pwCV5Z   
+-----------------------------------------------------------------------------------------------------
+UHF               -74.344551679654      -74.371073499723      -74.375786172373     -74.376982820172
+CCSD              -74.470740645195      -74.540004075413      -74.556089529258     -74.560761631196
+CCSD(T)           -74.471663119965      -74.542003610406      -74.558077449338     -74.563108051245
+CCSDT             -74.471788219781      -74.542216764312      -74.558458649266     -74.563284968829
+CCSDT(Q)          -74.471806526687      -74.542244808091      -74.558497839830     -74.563317786504
+CCSDTQ            -74.471809316650      -74.542246436747      -74.558504702779     -74.563319483689
+CCSDTQ(P)         -74.471809230222      -74.542246478940      -74.558504860501           (--)
+CCSDTQP           -74.471809278956      -74.542246582686      -74.558505167134           (--)
+CCSDTQP(H)        -74.471809279042      -74.542246582931            (--)                 (--)
+CCSDTQPH          -74.471809279256      -74.542246583494            (--)                 (--)
+CCSDTQPH(S)       -74.471809279255            (--)                  (--)                 (--)
+FCI: CCSDTQPHS    -74.471809279255            (--)                  (--)                 (--)
+-----------------------------------------------------------------------------------------------------
+
+
+						Summary of the HLC comparison (Mehrez vs Klopper) IE [#O atom]
+--------------------------------------
+d-aug-cc-pwCV5Z/(T)-Mehrez  :  0.05642
+d-aug-cc-pwCV5Z/(T)-Klopper :  0.05642
+
+d-aug-cc-pwCV4Z/T-Mehrez    :  0.001886
+d-aug-cc-pwCV4Z/T-Klopper   :  0.00326
+
+d-aug-cc-pwCV4Z/(Q)-Mehrez  :  0.001452
+d-aug-cc-pwCV4Z/(Q)-Klopper :  0.00175
+
+d-aug-cc-pwCV3Z/Q-Mehrez    :  0.000048
+d-aug-cc-pwCV3Z/Q-Klopper   : -0.00006
+
+d-aug-cc-pwCV2Z/(P)-Mehrez  : -0.000017
+d-aug-cc-pwCV2Z/(P)-Klopper : -0.00003
+
+d-aug-cc-pwCV2Z/P-Mehrez    :  0.000037
+d-aug-cc-pwCV2Z/P-Klopper   :  0.00004
+---------------------------------------
+The final HLC to IE based on my calculations: 0.0598176
+
+compare Mehrez vs Klopper:
+Mehrez  : 0.0598176
+Klopper : 0.06138
+
+The final IE of Klopper if he is to use my values for HLC: 13.6161976 eV
+
+compare Mehrez vs Klopper:
+Mehrez  : 13.6161976 -- delta: 0.0018524
+Klopper : 13.61776   -- delta: 0.00029
+Exp.    : 13.61805
+------------------------------------------
+
+						Summary of the HLC comparison (Meherz vs Klopper) EA [#O atom] 
+------------------------------------------
+d-aug-cc-pwCV5Z/(T)-Mehrez  :  0.168416
+d-aug-cc-pwCV5Z/(T)-Klopper :  0.16842
+
+d-aug-cc-pwCV4Z/T-Mehrez    :  0.004315
+d-aug-cc-pwCV4Z/T-Klopper   :  0.00432
+
+d-aug-cc-pwCV4Z/(Q)-Mehrez  :  0.009835
+d-aug-cc-pwCV4Z/(Q)-Klopper :  0.01581 
+
+d-aug-cc-pwCV3Z/Q-Mehrez    : (pending) 
+d-aug-cc-pwCV3Z/Q-Klopper   : −0.00374   
+
+d-aug-cc-pwCV2Z/(P)-Mehrez  : -0.00430
+d-aug-cc-pwCV2Z/(P)-Klopper : −0.00483
+
+d-aug-cc-pwCV2Z/P-Mehrez    :  0.00352
+d-aug-cc-pwCV2Z/P-Klopper   :  0.00400
+-------------------------------------------
+
+						Summary of the HLC comparison (Meherz vs Klopper) IE [#Ne atom]
+-------------------------------------------
+d-aug-cc-pwCV5Z/(T)-Mehrez  :  0.078824
+d-aug-cc-pwCV5Z/(T)-Klopper :  0.07882
+
+d-aug-cc-pwCV4Z/T-Mehrez    : -0.004661
+d-aug-cc-pwCV4Z/T-Klopper   : −0.00466
+
+d-aug-cc-pwCV4Z/(Q)-Mehrez  :  0.002166
+d-aug-cc-pwCV4Z/(Q)-Klopper :  0.00211
+
+d-aug-cc-pwCV3Z/Q-Mehrez    : -0.000197
+d-aug-cc-pwCV3Z/Q-Klopper   : −0.00013
+
+d-aug-cc-pwCV2Z/(P)-Mehrez  : -0.000121
+d-aug-cc-pwCV2Z/(P)-Klopper : −0.00012
+
+d-aug-cc-pwCV2Z/P-Mehrez    :  0.000136
+d-aug-cc-pwCV2Z/P-Klopper   :  0.00014
+-------------------------------------------
+The final value of HLC if using my results: 0.076147
+
+compare Mehrez vs Klopper:
+Mehrez  : 0.076147
+Klopper : 0.07616
+--------------------------------------------
+
+            Summary of the HLC comparison (Meherz vs Klopper) IE [#C atom]
+--------------------------------------------
+d-aug-cc-pwCV5Z/(T)-Mehrez  : 0.028426
+d-aug-cc-pwCV5Z/(T)-Klopper : 0.02843
+
+d-aug-cc-pwCV4Z/T-Mehrez    : 0.004397
+d-aug-cc-pwCV4Z/T-Klopper   : 0.00440
+
+d-aug-cc-pwCV4Z/(Q)-Mehrez  : 0.001261
+d-aug-cc-pwCV4Z/(Q)-Klopper : 0.00127
+
+d-aug-cc-pwCV3Z/Q-Mehrez    : 0.000212
+d-aug-cc-pwCV3Z/Q-Klopper   : 0.00020
+
+d-aug-cc-pwCV2Z/(P)-Mehrez  : 0.000003
+d-aug-cc-pwCV2Z/(P)-Klopper : 0.00000
+
+d-aug-cc-pwCV2Z/P-Mehrez    : 0.000002
+d-aug-cc-pwCV2Z/P-Klopper   : 0.00000
+--------------------------------------------
+The final value of the HLC if using my resutls: 0.034301
+
+compare Mehrez vs Klopper:
+Mehrez  : 0.034301
+Klopper : 0.03430
+--------------------------------------------

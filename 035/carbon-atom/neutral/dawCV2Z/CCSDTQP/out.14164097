@@ -1,0 +1,1877 @@
+Starting run at: Wed 10 Jun 2026 05:42:35 AM EDT
+ **********************************************************************
+                          MRCC program system
+ **********************************************************************
+ 
+                              Written by
+     Mihaly Kallay, Peter R. Nagy, David Mester, Laszlo Gyevi-Nagy,
+        Jozsef Csoka, P. Bernat Szabo, Zoltan Rolik, Gyula Samu,
+      Bence Hegely, Bence Ladoczki, Klara Petrov, Jozsef Csontos,
+     Adam Ganyecz, Istvan Ladjanszki, Lorant Szegedy, Mate Farkas,
+          Pal D. Mezei, Reka A. Horvath, and Balazs D. Lorincz
+ 
+        Department of Physical Chemistry and Materials Science
+            Budapest University of Technology and Economics
+                  Budapest P.O.Box 91, H-1521 Hungary
+ 
+                              www.mrcc.hu
+ 
+                            Version: 25.1.1
+
+ ************************ 2026-06-10 05:42:35 *************************
+ Executing minp...
+
+ Reading input from MINP...
+ 
+ Input file:
+ 
+basis=d-aug-cc-pwCVDZ
+iface=cfour
+uncontract=off
+calc=CCSDTQP
+ccprog=mrcc
+mem=10GB
+core=corr
+itol=18
+scftol=13
+cctol=10
+ccmaxit=999
+scfmaxit=9999
+scfiguess=ao
+scftype=UHF
+#rohftype=semicanonical
+rest=2
+charge=+0
+mult=3
+refdet=serialno
+1,2
+3,4
+
+symm=2
+occ=2,0,0,0,0,0,1,1/2,0,0,0,0,0,0,0
+geom
+C
+
+#Li 1 R
+#R=3.065
+
+#unit=angstroms
+
+tprint=0.01
+verbosity=3
+#nstate=4
+ 
+ 
+ Checking keyword combinations...
+ 
+ Keywords:
+ 
+ active=none
+ agrid=ld0006-ld0590
+ agrid_pssp=ld0006-ld0194
+ agrid_pssp_sm=ld0006-ld0074
+ basis=d-aug-cc-pwcvdz
+ basis_sm=none
+ basopt=off
+ bfbasis=none
+ bfgsmem=10
+ bfgstol=1.0d-3
+ boysalg=jacobi
+ bpcompo=0.985
+ bpcompv=0.98
+ bpdfo=0.985
+ bpocc=0.985
+ bppdo=0.985
+ bppdv=0.98
+ bpedo=0.985
+ bpedv=0.98
+ bp_subsyso=0.95
+ bp_subsysv=0.95
+ cabscorr=off
+ cabsdual=off
+ calc=ccsdtqp
+ ccmaxit=999
+ ccprog=mrcc
+ ccsdalg=disk
+ ccsdmkl=seq
+ ccsdrest=off
+ ccsdthreads=2
+ cctol=10
+ charge=+0
+ cialg=disk
+ ciguess=off
+ cmpgrp=auto
+ comprest=off
+ coord_sys=ric
+ core=corr
+ corembed=off
+ csapprox=off
+ cvs=off
+ dboc=off
+ deltaf12=off
+ delocsomofact=
+ dendec=cholesky
+ dens=0
+ denscorr=0
+ dfalg=lineq
+ dfbasis_cab=none
+ dfbasis_cor=none
+ dfbasis_scf=none
+ dfbasis_scf_sm=auto
+ dfintran=ovirt
+ dft=off
+ dhexc=adc(2)
+ diag=david
+ docc=
+ domrad=10.d0
+ drpaalg=fit
+ dual=off
+ dual_df=off
+ dyson=off
+ ecp=auto
+ edisp=off
+ edisp_embed=off
+ embed=off
+ epairestfact=off
+ epairscale=1.d0
+ etemp=300
+ epert=none
+ eps=
+ espcharge=off
+ excrad=0.d0
+ excrad_f12=0.d0
+ excrad_fin=0.000000000D+00
+ fastdbbsc=v2
+ fitting=coulomb
+ fmm=off
+ fmmord=8
+ fnonorb=
+ freq=off
+ gamma=1.d0
+ gauss=spher
+ geom=zmat
+ gopt=off
+ ghost=none
+ gtol=7
+ grdens=off
+ grid=auto
+ grid_sm=auto
+ gridbatch_cos=2000
+ grtol=10
+ guido_ct=off
+ hamilton=dc
+ iface=cfour
+ incore=off
+ intalg=auto
+ ip_ea=off
+ itol=18
+ laptol=1.d-2
+ lccoporder=trffirst
+ lcorthr=normal
+ lccrest=off
+ ldfgrad_tol=8
+ lmp2dens=on
+ lnoepso=0.d0
+ lnoepsv=1e-6
+ localcc=off
+ localcorrsymm=off
+ locintrf=disk
+ mact=
+ maxact=off
+ maxdim=200
+ maxex=0
+ maxmicroit=100
+ mcscfiguess=hf
+ mem=10gb
+ mmprog=
+ molden=on
+ mp2ongrid=off
+ mpitasks=1
+ mulmet=0
+ mult=3
+ nab=off
+ nacto=0
+ nactv=0
+ naf_amp=3.16d-3
+ naf_cor=off
+ naf_f12=off
+ naf_scf=off
+ nafalg=albe
+ nafdens=off
+ naftyp=
+ nchol=auto
+ ndeps=1e-3
+ nstate=1
+ nsing=0
+ nto=off
+ ntrip=0
+ num_grad=off
+ occ=2,0,0,0,0,0,1,1/2,0,0,0,0,0,0,0
+ occri=off
+ oniom=off
+ oniom_eechg=off
+ oniom_pcm=off
+ oniom_qcorr=off
+ optalg=
+ optmaxit=50
+ optetol=1e-6
+ optex=0
+ optgtol=1e-4
+ optstol=1e-3
+ orblocc=off
+ orbloce=off
+ orbloco=off
+ orblocv=off
+ orblocguess=cholesky
+ osveps=1e-3
+ ovirt=off
+ ovltol=1e-7
+ ovosnorb=80.0
+ pao_subsys_tol=1e-3
+ pao_tol=1e-3
+ pcm=off
+ popul=off
+ pressure=100000
+ pssp=off
+ ptfreq=0.0
+ ptthreads=2
+ qmreg=
+ qmmm=off
+ qro=off
+ qscf=off
+ redcost_exc=off
+ redcost_tddft=off
+ refdet=serialno
+ rest=2
+ rgrid=log3
+ rism=off
+ rohfcore=semicanonical
+ rohftype=standard
+ scfalg=auto
+ scf_conv=auto
+ scfdamp=0.0d0
+ scfdamp_mode=off
+ scfdamp_end=9999
+ scfdamp_dampstep=0.d0
+ scfdamp_dtol=0.0d0
+ scfdamp_maxfact=0.0d0
+ scfdamp_minfact=0.0d0
+ scfdiis=on
+ scfdiis_dtol=0.0d0
+ scfdiis_end=9999
+ scfdiis_start=2
+ scfdiis_step=1
+ scfdiis_watch=off
+ scfdiis_wrange=10
+ scfdiis_wlimit=5
+ scfdiis_delmax=2
+ scfdtol=14
+ scfext=10
+ scfguessdens=
+ scfiguess=ao
+ scfloc=off
+ scflshift=0.20
+ scflshift_end=8
+ scflshift_dtol=0.0
+ scflshift_gaptol=0.20
+ scfmaxit=9999
+ scftype=uhf
+ scftol=13
+ scspe=1.d0
+ scsph=1.d0
+ scsps=1.2d0
+ scsps_t=1.2d0
+ scspt=0.33333333333333
+ scspt_t=0.33333333333333
+ scspv=1.d0
+ spairtol=1e-4
+ sqmprog=
+ subminp=top
+ subsys_bopu=on
+ symm=2
+ talg=occ
+ temp=298.15
+ test=off
+ theodore=off
+ tlmo=0.999
+ tpao=0.94
+ tprint=0.01
+ uncontract=off
+ unit=angs
+ usedisk=2
+ verbosity=3
+ wpairtol=0.100000000E-05
+ ispstart=
+ ispend=
+
+ ************************ 2026-06-10 05:42:36 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    80
+ Number of diagrams in T^5 equations:    99
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   5.9637E+10
+ Probable CPU time per iteration step (hours):            0.60
+ Required memory (Mbytes):           479.2
+ Number of intermediates:                                 143
+ Number of intermediates to be stored:                     55
+ Length of intermediate file (Mbytes):            52.3
+
+ ************************ 2026-06-10 05:42:36 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(                     5 ) calculation 
+ 
+ 
+ Allocation of        10240.0 Mbytes of memory...
+ Number of spinorbitals:                    72
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         2
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                     48
+ Number of                     2 -fold excitations:                   1839
+ Number of                     3 -fold excitations:                  37928
+ Number of                     4 -fold excitations:                 382151
+ Number of                     5 -fold excitations:                1694082
+ Total number of configurations:                2116049
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):            35.6
+ 
+ ======================================================================
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:        444.7074       444.7074
+ Integer:        41.8452
+ Total:         486.5526       486.5526
+ 
+
+ ************************ 2026-06-10 05:42:37 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    34
+ Number of diagrams in T^3 equations:     2
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   1.4088E+07
+ Probable CPU time per iteration step (hours):            0.00
+ Required memory (Mbytes):           157.6
+ Number of intermediates:                                  49
+ Number of intermediates to be stored:                     20
+ Length of intermediate file (Mbytes):             3.2
+
+ ************************ 2026-06-10 05:42:41 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(2)(3) calculation 
+ 
+ 
+ Allocation of        10240.0 Mbytes of memory...
+ Number of spinorbitals:                    72
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         2
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                     48
+ Number of                     2 -fold excitations:                   1839
+ Total number of configurations:                   1888
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):             2.8
+ 
+ ======================================================================
+ 
+ Spin case  1   Alpha:  1   Beta:  2
+ Number of excitations:                   9566
+ Spin case  2   Alpha:  2   Beta:  1
+ Number of excitations:                  25912
+ Spin case  3   Alpha:  3   Beta:  0
+ Number of excitations:                   2450
+ Number of                     3 -fold excitations:                  37928
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:         22.9319        22.9319
+ Integer:        26.3800
+ Total:          49.3119        49.3119
+ 
+
+ ************************ 2026-06-10 05:42:41 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSD(T) calculation                                                    
+ 
+ 
+ OpenMP parallel version is running.
+ Number of CPU cores:   4
+ Allocation of           22.9 Mbytes of memory...
+ Number of spinorbitals:  72
+ Number of alpha electrons:  4
+ Number of beta  electrons:  2
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 48
+ Number of 2-fold excitations: 1839
+ Total number of determinants: 1888
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are generated.
+ Length of intermediate file (Mbytes):       2.8
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -37.687820652556
+ Calculation of MP denominators...
+ 
+ Starting CC iteration...
+ ==============================================================================
+ Norm of residual vector:     1.12884398
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  1  CC energy:   -37.77202565          Energy decrease:   0.08420500
+ Step       1  CC energy:   -37.772025647674162   Energy change  :   0.08420500
+ ==============================================================================
+ Norm of residual vector:     0.12663556
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  2  CC energy:   -37.79262054          Energy decrease:   0.02059489
+ Step       2  CC energy:   -37.792620536474161   Energy change  :   0.02059489
+ ==============================================================================
+ Norm of residual vector:     0.03277507
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  3  CC energy:   -37.79458768          Energy decrease:   0.00196715
+ Step       3  CC energy:   -37.794587683784876   Energy change  :   0.00196715
+ ==============================================================================
+ Norm of residual vector:     0.00828612
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  4  CC energy:   -37.79529586          Energy decrease:   0.00070817
+ Step       4  CC energy:   -37.795295855651929   Energy change  :   0.00070817
+ ==============================================================================
+ Norm of residual vector:     0.00155589
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  5  CC energy:   -37.79523816          Energy decrease:   0.00005770
+ Step       5  CC energy:   -37.795238156466375   Energy change  :   0.00005770
+ ==============================================================================
+ Norm of residual vector:     0.00042867
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  6  CC energy:   -37.79523717          Energy decrease:   0.00000099
+ Step       6  CC energy:   -37.795237168273651   Energy change  :   0.00000099
+ ==============================================================================
+ Norm of residual vector:     0.00010601
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  7  CC energy:   -37.79524258          Energy decrease:   0.00000541
+ Step       7  CC energy:   -37.795242575491564   Energy change  :   0.00000541
+ ==============================================================================
+ Norm of residual vector:     0.00003313
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.000
+ 
+ Iteration  8  CC energy:   -37.79524134          Energy decrease:   0.00000123
+ Step       8  CC energy:   -37.795241343941058   Energy change  :   0.00000123
+ ==============================================================================
+ Norm of residual vector:     0.00001063
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.000
+ 
+ Iteration  9  CC energy:   -37.79524118          Energy decrease:   0.00000016
+ Step       9  CC energy:   -37.795241180157198   Energy change  :   0.00000016
+ ==============================================================================
+ Norm of residual vector:     0.00000366
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration 10  CC energy:   -37.79524129          Energy decrease:   0.00000011
+ Step      10  CC energy:   -37.795241286576342   Energy change  :   0.00000011
+ ==============================================================================
+ Norm of residual vector:     0.00000113
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration 11  CC energy:   -37.79524125          Energy decrease:   0.00000004
+ Step      11  CC energy:   -37.795241245411511   Energy change  :   0.00000004
+ ==============================================================================
+ Norm of residual vector:     0.00000033
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration 12  CC energy:   -37.79524124          Energy decrease:   2.2433E-09
+ Step      12  CC energy:   -37.795241243168185   Energy change  :   2.2433E-09
+ ==============================================================================
+ Norm of residual vector:     0.00000009
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration 13  CC energy:   -37.79524125          Energy decrease:   4.4401E-09
+ Step      13  CC energy:   -37.795241247608331   Energy change  :   4.4401E-09
+ ==============================================================================
+ Norm of residual vector:     0.00000002
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration 14  CC energy:   -37.79524125          Energy decrease:   1.1362E-09
+ Step      14  CC energy:   -37.795241246472138   Energy change  :   1.1362E-09
+ ==============================================================================
+ Norm of residual vector:     0.00000001
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration 15  CC energy:   -37.79524125          Energy decrease:   1.1712E-10
+ Step      15  CC energy:   -37.795241246355019   Energy change  :   1.1712E-10
+ ==============================================================================
+ Norm of residual vector:     1.5782E-09
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration 16  CC energy:   -37.79524125          Energy decrease:   1.6307E-11
+ Step      16  CC energy:   -37.795241246371326   Energy change  :   1.6307E-11
+ ==============================================================================
+ Norm of residual vector:     5.2247E-10
+ CPU time [hr]:     0.003                          Wall time [hr]:     0.001
+ 
+ Iteration 17  CC energy:   -37.79524125          Energy decrease:   2.9416E-12
+ Step      17  CC energy:   -37.795241246374268   Energy change  :   2.9416E-12
+ ==============================================================================
+ Norm of residual vector:     1.3454E-10
+ CPU time [hr]:     0.003                          Wall time [hr]:     0.001
+ 
+ Iteration 18  CC energy:   -37.79524125          Energy decrease:   5.2580E-13
+ Step      18  CC energy:   -37.795241246374793   Energy change  :   5.2580E-13
+ ==============================================================================
+ Norm of residual vector:     4.0510E-11
+ CPU time [hr]:     0.003                          Wall time [hr]:     0.001
+ 
+ Iteration 19  CC energy:   -37.79524125          Energy decrease:   3.3396E-13
+ Step      19  CC energy:   -37.795241246375127   Energy change  :   3.3396E-13
+ ==============================================================================
+ 
+ Iteration has converged in 19 steps.
+ 
+ Final results:
+ Total CCSD energy [au]:                      -37.795241246375
+ 
+ Perturbative corrections are calculated...
+ ==============================================================================
+ Spin case  1   Alpha:  1   Beta:  2
+ Number of excitations:        9566
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:     0.173                   Wall time [min]:     0.048
+ ======================================================================
+ Spin case  2   Alpha:  2   Beta:  1
+ Number of excitations:        25912
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:     0.177                   Wall time [min]:     0.049
+ ======================================================================
+ Spin case  3   Alpha:  3   Beta:  0
+ Number of excitations:        2450
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:     0.178                   Wall time [min]:     0.049
+ ======================================================================
+ Number of 3-fold excitations: 37928
+ 
+ corr1 :                     0.000001303792423248
+ corr3 :                     0.000000000000000000
+ corr4 :                     0.000000000000000000
+ corr2 :                    -0.000079019050216298
+ 
+ corr1 :                     0.000019364836953834
+ corr3 :                     0.000000000000000000
+ corr4 :                     0.000000000000000000
+ corr2 :                    -0.001476111718832075
+ 
+ corr1 :                     0.000020205193791433
+ corr3 :                     0.000000000000000000
+ corr4 :                     0.000000000000000000
+ corr2 :                    -0.001516915064022323
+ 
+ CPU time [min]:     0.178                   Wall time [min]:     0.049
+ 
+ Total CCSD[T] energy [au]:                   -37.796758161439
+ Total CCSD(T) energy [au]:                   -37.796737956245
+ 
+ Dominant cluster amplitudes
+ Printing threshold:  1.00E-02
+ 
+    1.000000  Reference determinant                                     
+   -0.010080  2b -> 27b                                                 
+    0.012953  2a -> 23a                                                 
+   -0.013451  1a 1b -> 36a 36b                                          
+   -0.010653  2a 2b -> 17a 17b                                          
+   -0.013350  2a 2b -> 27a 17b                                          
+   -0.013340  2a 2b -> 17a 27b                                          
+   -0.021899  2a 2b -> 27a 27b                                          
+   -0.011509  2a 2b -> 28a 32b                                          
+   -0.011509  2a 2b -> 29a 29b                                          
+   -0.027155  2a 2b -> 5a 5b                                            
+    0.023528  2a 2b -> 9a 5b                                            
+    0.020885  2a 2b -> 18a 5b                                           
+    0.010280  2a 2b -> 26a 5b                                           
+   -0.059479  2a 2b -> 5a 9b                                            
+    0.051551  2a 2b -> 9a 9b                                            
+    0.045912  2a 2b -> 18a 9b                                           
+    0.022853  2a 2b -> 26a 9b                                           
+    0.050437  2a 2b -> 5a 18b                                           
+   -0.043821  2a 2b -> 9a 18b                                           
+   -0.039619  2a 2b -> 18a 18b                                          
+   -0.020776  2a 2b -> 26a 18b                                          
+    0.022318  2a 2b -> 5a 26b                                           
+   -0.019549  2a 2b -> 9a 26b                                           
+   -0.018607  2a 2b -> 18a 26b                                          
+   -0.012811  2a 2b -> 26a 26b                                          
+   -0.013889  2a 2b -> 15a 15b                                          
+   -0.012579  2a 2b -> 25a 15b                                          
+   -0.014812  2a 2b -> 25a 25b                                          
+   -0.013889  2a 2b -> 16a 16b                                          
+   -0.012579  2a 2b -> 24a 16b                                          
+   -0.014812  2a 2b -> 24a 24b                                          
+    0.022831  4a 2b -> 19a 8b                                           
+    0.013703  4a 2b -> 23a 8b                                           
+    0.018755  4a 2b -> 28a 8b                                           
+    0.011633  4a 2b -> 32a 8b                                           
+   -0.013066  4a 2b -> 17a 15b                                          
+   -0.025828  4a 2b -> 19a 15b                                          
+   -0.015443  4a 2b -> 23a 15b                                          
+   -0.023863  4a 2b -> 28a 15b                                          
+   -0.014739  4a 2b -> 32a 15b                                          
+   -0.012825  4a 2b -> 17a 25b                                          
+   -0.014329  4a 2b -> 27a 25b                                          
+   -0.012002  4a 2b -> 28a 25b                                          
+   -0.022831  4a 2b -> 20a 7b                                           
+   -0.018755  4a 2b -> 29a 7b                                           
+    0.025828  4a 2b -> 20a 16b                                          
+    0.023863  4a 2b -> 29a 16b                                          
+    0.012002  4a 2b -> 29a 24b                                          
+   -0.012005  4a 2b -> 22a 5b                                           
+   -0.010136  4a 2b -> 30a 5b                                           
+   -0.026139  4a 2b -> 22a 9b                                           
+   -0.022629  4a 2b -> 30a 9b                                           
+    0.021489  4a 2b -> 22a 18b                                          
+    0.020913  4a 2b -> 30a 18b                                          
+    0.011464  4a 2b -> 30a 26b                                          
+   -0.015294  4a 2b -> 5a 22b                                           
+    0.013122  4a 2b -> 9a 22b                                           
+    0.010963  4a 2b -> 18a 22b                                          
+   -0.014507  4a 2b -> 5a 30b                                           
+    0.012668  4a 2b -> 9a 30b                                           
+    0.011842  4a 2b -> 18a 30b                                          
+   -0.013372  4a 2b -> 15a 17b                                          
+   -0.020925  4a 2b -> 25a 17b                                          
+   -0.014263  4a 2b -> 15a 27b                                          
+   -0.029708  4a 2b -> 25a 27b                                          
+   -0.022831  3a 2b -> 19a 7b                                           
+    0.013703  3a 2b -> 23a 7b                                           
+   -0.018755  3a 2b -> 28a 7b                                           
+    0.011633  3a 2b -> 32a 7b                                           
+   -0.013066  3a 2b -> 17a 16b                                          
+    0.025828  3a 2b -> 19a 16b                                          
+   -0.015443  3a 2b -> 23a 16b                                          
+    0.023863  3a 2b -> 28a 16b                                          
+   -0.014739  3a 2b -> 32a 16b                                          
+   -0.012825  3a 2b -> 17a 24b                                          
+   -0.014329  3a 2b -> 27a 24b                                          
+    0.012002  3a 2b -> 28a 24b                                          
+   -0.022831  3a 2b -> 20a 8b                                           
+   -0.018755  3a 2b -> 29a 8b                                           
+    0.025828  3a 2b -> 20a 15b                                          
+    0.023863  3a 2b -> 29a 15b                                          
+    0.012002  3a 2b -> 29a 25b                                          
+   -0.012005  3a 2b -> 21a 5b                                           
+   -0.010136  3a 2b -> 31a 5b                                           
+   -0.026139  3a 2b -> 21a 9b                                           
+   -0.022629  3a 2b -> 31a 9b                                           
+    0.021489  3a 2b -> 21a 18b                                          
+    0.020913  3a 2b -> 31a 18b                                          
+    0.011464  3a 2b -> 31a 26b                                          
+   -0.015294  3a 2b -> 5a 21b                                           
+    0.013122  3a 2b -> 9a 21b                                           
+    0.010963  3a 2b -> 18a 21b                                          
+   -0.014507  3a 2b -> 5a 31b                                           
+    0.012668  3a 2b -> 9a 31b                                           
+    0.011842  3a 2b -> 18a 31b                                          
+   -0.013372  3a 2b -> 16a 17b                                          
+   -0.020925  3a 2b -> 24a 17b                                          
+   -0.014263  3a 2b -> 16a 27b                                          
+   -0.029708  3a 2b -> 24a 27b                                          
+    0.013783  3a 4a -> 15a 16a                                          
+   -0.017187  3a 4a -> 19a 20a                                          
+    0.019355  3a 4a -> 15a 24a                                          
+   -0.019355  3a 4a -> 16a 25a                                          
+   -0.033401  3a 4a -> 24a 25a                                          
+    0.012798  3a 4a -> 20a 28a                                          
+   -0.012798  3a 4a -> 19a 29a                                          
+   -0.016889  3a 4a -> 28a 29a                                          
+   -0.012294  2a 4a -> 17a 25a                                          
+    0.010140  2a 4a -> 15a 27a                                          
+    0.018468  2a 4a -> 25a 27a                                          
+   -0.012294  2a 3a -> 17a 24a                                          
+    0.010140  2a 3a -> 16a 27a                                          
+    0.018468  2a 3a -> 24a 27a                                          
+
+ ************************ 2026-06-10 05:42:44 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    50
+ Number of diagrams in T^4 equations:     5
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   7.8394E+08
+ Probable CPU time per iteration step (hours):            0.01
+ Required memory (Mbytes):           157.6
+ Number of intermediates:                                  80
+ Number of intermediates to be stored:                     32
+ Length of intermediate file (Mbytes):             3.9
+
+ ************************ 2026-06-10 05:42:44 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(3)(4) calculation 
+ 
+ 
+ Allocation of        10240.0 Mbytes of memory...
+ Number of spinorbitals:                    72
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         2
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                     48
+ Number of                     2 -fold excitations:                   1839
+ Number of                     3 -fold excitations:                  37928
+ Total number of configurations:                  39816
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):             3.5
+ 
+ ======================================================================
+ 
+ Spin case  1   Alpha:  2   Beta:  2
+ Number of excitations:                 210069
+ Spin case  2   Alpha:  3   Beta:  1
+ Number of excitations:                 167620
+ Spin case  3   Alpha:  4   Beta:  0
+ Number of excitations:                   4462
+ Number of                     4 -fold excitations:                 382151
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:         44.7792        44.7792
+ Integer:        27.7395
+ Total:          72.5187        72.5187
+ 
+
+ ************************ 2026-06-10 05:42:44 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSDT(Q) calculation                                                   
+ 
+ 
+ OpenMP parallel version is running.
+ Number of CPU cores:   4
+ Allocation of           44.8 Mbytes of memory...
+ Number of spinorbitals:  72
+ Number of alpha electrons:  4
+ Number of beta  electrons:  2
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 48
+ Number of 2-fold excitations: 1839
+ Number of 3-fold excitations: 37928
+ Total number of determinants: 39816
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are read from unit 16.
+ Length of intermediate file (Mbytes):       3.5
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -37.687820652556
+ Calculation of MP denominators...
+ 
+ Starting CC iteration...
+ ==============================================================================
+ Norm of residual vector:     0.10890278
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  1  CC energy:   -37.79524125          Energy decrease:   2.4869E-13
+ Step       1  CC energy:   -37.795241246375376   Energy change  :   2.4869E-13
+ ==============================================================================
+ Norm of residual vector:     0.02081502
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  2  CC energy:   -37.79646333          Energy decrease:   0.00122209
+ Step       2  CC energy:   -37.796463333296828   Energy change  :   0.00122209
+ ==============================================================================
+ Norm of residual vector:     0.00576172
+ CPU time [hr]:     0.001                          Wall time [hr]:     0.000
+ 
+ Iteration  3  CC energy:   -37.79694057          Energy decrease:   0.00047724
+ Step       3  CC energy:   -37.796940572448683   Energy change  :   0.00047724
+ ==============================================================================
+ Norm of residual vector:     0.00165353
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.000
+ 
+ Iteration  4  CC energy:   -37.79709189          Energy decrease:   0.00015132
+ Step       4  CC energy:   -37.797091889689995   Energy change  :   0.00015132
+ ==============================================================================
+ Norm of residual vector:     0.00056940
+ CPU time [hr]:     0.002                          Wall time [hr]:     0.001
+ 
+ Iteration  5  CC energy:   -37.79712786          Energy decrease:   0.00003597
+ Step       5  CC energy:   -37.797127858507260   Energy change  :   0.00003597
+ ==============================================================================
+ Norm of residual vector:     0.00017641
+ CPU time [hr]:     0.003                          Wall time [hr]:     0.001
+ 
+ Iteration  6  CC energy:   -37.79713229          Energy decrease:   0.00000443
+ Step       6  CC energy:   -37.797132288629996   Energy change  :   0.00000443
+ ==============================================================================
+ Norm of residual vector:     0.00005895
+ CPU time [hr]:     0.003                          Wall time [hr]:     0.001
+ 
+ Iteration  7  CC energy:   -37.79713285          Energy decrease:   0.00000056
+ Step       7  CC energy:   -37.797132845657664   Energy change  :   0.00000056
+ ==============================================================================
+ Norm of residual vector:     0.00002250
+ CPU time [hr]:     0.003                          Wall time [hr]:     0.001
+ 
+ Iteration  8  CC energy:   -37.79713321          Energy decrease:   0.00000037
+ Step       8  CC energy:   -37.797133213266818   Energy change  :   0.00000037
+ ==============================================================================
+ Norm of residual vector:     0.00000969
+ CPU time [hr]:     0.004                          Wall time [hr]:     0.001
+ 
+ Iteration  9  CC energy:   -37.79713333          Energy decrease:   0.00000011
+ Step       9  CC energy:   -37.797133327294681   Energy change  :   0.00000011
+ ==============================================================================
+ Norm of residual vector:     0.00000399
+ CPU time [hr]:     0.004                          Wall time [hr]:     0.001
+ 
+ Iteration 10  CC energy:   -37.79713329          Energy decrease:   0.00000004
+ Step      10  CC energy:   -37.797133288243074   Energy change  :   0.00000004
+ ==============================================================================
+ Norm of residual vector:     0.00000155
+ CPU time [hr]:     0.005                          Wall time [hr]:     0.001
+ 
+ Iteration 11  CC energy:   -37.79713326          Energy decrease:   0.00000003
+ Step      11  CC energy:   -37.797133258969623   Energy change  :   0.00000003
+ ==============================================================================
+ Norm of residual vector:     0.00000060
+ CPU time [hr]:     0.005                          Wall time [hr]:     0.001
+ 
+ Iteration 12  CC energy:   -37.79713326          Energy decrease:   3.2000E-09
+ Step      12  CC energy:   -37.797133255769630   Energy change  :   3.2000E-09
+ ==============================================================================
+ Norm of residual vector:     0.00000025
+ CPU time [hr]:     0.005                          Wall time [hr]:     0.001
+ 
+ Iteration 13  CC energy:   -37.79713326          Energy decrease:   2.1861E-09
+ Step      13  CC energy:   -37.797133257955728   Energy change  :   2.1861E-09
+ ==============================================================================
+ Norm of residual vector:     0.00000010
+ CPU time [hr]:     0.006                          Wall time [hr]:     0.001
+ 
+ Iteration 14  CC energy:   -37.79713326          Energy decrease:   4.5684E-10
+ Step      14  CC energy:   -37.797133258412565   Energy change  :   4.5684E-10
+ ==============================================================================
+ Norm of residual vector:     0.00000004
+ CPU time [hr]:     0.006                          Wall time [hr]:     0.002
+ 
+ Iteration 15  CC energy:   -37.79713326          Energy decrease:   3.7893E-10
+ Step      15  CC energy:   -37.797133258033632   Energy change  :   3.7893E-10
+ ==============================================================================
+ Norm of residual vector:     0.00000001
+ CPU time [hr]:     0.007                          Wall time [hr]:     0.002
+ 
+ Iteration 16  CC energy:   -37.79713326          Energy decrease:   1.7758E-10
+ Step      16  CC energy:   -37.797133257856053   Energy change  :   1.7758E-10
+ ==============================================================================
+ Norm of residual vector:     4.9618E-09
+ CPU time [hr]:     0.007                          Wall time [hr]:     0.002
+ 
+ Iteration 17  CC energy:   -37.79713326          Energy decrease:   8.4270E-12
+ Step      17  CC energy:   -37.797133257847626   Energy change  :   8.4270E-12
+ ==============================================================================
+ Norm of residual vector:     1.8458E-09
+ CPU time [hr]:     0.007                          Wall time [hr]:     0.002
+ 
+ Iteration 18  CC energy:   -37.79713326          Energy decrease:   1.5241E-11
+ Step      18  CC energy:   -37.797133257862868   Energy change  :   1.5241E-11
+ ==============================================================================
+ Norm of residual vector:     7.6088E-10
+ CPU time [hr]:     0.008                          Wall time [hr]:     0.002
+ 
+ Iteration 19  CC energy:   -37.79713326          Energy decrease:   8.1286E-12
+ Step      19  CC energy:   -37.797133257870996   Energy change  :   8.1286E-12
+ ==============================================================================
+ Norm of residual vector:     3.0110E-10
+ CPU time [hr]:     0.008                          Wall time [hr]:     0.002
+ 
+ Iteration 20  CC energy:   -37.79713326          Energy decrease:   5.7554E-13
+ Step      20  CC energy:   -37.797133257871572   Energy change  :   5.7554E-13
+ ==============================================================================
+ Norm of residual vector:     1.1470E-10
+ CPU time [hr]:     0.009                          Wall time [hr]:     0.002
+ 
+ Iteration 21  CC energy:   -37.79713326          Energy decrease:   4.1211E-13
+ Step      21  CC energy:   -37.797133257871160   Energy change  :   4.1211E-13
+ ==============================================================================
+ Norm of residual vector:     4.1168E-11
+ CPU time [hr]:     0.009                          Wall time [hr]:     0.002
+ 
+ Iteration 22  CC energy:   -37.79713326          Energy decrease:   3.1974E-13
+ Step      22  CC energy:   -37.797133257870840   Energy change  :   3.1974E-13
+ ==============================================================================
+ 
+ Iteration has converged in 22 steps.
+ 
+ Final results:
+ Total CCSDT energy [au]:                     -37.797133257871
+ 
+ Perturbative corrections are calculated...
+ ==============================================================================
+ Spin case  1   Alpha:  2   Beta:  2
+ Number of excitations:        210069
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:     0.798                   Wall time [min]:     0.204
+ ======================================================================
+ Spin case  2   Alpha:  3   Beta:  1
+ Number of excitations:        167620
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:     0.959                   Wall time [min]:     0.244
+ ======================================================================
+ Spin case  3   Alpha:  4   Beta:  0
+ Number of excitations:        4462
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:     0.976                   Wall time [min]:     0.248
+ ======================================================================
+ Number of 4-fold excitations: 382151
+ 
+ T_2^+ contribution [au]:                                  -0.000005278260344535
+ corr1 :                    -0.000005278260344535
+ corr3 :                     0.000000000000000000
+ corr4 :                     0.000000000000000000
+ T_3^+ contribution [au]:                                  -0.000001469278210134
+ T_1^+ * T_2^+ contribution [au]:                          -0.000000001904107971
+ T_1^+ * <ab||ij> contribution [au]:                        0.000000005950708845
+ T_2^+ * f_ai contribution [au]:                            0.000000000000000000
+ corr2 :                    -0.000001469278210134
+ corr3 :                    -0.000000001904107971
+ corr4 :                     0.000000005950708845
+ 
+ T_2^+ contribution [au]:                                  -0.000027978714241340
+ corr1 :                    -0.000027978714241340
+ corr3 :                    -0.000000001904107971
+ corr4 :                     0.000000005950708845
+ T_3^+ contribution [au]:                                  -0.000013119947374911
+ T_1^+ * T_2^+ contribution [au]:                           0.000000444232643937
+ T_1^+ * <ab||ij> contribution [au]:                        0.000000251144031852
+ T_2^+ * f_ai contribution [au]:                           -0.000000000000000000
+ corr2 :                    -0.000013119947374911
+ corr3 :                     0.000000442328535966
+ corr4 :                     0.000000257094740696
+ 
+ T_2^+ contribution [au]:                                  -0.000028079824541866
+ corr1 :                    -0.000028079824541866
+ corr3 :                     0.000000442328535966
+ corr4 :                     0.000000257094740696
+ T_3^+ contribution [au]:                                  -0.000013131047762789
+ T_1^+ * T_2^+ contribution [au]:                           0.000000444567099040
+ T_1^+ * <ab||ij> contribution [au]:                        0.000000251448630405
+ T_2^+ * f_ai contribution [au]:                           -0.000000000000000000
+ corr2 :                    -0.000013131047762789
+ corr3 :                     0.000000886895635006
+ corr4 :                     0.000000508543371101
+ 
+ CPU time [min]:     0.981                   Wall time [min]:     0.250
+ 
+ Total CCSDT[Q] energy [au]:                  -37.797161337695
+ Total CCSDT(Q)/A energy [au]:                -37.797173581848
+ Total CCSDT(Q)/B energy [au]:                -37.797173960200
+ 
+ Dominant cluster amplitudes
+ Printing threshold:  1.00E-02
+ 
+    1.000000  Reference determinant                                     
+   -0.010164  2b -> 27b                                                 
+    0.012658  2a -> 23a                                                 
+    0.010396  4a -> 15a                                                 
+    0.010396  3a -> 16a                                                 
+   -0.013452  1a 1b -> 36a 36b                                          
+   -0.011191  2a 2b -> 17a 17b                                          
+   -0.013677  2a 2b -> 27a 17b                                          
+   -0.013608  2a 2b -> 17a 27b                                          
+   -0.022122  2a 2b -> 27a 27b                                          
+   -0.011475  2a 2b -> 28a 32b                                          
+   -0.011475  2a 2b -> 29a 29b                                          
+   -0.028489  2a 2b -> 5a 5b                                            
+    0.024655  2a 2b -> 9a 5b                                            
+    0.021754  2a 2b -> 18a 5b                                           
+    0.010564  2a 2b -> 26a 5b                                           
+   -0.062315  2a 2b -> 5a 9b                                            
+    0.053950  2a 2b -> 9a 9b                                            
+    0.047780  2a 2b -> 18a 9b                                           
+    0.023512  2a 2b -> 26a 9b                                           
+    0.052574  2a 2b -> 5a 18b                                           
+   -0.045640  2a 2b -> 9a 18b                                           
+   -0.041101  2a 2b -> 18a 18b                                          
+   -0.021477  2a 2b -> 26a 18b                                          
+    0.023106  2a 2b -> 5a 26b                                           
+   -0.020250  2a 2b -> 9a 26b                                           
+   -0.019329  2a 2b -> 18a 26b                                          
+   -0.013550  2a 2b -> 26a 26b                                          
+    0.010360  2a 2b -> 15a 8b                                           
+   -0.014355  2a 2b -> 15a 15b                                          
+   -0.012735  2a 2b -> 25a 15b                                          
+   -0.010000  2a 2b -> 15a 25b                                          
+   -0.014880  2a 2b -> 25a 25b                                          
+    0.010360  2a 2b -> 16a 7b                                           
+   -0.014355  2a 2b -> 16a 16b                                          
+   -0.012735  2a 2b -> 24a 16b                                          
+   -0.010000  2a 2b -> 16a 24b                                          
+   -0.014880  2a 2b -> 24a 24b                                          
+    0.023715  4a 2b -> 19a 8b                                           
+    0.014292  4a 2b -> 23a 8b                                           
+    0.018939  4a 2b -> 28a 8b                                           
+    0.011721  4a 2b -> 32a 8b                                           
+   -0.013682  4a 2b -> 17a 15b                                          
+   -0.026626  4a 2b -> 19a 15b                                          
+   -0.016002  4a 2b -> 23a 15b                                          
+   -0.024089  4a 2b -> 28a 15b                                          
+   -0.014843  4a 2b -> 32a 15b                                          
+   -0.013085  4a 2b -> 17a 25b                                          
+   -0.014453  4a 2b -> 27a 25b                                          
+   -0.012146  4a 2b -> 28a 25b                                          
+   -0.023715  4a 2b -> 20a 7b                                           
+   -0.018939  4a 2b -> 29a 7b                                           
+    0.026626  4a 2b -> 20a 16b                                          
+    0.024089  4a 2b -> 29a 16b                                          
+    0.012146  4a 2b -> 29a 24b                                          
+   -0.012472  4a 2b -> 22a 5b                                           
+   -0.010218  4a 2b -> 30a 5b                                           
+   -0.027104  4a 2b -> 22a 9b                                           
+   -0.022819  4a 2b -> 30a 9b                                           
+    0.022100  4a 2b -> 22a 18b                                          
+    0.021120  4a 2b -> 30a 18b                                          
+    0.011667  4a 2b -> 30a 26b                                          
+   -0.015629  4a 2b -> 5a 22b                                           
+    0.013393  4a 2b -> 9a 22b                                           
+    0.011124  4a 2b -> 18a 22b                                          
+   -0.014499  4a 2b -> 5a 30b                                           
+    0.012657  4a 2b -> 9a 30b                                           
+    0.011820  4a 2b -> 18a 30b                                          
+   -0.014409  4a 2b -> 15a 17b                                          
+   -0.021683  4a 2b -> 25a 17b                                          
+   -0.014827  4a 2b -> 15a 27b                                          
+   -0.030272  4a 2b -> 25a 27b                                          
+   -0.023715  3a 2b -> 19a 7b                                           
+    0.014292  3a 2b -> 23a 7b                                           
+   -0.018939  3a 2b -> 28a 7b                                           
+    0.011721  3a 2b -> 32a 7b                                           
+   -0.013682  3a 2b -> 17a 16b                                          
+    0.026626  3a 2b -> 19a 16b                                          
+   -0.016002  3a 2b -> 23a 16b                                          
+    0.024089  3a 2b -> 28a 16b                                          
+   -0.014843  3a 2b -> 32a 16b                                          
+   -0.013085  3a 2b -> 17a 24b                                          
+   -0.014453  3a 2b -> 27a 24b                                          
+    0.012146  3a 2b -> 28a 24b                                          
+   -0.023715  3a 2b -> 20a 8b                                           
+   -0.018939  3a 2b -> 29a 8b                                           
+    0.026626  3a 2b -> 20a 15b                                          
+    0.024089  3a 2b -> 29a 15b                                          
+    0.012146  3a 2b -> 29a 25b                                          
+   -0.012472  3a 2b -> 21a 5b                                           
+   -0.010218  3a 2b -> 31a 5b                                           
+   -0.027104  3a 2b -> 21a 9b                                           
+   -0.022819  3a 2b -> 31a 9b                                           
+    0.022100  3a 2b -> 21a 18b                                          
+    0.021120  3a 2b -> 31a 18b                                          
+    0.011667  3a 2b -> 31a 26b                                          
+   -0.015629  3a 2b -> 5a 21b                                           
+    0.013393  3a 2b -> 9a 21b                                           
+    0.011124  3a 2b -> 18a 21b                                          
+   -0.014499  3a 2b -> 5a 31b                                           
+    0.012657  3a 2b -> 9a 31b                                           
+    0.011820  3a 2b -> 18a 31b                                          
+   -0.014409  3a 2b -> 16a 17b                                          
+   -0.021683  3a 2b -> 24a 17b                                          
+   -0.014827  3a 2b -> 16a 27b                                          
+   -0.030272  3a 2b -> 24a 27b                                          
+    0.015107  3a 4a -> 15a 16a                                          
+   -0.017984  3a 4a -> 19a 20a                                          
+    0.020257  3a 4a -> 15a 24a                                          
+   -0.020257  3a 4a -> 16a 25a                                          
+   -0.034107  3a 4a -> 24a 25a                                          
+    0.012837  3a 4a -> 20a 28a                                          
+   -0.012837  3a 4a -> 19a 29a                                          
+   -0.016988  3a 4a -> 28a 29a                                          
+   -0.012761  2a 4a -> 17a 25a                                          
+    0.010547  2a 4a -> 15a 27a                                          
+    0.018802  2a 4a -> 25a 27a                                          
+   -0.012761  2a 3a -> 17a 24a                                          
+    0.010547  2a 3a -> 16a 27a                                          
+    0.018802  2a 3a -> 24a 27a                                          
+
+ ************************ 2026-06-10 05:42:59 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    77
+ Number of diagrams in T^5 equations:     8
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   1.5924E+10
+ Probable CPU time per iteration step (hours):            0.16
+ Required memory (Mbytes):           157.6
+ Number of intermediates:                                 119
+ Number of intermediates to be stored:                     51
+ Length of intermediate file (Mbytes):            39.9
+
+ ************************ 2026-06-10 05:43:00 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(4)(5) calculation 
+ 
+ 
+ Allocation of        10240.0 Mbytes of memory...
+ Number of spinorbitals:                    72
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         2
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                     48
+ Number of                     2 -fold excitations:                   1839
+ Number of                     3 -fold excitations:                  37928
+ Number of                     4 -fold excitations:                 382151
+ Total number of configurations:                 421967
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):            27.2
+ 
+ ======================================================================
+ 
+ Spin case  1   Alpha:  3   Beta:  2
+ Number of excitations:                1388580
+ Spin case  2   Alpha:  4   Beta:  1
+ Number of excitations:                 305502
+ Number of                     5 -fold excitations:                1694082
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:         65.7090        65.7090
+ Integer:        41.7971
+ Total:         107.5061       107.5061
+ 
+
+ ************************ 2026-06-10 05:43:00 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSDTQ(P) calculation                                                  
+ 
+ 
+ OpenMP parallel version is running.
+ Number of CPU cores:   4
+ Allocation of           65.7 Mbytes of memory...
+ Number of spinorbitals:  72
+ Number of alpha electrons:  4
+ Number of beta  electrons:  2
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 48
+ Number of 2-fold excitations: 1839
+ Number of 3-fold excitations: 37928
+ Number of 4-fold excitations: 382151
+ Total number of determinants: 421967
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are read from unit 16.
+ Length of intermediate file (Mbytes):      27.2
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -37.687820652556
+ Calculation of MP denominators...
+ 
+ Starting CC iteration...
+ ==============================================================================
+ Norm of residual vector:     0.01513934
+ CPU time [hr]:     0.005                          Wall time [hr]:     0.001
+ 
+ Iteration  1  CC energy:   -37.79713326          Energy decrease:   1.6342E-13
+ Step       1  CC energy:   -37.797133257870676   Energy change  :   1.6342E-13
+ ==============================================================================
+ Norm of residual vector:     0.00283635
+ CPU time [hr]:     0.009                          Wall time [hr]:     0.002
+ 
+ Iteration  2  CC energy:   -37.79715185          Energy decrease:   0.00001859
+ Step       2  CC energy:   -37.797151851399825   Energy change  :   0.00001859
+ ==============================================================================
+ Norm of residual vector:     0.00071810
+ CPU time [hr]:     0.013                          Wall time [hr]:     0.003
+ 
+ Iteration  3  CC energy:   -37.79717198          Energy decrease:   0.00002013
+ Step       3  CC energy:   -37.797171977435866   Energy change  :   0.00002013
+ ==============================================================================
+ Norm of residual vector:     0.00022071
+ CPU time [hr]:     0.018                          Wall time [hr]:     0.004
+ 
+ Iteration  4  CC energy:   -37.79718147          Energy decrease:   0.00000949
+ Step       4  CC energy:   -37.797181466621026   Energy change  :   0.00000949
+ ==============================================================================
+ Norm of residual vector:     0.00006170
+ CPU time [hr]:     0.022                          Wall time [hr]:     0.006
+ 
+ Iteration  5  CC energy:   -37.79718397          Energy decrease:   0.00000251
+ Step       5  CC energy:   -37.797183974431320   Energy change  :   0.00000251
+ ==============================================================================
+ Norm of residual vector:     0.00002213
+ CPU time [hr]:     0.026                          Wall time [hr]:     0.007
+ 
+ Iteration  6  CC energy:   -37.79718485          Energy decrease:   0.00000088
+ Step       6  CC energy:   -37.797184850592750   Energy change  :   0.00000088
+ ==============================================================================
+ Norm of residual vector:     0.00000792
+ CPU time [hr]:     0.031                          Wall time [hr]:     0.008
+ 
+ Iteration  7  CC energy:   -37.79718509          Energy decrease:   0.00000024
+ Step       7  CC energy:   -37.797185085813403   Energy change  :   0.00000024
+ ==============================================================================
+ Norm of residual vector:     0.00000322
+ CPU time [hr]:     0.035                          Wall time [hr]:     0.009
+ 
+ Iteration  8  CC energy:   -37.79718517          Energy decrease:   0.00000008
+ Step       8  CC energy:   -37.797185166801427   Energy change  :   0.00000008
+ ==============================================================================
+ Norm of residual vector:     0.00000118
+ CPU time [hr]:     0.040                          Wall time [hr]:     0.010
+ 
+ Iteration  9  CC energy:   -37.79718519          Energy decrease:   0.00000003
+ Step       9  CC energy:   -37.797185192310529   Energy change  :   0.00000003
+ ==============================================================================
+ Norm of residual vector:     0.00000052
+ CPU time [hr]:     0.044                          Wall time [hr]:     0.011
+ 
+ Iteration 10  CC energy:   -37.79718520          Energy decrease:   0.00000001
+ Step      10  CC energy:   -37.797185200792931   Energy change  :   0.00000001
+ ==============================================================================
+ Norm of residual vector:     0.00000023
+ CPU time [hr]:     0.049                          Wall time [hr]:     0.012
+ 
+ Iteration 11  CC energy:   -37.79718520          Energy decrease:   3.4642E-10
+ Step      11  CC energy:   -37.797185200446513   Energy change  :   3.4642E-10
+ ==============================================================================
+ Norm of residual vector:     0.00000010
+ CPU time [hr]:     0.053                          Wall time [hr]:     0.013
+ 
+ Iteration 12  CC energy:   -37.79718520          Energy decrease:   1.7073E-09
+ Step      12  CC energy:   -37.797185198739193   Energy change  :   1.7073E-09
+ ==============================================================================
+ Norm of residual vector:     0.00000004
+ CPU time [hr]:     0.058                          Wall time [hr]:     0.015
+ 
+ Iteration 13  CC energy:   -37.79718520          Energy decrease:   8.3628E-10
+ Step      13  CC energy:   -37.797185197902913   Energy change  :   8.3628E-10
+ ==============================================================================
+ Norm of residual vector:     0.00000002
+ CPU time [hr]:     0.062                          Wall time [hr]:     0.016
+ 
+ Iteration 14  CC energy:   -37.79718520          Energy decrease:   1.3076E-10
+ Step      14  CC energy:   -37.797185197772151   Energy change  :   1.3076E-10
+ ==============================================================================
+ Norm of residual vector:     0.00000001
+ CPU time [hr]:     0.067                          Wall time [hr]:     0.017
+ 
+ Iteration 15  CC energy:   -37.79718520          Energy decrease:   2.4031E-11
+ Step      15  CC energy:   -37.797185197796182   Energy change  :   2.4031E-11
+ ==============================================================================
+ Norm of residual vector:     3.3612E-09
+ CPU time [hr]:     0.072                          Wall time [hr]:     0.018
+ 
+ Iteration 16  CC energy:   -37.79718520          Energy decrease:   2.3832E-11
+ Step      16  CC energy:   -37.797185197820014   Energy change  :   2.3832E-11
+ ==============================================================================
+ Norm of residual vector:     1.3778E-09
+ CPU time [hr]:     0.076                          Wall time [hr]:     0.019
+ 
+ Iteration 17  CC energy:   -37.79718520          Energy decrease:   8.3347E-12
+ Step      17  CC energy:   -37.797185197828348   Energy change  :   8.3347E-12
+ ==============================================================================
+ Norm of residual vector:     5.5184E-10
+ CPU time [hr]:     0.081                          Wall time [hr]:     0.020
+ 
+ Iteration 18  CC energy:   -37.79718520          Energy decrease:   3.1761E-12
+ Step      18  CC energy:   -37.797185197831524   Energy change  :   3.1761E-12
+ ==============================================================================
+ Norm of residual vector:     2.0403E-10
+ CPU time [hr]:     0.086                          Wall time [hr]:     0.022
+ 
+ Iteration 19  CC energy:   -37.79718520          Energy decrease:   1.1866E-12
+ Step      19  CC energy:   -37.797185197832711   Energy change  :   1.1866E-12
+ ==============================================================================
+ Norm of residual vector:     8.3483E-11
+ CPU time [hr]:     0.090                          Wall time [hr]:     0.023
+ 
+ Iteration 20  CC energy:   -37.79718520          Energy decrease:   3.4817E-13
+ Step      20  CC energy:   -37.797185197833059   Energy change  :   3.4817E-13
+ ==============================================================================
+ 
+ Iteration has converged in 20 steps.
+ 
+ Final results:
+ Total CCSDTQ energy [au]:                    -37.797185197833
+ 
+ Perturbative corrections are calculated...
+ ==============================================================================
+ Spin case  1   Alpha:  3   Beta:  2
+ Number of excitations:        1388580
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:     8.967                   Wall time [min]:     2.361
+ ======================================================================
+ Spin case  2   Alpha:  4   Beta:  1
+ Number of excitations:        305502
+ ispcorr1 :                     0.000000000000000000
+ ispcorr2 :                     0.000000000000000000
+ corr1    :                     0.000000000000000000
+ corr2    :                     0.000000000000000000
+ CPU time [min]:    10.216                   Wall time [min]:     2.697
+ ======================================================================
+ Number of 5-fold excitations: 1694082
+ 
+ T_3^+ contribution [au]:                                  -0.000000062941989550
+ T_1^+ * T_2^+ contribution [au]:                           0.000000000787254354
+ T_1^+ * <ab||ij> contribution [au]:                        0.000000000431921161
+ T_2^+ * f_ai contribution [au]:                           -0.000000000000000000
+ corr1 :                    -0.000000062941989550
+ corr3 :                     0.000000000787254354
+ corr4 :                     0.000000000431921161
+ T_2^+ contribution [au]:                                  -0.000000045386459487
+ corr2 :                    -0.000000045386459487
+ corr3 :                     0.000000000787254354
+ corr4 :                     0.000000000431921161
+ 
+ T_3^+ contribution [au]:                                  -0.000000099640575662
+ T_1^+ * T_2^+ contribution [au]:                           0.000000001813842722
+ T_1^+ * <ab||ij> contribution [au]:                        0.000000000922792177
+ T_2^+ * f_ai contribution [au]:                           -0.000000000000000000
+ corr1 :                    -0.000000099640575662
+ corr3 :                     0.000000002601097077
+ corr4 :                     0.000000001354713338
+ T_2^+ contribution [au]:                                  -0.000000071181290012
+ corr2 :                    -0.000000071181290012
+ corr3 :                     0.000000002601097077
+ corr4 :                     0.000000001354713338
+ 
+ CPU time [min]:    10.245                   Wall time [min]:     2.705
+ 
+ Total CCSDTQ[P] energy [au]:                 -37.797185366054
+ Total CCSDTQ(P)/A energy [au]:               -37.797185366054
+ Total CCSDTQ(P)/B energy [au]:               -37.797185367300
+ 
+ Dominant cluster amplitudes
+ Printing threshold:  1.00E-02
+ 
+    1.000000  Reference determinant                                     
+   -0.010171  2b -> 27b                                                 
+    0.012666  2a -> 23a                                                 
+    0.010374  4a -> 15a                                                 
+    0.010374  3a -> 16a                                                 
+   -0.013452  1a 1b -> 36a 36b                                          
+   -0.011192  2a 2b -> 17a 17b                                          
+   -0.013676  2a 2b -> 27a 17b                                          
+   -0.013608  2a 2b -> 17a 27b                                          
+   -0.022127  2a 2b -> 27a 27b                                          
+   -0.011476  2a 2b -> 28a 32b                                          
+   -0.011476  2a 2b -> 29a 29b                                          
+   -0.028523  2a 2b -> 5a 5b                                            
+    0.024683  2a 2b -> 9a 5b                                            
+    0.021778  2a 2b -> 18a 5b                                           
+    0.010577  2a 2b -> 26a 5b                                           
+   -0.062387  2a 2b -> 5a 9b                                            
+    0.054012  2a 2b -> 9a 9b                                            
+    0.047832  2a 2b -> 18a 9b                                           
+    0.023539  2a 2b -> 26a 9b                                           
+    0.052630  2a 2b -> 5a 18b                                           
+   -0.045689  2a 2b -> 9a 18b                                           
+   -0.041141  2a 2b -> 18a 18b                                          
+   -0.021496  2a 2b -> 26a 18b                                          
+    0.023133  2a 2b -> 5a 26b                                           
+   -0.020273  2a 2b -> 9a 26b                                           
+   -0.019346  2a 2b -> 18a 26b                                          
+   -0.013548  2a 2b -> 26a 26b                                          
+    0.010369  2a 2b -> 15a 8b                                           
+   -0.014363  2a 2b -> 15a 15b                                          
+   -0.012742  2a 2b -> 25a 15b                                          
+   -0.010003  2a 2b -> 15a 25b                                          
+   -0.014883  2a 2b -> 25a 25b                                          
+    0.010369  2a 2b -> 16a 7b                                           
+   -0.014363  2a 2b -> 16a 16b                                          
+   -0.012742  2a 2b -> 24a 16b                                          
+   -0.010003  2a 2b -> 16a 24b                                          
+   -0.014883  2a 2b -> 24a 24b                                          
+    0.023725  4a 2b -> 19a 8b                                           
+    0.014303  4a 2b -> 23a 8b                                           
+    0.018942  4a 2b -> 28a 8b                                           
+    0.011725  4a 2b -> 32a 8b                                           
+   -0.013693  4a 2b -> 17a 15b                                          
+   -0.026636  4a 2b -> 19a 15b                                          
+   -0.016014  4a 2b -> 23a 15b                                          
+   -0.024093  4a 2b -> 28a 15b                                          
+   -0.014849  4a 2b -> 32a 15b                                          
+   -0.013089  4a 2b -> 17a 25b                                          
+   -0.014455  4a 2b -> 27a 25b                                          
+   -0.012148  4a 2b -> 28a 25b                                          
+   -0.023725  4a 2b -> 20a 7b                                           
+   -0.018942  4a 2b -> 29a 7b                                           
+    0.026636  4a 2b -> 20a 16b                                          
+    0.024093  4a 2b -> 29a 16b                                          
+    0.012148  4a 2b -> 29a 24b                                          
+   -0.012483  4a 2b -> 22a 5b                                           
+   -0.010222  4a 2b -> 30a 5b                                           
+   -0.027126  4a 2b -> 22a 9b                                           
+   -0.022829  4a 2b -> 30a 9b                                           
+    0.022116  4a 2b -> 22a 18b                                          
+    0.021128  4a 2b -> 30a 18b                                          
+    0.011669  4a 2b -> 30a 26b                                          
+   -0.015637  4a 2b -> 5a 22b                                           
+    0.013400  4a 2b -> 9a 22b                                           
+    0.011131  4a 2b -> 18a 22b                                          
+   -0.014508  4a 2b -> 5a 30b                                           
+    0.012665  4a 2b -> 9a 30b                                           
+    0.011827  4a 2b -> 18a 30b                                          
+   -0.014421  4a 2b -> 15a 17b                                          
+   -0.021690  4a 2b -> 25a 17b                                          
+   -0.014830  4a 2b -> 15a 27b                                          
+   -0.030281  4a 2b -> 25a 27b                                          
+   -0.023725  3a 2b -> 19a 7b                                           
+    0.014303  3a 2b -> 23a 7b                                           
+   -0.018942  3a 2b -> 28a 7b                                           
+    0.011725  3a 2b -> 32a 7b                                           
+   -0.013693  3a 2b -> 17a 16b                                          
+    0.026636  3a 2b -> 19a 16b                                          
+   -0.016014  3a 2b -> 23a 16b                                          
+    0.024093  3a 2b -> 28a 16b                                          
+   -0.014849  3a 2b -> 32a 16b                                          
+   -0.013089  3a 2b -> 17a 24b                                          
+   -0.014455  3a 2b -> 27a 24b                                          
+    0.012148  3a 2b -> 28a 24b                                          
+   -0.023725  3a 2b -> 20a 8b                                           
+   -0.018942  3a 2b -> 29a 8b                                           
+    0.026636  3a 2b -> 20a 15b                                          
+    0.024093  3a 2b -> 29a 15b                                          
+    0.012148  3a 2b -> 29a 25b                                          
+   -0.012483  3a 2b -> 21a 5b                                           
+   -0.010222  3a 2b -> 31a 5b                                           
+   -0.027126  3a 2b -> 21a 9b                                           
+   -0.022829  3a 2b -> 31a 9b                                           
+    0.022116  3a 2b -> 21a 18b                                          
+    0.021128  3a 2b -> 31a 18b                                          
+    0.011669  3a 2b -> 31a 26b                                          
+   -0.015637  3a 2b -> 5a 21b                                           
+    0.013400  3a 2b -> 9a 21b                                           
+    0.011131  3a 2b -> 18a 21b                                          
+   -0.014508  3a 2b -> 5a 31b                                           
+    0.012665  3a 2b -> 9a 31b                                           
+    0.011827  3a 2b -> 18a 31b                                          
+   -0.014421  3a 2b -> 16a 17b                                          
+   -0.021690  3a 2b -> 24a 17b                                          
+   -0.014830  3a 2b -> 16a 27b                                          
+   -0.030281  3a 2b -> 24a 27b                                          
+    0.015143  3a 4a -> 15a 16a                                          
+   -0.018039  3a 4a -> 19a 20a                                          
+    0.020271  3a 4a -> 15a 24a                                          
+   -0.020271  3a 4a -> 16a 25a                                          
+   -0.034120  3a 4a -> 24a 25a                                          
+    0.012855  3a 4a -> 20a 28a                                          
+   -0.012855  3a 4a -> 19a 29a                                          
+   -0.016999  3a 4a -> 28a 29a                                          
+   -0.012767  2a 4a -> 17a 25a                                          
+    0.010554  2a 4a -> 15a 27a                                          
+    0.018817  2a 4a -> 25a 27a                                          
+   -0.012767  2a 3a -> 17a 24a                                          
+    0.010554  2a 3a -> 16a 27a                                          
+    0.018817  2a 3a -> 24a 27a                                          
+
+ ************************ 2026-06-10 05:45:43 *************************
+ Executing goldstone...
+
+ Generation of CC equations in terms of H and T...
+ Generation of antisymmetrized Goldstone diagrams...
+ Number of diagrams in T^1 equations:    15
+ Number of diagrams in T^2 equations:    38
+ Number of diagrams in T^3 equations:    54
+ Number of diagrams in T^4 equations:    80
+ Number of diagrams in T^5 equations:    99
+ Translation of diagrams to factorized equations...
+ Optimizing intermediate calculation...
+ Number of floating-point operations per iteration step:   5.9637E+10
+ Probable CPU time per iteration step (hours):            0.60
+ Required memory (Mbytes):           479.2
+ Number of intermediates:                                 143
+ Number of intermediates to be stored:                     55
+ Length of intermediate file (Mbytes):            52.3
+
+ ************************ 2026-06-10 05:45:43 *************************
+ Executing xmrcc...
+
+ **********************************************************************
+ CC(                     5 ) calculation 
+ 
+ 
+ Allocation of        10240.0 Mbytes of memory...
+ Number of spinorbitals:                    72
+ Number of alpha electrons:                        4
+ Number of beta electrons:                         2
+ Spin multiplicity:                     2
+ z-component of spin:  1.0
+ Spatial symmetry:                      2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of                     0 -fold excitations:                      1
+ Number of                     1 -fold excitations:                     48
+ Number of                     2 -fold excitations:                   1839
+ Number of                     3 -fold excitations:                  37928
+ Number of                     4 -fold excitations:                 382151
+ Number of                     5 -fold excitations:                1694082
+ Total number of configurations:                2116049
+ Calculation of coupling coefficients...
+ Length of intermediate file (Mbytes):            35.6
+ 
+ ======================================================================
+ 
+ Memory requirements /Mbyte/: 
+               Minimal        Optimal
+ Real*8:        444.7074       444.7074
+ Integer:        41.8452
+ Total:         486.5526       486.5526
+ 
+
+ ************************ 2026-06-10 05:45:44 *************************
+ Executing mrcc...
+
+ **********************************************************************
+ CCSDTQP calculation                                                    
+ 
+ 
+ OpenMP parallel version is running.
+ Number of CPU cores:   4
+ Allocation of          444.7 Mbytes of memory...
+ Number of spinorbitals:  72
+ Number of alpha electrons:  4
+ Number of beta  electrons:  2
+ Spin multiplicity: 3
+ z-component of spin:  1.0
+ Spatial symmetry: 2
+ Convergence criterion:  1.0E-10
+ Construction of occupation graphs...
+ Number of 0-fold excitations: 1
+ Number of 1-fold excitations: 48
+ Number of 2-fold excitations: 1839
+ Number of 3-fold excitations: 37928
+ Number of 4-fold excitations: 382151
+ Number of 5-fold excitations: 1694082
+ Total number of determinants: 2116049
+ Calculation of coupling coefficients...
+ Initial cluster amplitudes are read from unit 16.
+ Length of intermediate file (Mbytes):      35.6
+ Reading integral list from unit 55...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Sorting integrals...
+ Energy of reference determinant [au]:     -37.687820652556
+ Calculation of MP denominators...
+ 
+ Starting CC iteration...
+ ==============================================================================
+ Norm of residual vector:     0.00145498
+ CPU time [hr]:     0.026                          Wall time [hr]:     0.007
+ 
+ Iteration  1  CC energy:   -37.79718520          Energy decrease:   3.5527E-14
+ Step       1  CC energy:   -37.797185197833024   Energy change  :   3.5527E-14
+ ==============================================================================
+ Norm of residual vector:     0.00015113
+ CPU time [hr]:     0.051                          Wall time [hr]:     0.014
+ 
+ Iteration  2  CC energy:   -37.79718520          Energy decrease:   2.1316E-14
+ Step       2  CC energy:   -37.797185197833002   Energy change  :   2.1316E-14
+ ==============================================================================
+ Norm of residual vector:     0.00001406
+ CPU time [hr]:     0.077                          Wall time [hr]:     0.020
+ 
+ Iteration  3  CC energy:   -37.79718532          Energy decrease:   0.00000012
+ Step       3  CC energy:   -37.797185315181444   Energy change  :   0.00000012
+ ==============================================================================
+ Norm of residual vector:     0.00000321
+ CPU time [hr]:     0.103                          Wall time [hr]:     0.027
+ 
+ Iteration  4  CC energy:   -37.79718540          Energy decrease:   0.00000008
+ Step       4  CC energy:   -37.797185398323791   Energy change  :   0.00000008
+ ==============================================================================
+ Norm of residual vector:     0.00000094
+ CPU time [hr]:     0.128                          Wall time [hr]:     0.034
+ 
+ Iteration  5  CC energy:   -37.79718542          Energy decrease:   0.00000003
+ Step       5  CC energy:   -37.797185423416202   Energy change  :   0.00000003
+ ==============================================================================
+ Norm of residual vector:     0.00000020
+ CPU time [hr]:     0.154                          Wall time [hr]:     0.040
+ 
+ Iteration  6  CC energy:   -37.79718543          Energy decrease:   0.00000001
+ Step       6  CC energy:   -37.797185430929638   Energy change  :   0.00000001
+ ==============================================================================
+ Norm of residual vector:     0.00000008
+ CPU time [hr]:     0.180                          Wall time [hr]:     0.047
+ 
+ Iteration  7  CC energy:   -37.79718543          Energy decrease:   1.9789E-09
+ Step       7  CC energy:   -37.797185432908556   Energy change  :   1.9789E-09
+ ==============================================================================
+ Norm of residual vector:     0.00000003
+ CPU time [hr]:     0.206                          Wall time [hr]:     0.054
+ 
+ Iteration  8  CC energy:   -37.79718543          Energy decrease:   5.1186E-10
+ Step       8  CC energy:   -37.797185433420417   Energy change  :   5.1186E-10
+ ==============================================================================
+ Norm of residual vector:     0.00000001
+ CPU time [hr]:     0.233                          Wall time [hr]:     0.061
+ 
+ Iteration  9  CC energy:   -37.79718543          Energy decrease:   1.5042E-10
+ Step       9  CC energy:   -37.797185433570839   Energy change  :   1.5042E-10
+ ==============================================================================
+ Norm of residual vector:     3.8595E-09
+ CPU time [hr]:     0.259                          Wall time [hr]:     0.068
+ 
+ Iteration 10  CC energy:   -37.79718543          Energy decrease:   5.3745E-11
+ Step      10  CC energy:   -37.797185433624584   Energy change  :   5.3745E-11
+ ==============================================================================
+ Norm of residual vector:     1.4853E-09
+ CPU time [hr]:     0.286                          Wall time [hr]:     0.075
+ 
+ Iteration 11  CC energy:   -37.79718543          Energy decrease:   1.8034E-11
+ Step      11  CC energy:   -37.797185433642618   Energy change  :   1.8034E-11
+ ==============================================================================
+ Norm of residual vector:     6.5866E-10
+ CPU time [hr]:     0.313                          Wall time [hr]:     0.082
+ 
+ Iteration 12  CC energy:   -37.79718543          Energy decrease:   1.5348E-12
+ Step      12  CC energy:   -37.797185433644152   Energy change  :   1.5348E-12
+ ==============================================================================
+ Norm of residual vector:     3.2332E-10
+ CPU time [hr]:     0.339                          Wall time [hr]:     0.089
+ 
+ Iteration 13  CC energy:   -37.79718543          Energy decrease:   1.9114E-12
+ Step      13  CC energy:   -37.797185433642241   Energy change  :   1.9114E-12
+ ==============================================================================
+ Norm of residual vector:     1.2073E-10
+ CPU time [hr]:     0.367                          Wall time [hr]:     0.096
+ 
+ Iteration 14  CC energy:   -37.79718543          Energy decrease:   7.8870E-13
+ Step      14  CC energy:   -37.797185433641452   Energy change  :   7.8870E-13
+ ==============================================================================
+ Norm of residual vector:     5.6895E-11
+ CPU time [hr]:     0.394                          Wall time [hr]:     0.103
+ 
+ Iteration 15  CC energy:   -37.79718543          Energy decrease:   1.2790E-13
+ Step      15  CC energy:   -37.797185433641324   Energy change  :   1.2790E-13
+ ==============================================================================
+ 
+ Iteration has converged in 15 steps.
+ 
+ Final results:
+ Total CCSDTQP energy [au]:                   -37.797185433641
+ 
+ Dominant cluster amplitudes
+ Printing threshold:  1.00E-02
+ 
+    1.000000  Reference determinant                                     
+   -0.010171  2b -> 27b                                                 
+    0.012666  2a -> 23a                                                 
+    0.010374  4a -> 15a                                                 
+    0.010374  3a -> 16a                                                 
+   -0.013452  1a 1b -> 36a 36b                                          
+   -0.011192  2a 2b -> 17a 17b                                          
+   -0.013676  2a 2b -> 27a 17b                                          
+   -0.013608  2a 2b -> 17a 27b                                          
+   -0.022127  2a 2b -> 27a 27b                                          
+   -0.011476  2a 2b -> 28a 32b                                          
+   -0.011476  2a 2b -> 29a 29b                                          
+   -0.028523  2a 2b -> 5a 5b                                            
+    0.024684  2a 2b -> 9a 5b                                            
+    0.021778  2a 2b -> 18a 5b                                           
+    0.010577  2a 2b -> 26a 5b                                           
+   -0.062388  2a 2b -> 5a 9b                                            
+    0.054012  2a 2b -> 9a 9b                                            
+    0.047832  2a 2b -> 18a 9b                                           
+    0.023539  2a 2b -> 26a 9b                                           
+    0.052631  2a 2b -> 5a 18b                                           
+   -0.045689  2a 2b -> 9a 18b                                           
+   -0.041141  2a 2b -> 18a 18b                                          
+   -0.021496  2a 2b -> 26a 18b                                          
+    0.023133  2a 2b -> 5a 26b                                           
+   -0.020273  2a 2b -> 9a 26b                                           
+   -0.019346  2a 2b -> 18a 26b                                          
+   -0.013548  2a 2b -> 26a 26b                                          
+    0.010369  2a 2b -> 15a 8b                                           
+   -0.014363  2a 2b -> 15a 15b                                          
+   -0.012742  2a 2b -> 25a 15b                                          
+   -0.010003  2a 2b -> 15a 25b                                          
+   -0.014883  2a 2b -> 25a 25b                                          
+    0.010369  2a 2b -> 16a 7b                                           
+   -0.014363  2a 2b -> 16a 16b                                          
+   -0.012742  2a 2b -> 24a 16b                                          
+   -0.010003  2a 2b -> 16a 24b                                          
+   -0.014883  2a 2b -> 24a 24b                                          
+    0.023726  4a 2b -> 19a 8b                                           
+    0.014303  4a 2b -> 23a 8b                                           
+    0.018942  4a 2b -> 28a 8b                                           
+    0.011725  4a 2b -> 32a 8b                                           
+   -0.013693  4a 2b -> 17a 15b                                          
+   -0.026636  4a 2b -> 19a 15b                                          
+   -0.016015  4a 2b -> 23a 15b                                          
+   -0.024093  4a 2b -> 28a 15b                                          
+   -0.014849  4a 2b -> 32a 15b                                          
+   -0.013089  4a 2b -> 17a 25b                                          
+   -0.014455  4a 2b -> 27a 25b                                          
+   -0.012148  4a 2b -> 28a 25b                                          
+   -0.023726  4a 2b -> 20a 7b                                           
+   -0.018942  4a 2b -> 29a 7b                                           
+    0.026636  4a 2b -> 20a 16b                                          
+    0.024093  4a 2b -> 29a 16b                                          
+    0.012148  4a 2b -> 29a 24b                                          
+   -0.012483  4a 2b -> 22a 5b                                           
+   -0.010222  4a 2b -> 30a 5b                                           
+   -0.027126  4a 2b -> 22a 9b                                           
+   -0.022829  4a 2b -> 30a 9b                                           
+    0.022116  4a 2b -> 22a 18b                                          
+    0.021128  4a 2b -> 30a 18b                                          
+    0.011669  4a 2b -> 30a 26b                                          
+   -0.015637  4a 2b -> 5a 22b                                           
+    0.013400  4a 2b -> 9a 22b                                           
+    0.011131  4a 2b -> 18a 22b                                          
+   -0.014508  4a 2b -> 5a 30b                                           
+    0.012665  4a 2b -> 9a 30b                                           
+    0.011827  4a 2b -> 18a 30b                                          
+   -0.014421  4a 2b -> 15a 17b                                          
+   -0.021690  4a 2b -> 25a 17b                                          
+   -0.014830  4a 2b -> 15a 27b                                          
+   -0.030281  4a 2b -> 25a 27b                                          
+   -0.023726  3a 2b -> 19a 7b                                           
+    0.014303  3a 2b -> 23a 7b                                           
+   -0.018942  3a 2b -> 28a 7b                                           
+    0.011725  3a 2b -> 32a 7b                                           
+   -0.013693  3a 2b -> 17a 16b                                          
+    0.026636  3a 2b -> 19a 16b                                          
+   -0.016015  3a 2b -> 23a 16b                                          
+    0.024093  3a 2b -> 28a 16b                                          
+   -0.014849  3a 2b -> 32a 16b                                          
+   -0.013089  3a 2b -> 17a 24b                                          
+   -0.014455  3a 2b -> 27a 24b                                          
+    0.012148  3a 2b -> 28a 24b                                          
+   -0.023726  3a 2b -> 20a 8b                                           
+   -0.018942  3a 2b -> 29a 8b                                           
+    0.026636  3a 2b -> 20a 15b                                          
+    0.024093  3a 2b -> 29a 15b                                          
+    0.012148  3a 2b -> 29a 25b                                          
+   -0.012483  3a 2b -> 21a 5b                                           
+   -0.010222  3a 2b -> 31a 5b                                           
+   -0.027126  3a 2b -> 21a 9b                                           
+   -0.022829  3a 2b -> 31a 9b                                           
+    0.022116  3a 2b -> 21a 18b                                          
+    0.021128  3a 2b -> 31a 18b                                          
+    0.011669  3a 2b -> 31a 26b                                          
+   -0.015637  3a 2b -> 5a 21b                                           
+    0.013400  3a 2b -> 9a 21b                                           
+    0.011131  3a 2b -> 18a 21b                                          
+   -0.014508  3a 2b -> 5a 31b                                           
+    0.012665  3a 2b -> 9a 31b                                           
+    0.011827  3a 2b -> 18a 31b                                          
+   -0.014421  3a 2b -> 16a 17b                                          
+   -0.021690  3a 2b -> 24a 17b                                          
+   -0.014830  3a 2b -> 16a 27b                                          
+   -0.030281  3a 2b -> 24a 27b                                          
+    0.015143  3a 4a -> 15a 16a                                          
+   -0.018039  3a 4a -> 19a 20a                                          
+    0.020271  3a 4a -> 15a 24a                                          
+   -0.020271  3a 4a -> 16a 25a                                          
+   -0.034120  3a 4a -> 24a 25a                                          
+    0.012855  3a 4a -> 20a 28a                                          
+   -0.012855  3a 4a -> 19a 29a                                          
+   -0.016999  3a 4a -> 28a 29a                                          
+   -0.012767  2a 4a -> 17a 25a                                          
+    0.010554  2a 4a -> 15a 27a                                          
+    0.018817  2a 4a -> 25a 27a                                          
+   -0.012767  2a 3a -> 17a 24a                                          
+    0.010554  2a 3a -> 16a 27a                                          
+    0.018817  2a 3a -> 24a 27a                                          
+ 
+ ************************ 2026-06-10 05:51:55 *************************
+                      Normal termination of mrcc.
+ **********************************************************************
+Program finished with exit code 0 at: Wed 10 Jun 2026 05:51:55 AM EDT
