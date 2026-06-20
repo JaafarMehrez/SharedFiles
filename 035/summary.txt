@@ -73,7 +73,7 @@ CCSD              -74.996056152626       -75.076303232977    -75.097546952150   
 CCSD(T)           -75.002444619570       -75.086160978943    -75.107969041325     -75.114766585701 
 CCSDT             -75.003168853589       -75.086728662816    -75.108439522900        
 CCSDT(Q)          -75.003607444571       -75.087136353286    -75.108893494328       
-CCSDTQ            -75.003705623862           (pending)                    
+CCSDTQ            -75.003705623862       -75.087243076849                    
 CCSDTQ(P)         -75.003546796373                             
 CCSDTQP           -75.003677584861                             
 -----------------------------------------------------------------------------------------------------
@@ -89,7 +89,7 @@ d-aug-cc-pwCV4Z/T-Klopper   :  0.00432
 d-aug-cc-pwCV4Z/(Q)-Mehrez  :  0.009835
 d-aug-cc-pwCV4Z/(Q)-Klopper :  0.01581 
 
-d-aug-cc-pwCV3Z/Q-Mehrez    : (pending) 
+d-aug-cc-pwCV3Z/Q-Mehrez    :  0.002812 
 d-aug-cc-pwCV3Z/Q-Klopper   : −0.00374   
 
 d-aug-cc-pwCV2Z/(P)-Mehrez  : -0.00430
@@ -97,6 +97,13 @@ d-aug-cc-pwCV2Z/(P)-Klopper : −0.00483
 
 d-aug-cc-pwCV2Z/P-Mehrez    :  0.00352
 d-aug-cc-pwCV2Z/P-Klopper   :  0.00400
+-------------------------------------------
+
+The final value of HLC if using my results: 0.184598 
+
+compare Mehrez vs Klopper:
+Mehrez  : 0.184598
+Klopper : 0.18398
 -------------------------------------------
 
 The following Table is for the total energies of (Ne), Non-relativistic contraction, NR Hamiltonian 
