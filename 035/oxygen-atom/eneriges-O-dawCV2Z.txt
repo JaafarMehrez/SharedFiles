@@ -1,0 +1,85 @@
+Neutral CCSDTQ
+ 1  CC energy: -74.956473361878423 Energy change : 5.6843E-14
+ 2  CC energy: -74.956488626930749 Energy change : 0.00001527
+ 3  CC energy: -74.956534072815003 Energy change : 0.00004545
+ 4  CC energy: -74.956554104707038 Energy change : 0.00002003
+ 5  CC energy: -74.956554964097208 Energy change : 0.00000086
+ 6  CC energy: -74.956555686672033 Energy change : 0.00000072
+ 7  CC energy: -74.956556007626830 Energy change : 0.00000032
+ 8  CC energy: -74.956556179226496 Energy change : 0.00000017
+ 9  CC energy: -74.956556355385644 Energy change : 0.00000018
+10  CC energy: -74.956556444192458 Energy change : 0.00000009
+11  CC energy: -74.956556450166005 Energy change : 0.00000001
+12  CC energy: -74.956556442831982 Energy change : 0.00000001
+13  CC energy: -74.956556440899547 Energy change : 1.9324E-09
+14  CC energy: -74.956556441576225 Energy change : 6.7668E-10
+15  CC energy: -74.956556441733682 Energy change : 1.5746E-10
+16  CC energy: -74.956556441304443 Energy change : 4.2924E-10
+17  CC energy: -74.956556440982467 Energy change : 3.2198E-10
+18  CC energy: -74.956556440952070 Energy change : 3.0397E-11
+19  CC energy: -74.956556440986461 Energy change : 3.4390E-11
+20  CC energy: -74.956556440997829 Energy change : 1.1369E-11
+21  CC energy: -74.956556440996195 Energy change : 1.6342E-12
+22  CC energy: -74.956556440994618 Energy change : 1.5774E-12
+23  CC energy: -74.956556440994717 Energy change : 9.9476E-14
+24  CC energy: -74.956556440995129 Energy change : 4.1211E-13
+25  CC energy: -74.956556440995158 Energy change : 2.8422E-14
+--------------------------------------------------------------
+Neutral CCSDTQP
+ 1  CC energy: -74.956556440995158 Energy change : 0.0000E+00
+ 2  CC energy: -74.956556440995158 Energy change : 0.0000E+00
+ 3  CC energy: -74.956555711527059 Energy change : 0.00000073
+ 4  CC energy: -74.956556648261284 Energy change : 0.00000094
+ 5  CC energy: -74.956557134334190 Energy change : 0.00000049
+ 6  CC energy: -74.956557168006810 Energy change : 0.00000003
+ 7  CC energy: -74.956557150969246 Energy change : 0.00000002
+ 8  CC energy: -74.956557140550103 Energy change : 0.00000001
+ 9  CC energy: -74.956557136391780 Energy change : 4.1583E-09
+10  CC energy: -74.956557135942717 Energy change : 4.4906E-10
+11  CC energy: -74.956557136878260 Energy change : 9.3554E-10
+12  CC energy: -74.956557137764761 Energy change : 8.8650E-10
+13  CC energy: -74.956557138233364 Energy change : 4.6860E-10
+14  CC energy: -74.956557138341452 Energy change : 1.0809E-10
+15  CC energy: -74.956557138359528 Energy change : 1.8076E-11
+16  CC energy: -74.956557138380603 Energy change : 2.1075E-11
+17  CC energy: -74.956557138400726 Energy change : 2.0123E-11
+18  CC energy: -74.956557138410318 Energy change : 9.5923E-12
+19  CC energy: -74.956557138412734 Energy change : 2.4158E-12
+20  CC energy: -74.956557138413373 Energy change : 6.3949E-13
+21  CC energy: -74.956557138414567 Energy change : 1.1937E-12
+22  CC energy: -74.956557138415576 Energy change : 1.0090E-12
+23  CC energy: -74.956557138415945 Energy change : 3.6948E-13
+--------------------------------------------------------------
+Cation CCSDTQ
+ 1  CC energy: -74.471788219781374 Energy change : 9.9476E-14
+ 2  CC energy: -74.471794531568008 Energy change : 0.00000631
+ 3  CC energy: -74.471805760506030 Energy change : 0.00001123
+ 4  CC energy: -74.471808826061888 Energy change : 0.00000307
+ 5  CC energy: -74.471809181119596 Energy change : 0.00000036
+ 6  CC energy: -74.471809291534782 Energy change : 0.00000011
+ 7  CC energy: -74.471809308751247 Energy change : 0.00000002
+ 8  CC energy: -74.471809314281174 Energy change : 0.00000001
+ 9  CC energy: -74.471809316616145 Energy change : 2.3350E-09
+10  CC energy: -74.471809316879472 Energy change : 2.6333E-10
+11  CC energy: -74.471809316724077 Energy change : 1.5540E-10
+12  CC energy: -74.471809316659858 Energy change : 6.4219E-11
+13  CC energy: -74.471809316649924 Energy change : 9.9334E-12
+14  CC energy: -74.471809316649768 Energy change : 1.5632E-13
+15  CC energy: -74.471809316649924 Energy change : 1.5632E-13
+--------------------------------------------------------------
+Cation CCSDTQP
+ 1  CC energy: -74.471809316649995 Energy change : 7.1054E-14
+ 2  CC energy: -74.471809316650052 Energy change : 5.6843E-14
+ 3  CC energy: -74.471809212829456 Energy change : 0.00000010
+ 4  CC energy: -74.471809259922651 Energy change : 0.00000005
+ 5  CC energy: -74.471809278285178 Energy change : 0.00000002
+ 6  CC energy: -74.471809279669543 Energy change : 1.3844E-09
+ 7  CC energy: -74.471809279449005 Energy change : 2.2054E-10
+ 8  CC energy: -74.471809279167289 Energy change : 2.8172E-10
+ 9  CC energy: -74.471809279009676 Energy change : 1.5761E-10
+10  CC energy: -74.471809278958645 Energy change : 5.1031E-11
+11  CC energy: -74.471809278954666 Energy change : 3.9790E-12
+12  CC energy: -74.471809278955604 Energy change : 9.3792E-13
+13  CC energy: -74.471809278955760 Energy change : 1.5632E-13
+14  CC energy: -74.471809278955789 Energy change : 2.8422E-14
+--------------------------------------------------------------
