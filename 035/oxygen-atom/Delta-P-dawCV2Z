@@ -1,5 +1,4 @@
 deltaQ(P)  dQ(i,j) = IP(CCSDTQ(P)) - IP(CCSDTQ(i,j))  [eV]
-CCSDTQ(P) is higher level than CCSDTQ (higher minus lower)
 ==============================================================================================================
 Rows = O+ (cation) iter,  Cols = O (neutral) iter
 IP(ref) = 13.190624 eV
@@ -53,7 +52,6 @@ Final converged dQ (iter O=25, O+=15):
   Klopper = -0.000030 eV = -0.0300 meV
 ==============================================================================================================
 deltaQP  dQ(i,j) = IP(CCSDTQP(i,j)) - IP(CCSDTQ(P))  [eV]
-CCSDTQP is higher level than CCSDTQ(P) (higher minus lower)
 ==============================================================================================================
 Rows = O+ (cation) iter,  Cols = O (neutral) iter
 IP(ref) = 13.190624 eV
