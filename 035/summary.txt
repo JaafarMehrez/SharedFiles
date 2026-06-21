@@ -35,7 +35,7 @@ CCSDTQP           -74.471809278956      -74.542246582686      -74.558505167134
 d-aug-cc-pwCV5Z/(T)-Mehrez  :  0.05642
 d-aug-cc-pwCV5Z/(T)-Klopper :  0.05642
 
-d-aug-cc-pwCV4Z/T-Mehrez    :  0.001886
+d-aug-cc-pwCV4Z/T-Mehrez    : -0.001886
 d-aug-cc-pwCV4Z/T-Klopper   :  0.00326
 
 d-aug-cc-pwCV4Z/(Q)-Mehrez  :  0.001452
@@ -50,16 +50,16 @@ d-aug-cc-pwCV2Z/(P)-Klopper : -0.00003
 d-aug-cc-pwCV2Z/P-Mehrez    :  0.000037
 d-aug-cc-pwCV2Z/P-Klopper   :  0.00004
 ---------------------------------------
-The final HLC to IE based on my calculations: 0.0598176
+The final HLC to IE based on my calculations: 0.056054
 
 compare Mehrez vs Klopper:
-Mehrez  : 0.0598176
+Mehrez  : 0.056054
 Klopper : 0.06138
 
-The final IE of Klopper if he is to use my values for HLC: 13.6161976 eV
+The final IE of Klopper if he is to use my values for HLC: 13.612434 eV
 
 compare Mehrez vs Klopper:
-Mehrez  : 13.6161976 -- delta: 0.0018524
+Mehrez  : 13.612434  -- delta: 0.005616
 Klopper : 13.61776   -- delta: 0.00029
 Exp.    : 13.61805
 ------------------------------------------
