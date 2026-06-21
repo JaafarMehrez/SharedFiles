@@ -9,8 +9,6 @@ Best d(T)   :  +0.056422 eV (coincident with Klopper)
 Best matching iteration pair :  Fully converged (O=12, O+=14)
 
 Converged CCSD IP:  13.521113 eV (Klopper: 13.521115 eV)
-
-Only case where Klopper's value matches at full convergence.
 ---
 
 CCSDT − CCSD(T) @ daWCV4Z
@@ -41,8 +39,6 @@ Best dQ | −0.000086 eV (0.026 meV from Klopper)
 Best matching iteration pair : O iter 4, O+ iter 4 
 
 Converged dQ (O=25, O+=16) : +0.000048 eV (opposite sign) 
-
-Oscillates around zero before converging positive.
 ---
 
 CCSDTQ(P) − CCSDTQ @ daWCV2Z
@@ -52,9 +48,7 @@ Klopper HLC :   −0.00003  eV
 Best dQ     :   −0.000033 eV (0.003 meV from Klopper) 
 Best matching iteration pair : O iter 4, O+ iter 4 
 
-Converged dQ (O=25, O+=15) : +0.000017 eV (opposite sign)
-
-Oscillates around zero before converging positive.
+Converged dQ (O=25, O+=15) : -0.000017 eV 
 ---
 
 CCSDTQP − CCSDTQ(P) @ daWCV2Z
