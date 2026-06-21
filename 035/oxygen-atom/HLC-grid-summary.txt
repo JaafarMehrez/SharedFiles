@@ -1,0 +1,75 @@
+#O Atom HLC Grid Comparison vs Klopper
+---
+
+CCSD(T) − CCSD @ daWCV5Z
+
+
+
+IP(CCSD(T)) :  13.577573 eV 
+Klopper HLC :  +0.05642  eV 
+Best d(T)   :  +0.056422 eV (coincident with Klopper)
+Best matching iteration pair :  Fully converged (O=12, O+=14)
+
+Converged CCSD IP:  13.521113 eV (Klopper: 13.521115 eV)
+
+Only case where Klopper's value matches at full convergence.
+---
+
+CCSDT − CCSD(T) @ daWCV4Z
+
+IP(CCSD(T)):  13.546962 eV 
+Klopper HLC:  +0.00326  eV 
+Best dT    :  +0.002782 eV (0.48 meV from Klopper)
+Best matching iteration pair :  O iter 3, O+ iter 2 
+
+Converged dT (O=26, O+=18) :  −0.001886 eV (opposite sign)
+---
+
+CCSDT(Q) − CCSDT @ daWCV4Z
+
+
+
+IP(CCSDT(Q)) :  13.546854 eV
+Klopper HLC  :  +0.00175  eV 
+Best dQ      :  +0.001745 eV (0.005 meV from Klopper)
+Best matching iteration pair:  O iter 5, O+ iter 5
+
+Converged dQ (O=26, O+=18) : +0.001452 eV (0.30 meV below Klopper)
+---
+
+CCSDTQ − CCSDT(Q) @ daWCV3Z
+
+
+IP(CCSDT(Q)) :  13.452049 eV 
+Klopper HLC  :  −0.00006  eV 
+Best dQ | −0.000086 eV (0.026 meV from Klopper) 
+Best matching iteration pair : O iter 4, O+ iter 4 
+
+Converged dQ (O=25, O+=16) : +0.000048 eV (opposite sign) 
+
+Oscillates around zero before converging positive.
+---
+
+CCSDTQ(P) − CCSDTQ @ daWCV2Z
+
+
+IP(CCSDTQ(P)) : 13.190624 eV 
+Klopper HLC :   −0.00003  eV 
+Best dQ     :   −0.000033 eV (0.003 meV from Klopper) 
+Best matching iteration pair : O iter 4, O+ iter 4 
+
+Converged dQ (O=25, O+=15) : +0.000017 eV (opposite sign)
+
+Oscillates around zero before converging positive.
+---
+
+CCSDTQP − CCSDTQ(P) @ daWCV2Z
+
+
+IP(CCSDTQ(P)) : 13.190624 eV
+Klopper HLC   : +0.00004  eV 
+Best dQ       : +0.000040 eV (0.0004 meV — essentially exact) 
+Best matching iteration pair : O iter 6, O+ iter 3
+
+Converged dQ (O=23, O+=14) : +0.000037 eV (0.003 meV below Klopper)
+---
