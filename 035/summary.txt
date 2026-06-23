@@ -316,3 +316,85 @@ The final value of the HLC if using my resutls:
 compare Mehrez vs Klopper:
 Mehrez  : 0.070733
 Klopper : 0.07071
+
+-----------------------------------------------------------------------------------------------------
+The following Table is for the total energies of (N), Non-relativistic contraction, NR Hamiltonian
+-----------------------------------------------------------------------------------------------------
+                    aug-cc-pwCV2Z         aug-cc-pwCV3Z         aug-cc-pwCV4Z         aug-cc-pwCV5Z
+-----------------------------------------------------------------------------------------------------
+UHF               -54.393299348275      -54.401220012134      -54.403842000583     -54.404470693872
+CCSD              -54.519532953375      -54.566553346008      -54.578880545973     -54.582507923038
+CCSD(T)           -54.521013929386      -54.569506002057      -54.582132306152     -54.585849635106
+CCSDT             -54.521260400551      -54.569868267889      -54.582456911489
+CCSDT(Q)          -54.521307850418      -54.569928370172      -54.582524752522
+CCSDTQ            -54.521315856760      -54.569932615701
+CCSDTQ(P)         -54.521315729868
+CCSDTQP           -54.521316034279
+-----------------------------------------------------------------------------------------------------
+
+The following Table is for the total energies of (N+), Non-relativistic contraction, NR Hamiltonian
+-----------------------------------------------------------------------------------------------------
+                    aug-cc-pwCV2Z         aug-cc-pwCV3Z         aug-cc-pwCV4Z         aug-cc-pwCV5Z
+-----------------------------------------------------------------------------------------------------
+RHF               -53.881850681314      -53.890676247962      -53.893275758706      -53.893871823206
+CCSD              -53.992093083038      -54.034633842277      -54.045915220373      -54.049151037530
+CCSD(T)           -53.993178259981      -54.036668218054      -54.048149410476      -54.051446294332
+CCSDT             -53.993420573398      -54.037010695865      -54.048467647001
+CCSDT(Q)          -53.993446571372      -54.037040736856      -54.048499999042
+CCSDTQ            -53.993453500303      -54.037045249128
+CCSDTQ(P)         -53.993453583133
+CCSDTQP           -53.993453608759
+-----------------------------------------------------------------------------------------------------
+
+                        Summary of the HLC comparison (Meherz[2026] vs Klopper) IE [N atom]
+
+---------------------------------------------------------
+d-aug-cc-pwCV5Z/(T)-our value :  0.028475
+d-aug-cc-pwCV5Z/(T)-Klopper   :  0.02848
+
+d-aug-cc-pwCV4Z/T-our value   :  0.000173
+d-aug-cc-pwCV4Z/T-Klopper     :  0.00017
+
+d-aug-cc-pwCV4Z/(Q)-our value :  0.000966
+d-aug-cc-pwCV4Z/(Q)-Klopper   :  0.00098
+
+d-aug-cc-pwCV3Z/Q-our value   : -0.0000073
+d-aug-cc-pwCV3Z/Q-Klopper     : −0.00003
+
+d-aug-cc-pwCV2Z/(P)-our value : -0.0000057
+d-aug-cc-pwCV2Z/(P)-Klopper   : −0.00001
+
+d-aug-cc-pwCV2Z/P-our value   :  0.0000076
+d-aug-cc-pwCV2Z/P-Klopper     :  0.00001
+
+The final value of the HLC if using my resutls: 0.0296086
+---------------------------------------------------------
+compare Mehrez vs Klopper:
+Mehrez  : 0.0296086
+Klopper : 0.02961
+---------------------------------------------------------
+
+--------------------------------------------------------------------
+|        Total IE (eV)           | compare to experiemental (meV)  |
+--------------------------------------------------------------------
+|  Klopper (eV) | our value (eV) | Klopper (meV) | our value (meV) |
+--------------------------------------------------------------------
+B :	 8.29881	|    8.29881	 |     –0.79	 |   –0.79         |
+C :   11.26100  |   11.261001    |     -0.70     |   -0.70         |
+N :   14.53475  |   14.534749    |     -0.65     |   -0.649        |
+O :   13.61776  |   13.612434    |      0.29     |    5.62         |
+F :	17.42255	|   17.422563	 |      0.25	 |    0.24         |
+Ne:   21.56401  |   21.564007    |      0.53     |    0.533        |
+--------------------------------------------------------------------
+|        Total EA (eV)           | compare to experiemental (meV)  |
+--------------------------------------------------------------------
+|  Klopper (eV) | our value (eV) | Klopper (meV) | our value (meV) |
+--------------------------------------------------------------------
+O :    1.46104  |    1.461658    |      0.07     |   -0.55         |
+--------------------------------------------------------------------
+
+
+Note: mean absolute deviation of IP for #O from the experiemental value when using my calculated value for the #O atom would result in a value of 0.884 me, and for EA: 0.455 meV, different than what is claimed in the abstract of the paper:
+"Ionization potentials and electron affinities of the atoms H through Ne with a mean absolute deviation of 0.35 meV with respect to experimental data"
+
+
