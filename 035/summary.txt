@@ -397,4 +397,69 @@ O :    1.46104  |    1.461658    |      0.07     |   -0.55         |
 Note: mean absolute deviation of IP for #O from the experiemental value when using my calculated value for the #O atom would result in a value of 0.884 me, and for EA: 0.455 meV, different than what is claimed in the abstract of the paper:
 "Ionization potentials and electron affinities of the atoms H through Ne with a mean absolute deviation of 0.35 meV with respect to experimental data"
 
+After finding out the source of the problem, where one of the fort.55 files transferred from Rorqual to Fir has been copied into the wrong directory, the calculation concerning #O+/dawCV4Z has been affected. Below, I provide the corrected total energies, HLC, etc.. of the #O atom after using the correct fort.55: 
+
+The following Table is for the total energies of (O), Non-relativistic contraction, NR Hamiltonian
+-----------------------------------------------------------------------------------------------------
+                    aug-cc-pwCV2Z         aug-cc-pwCV3Z         aug-cc-pwCV4Z        aug-cc-pwCV5Z
+-----------------------------------------------------------------------------------------------------
+UHF                -74.787686087594     -74.813084970954      -74.817662618929      -74.818846096558
+CCSD               -74.954145334366     -75.032248751317      -75.051633778384      -75.057653377310
+CCSD(T)            -74.956209676428     -75.036178229308      -75.055931123599      -75.062073267468
+CCSDT              -74.956473361878     -75.036520854220      -75.056243008342
+CCSDT(Q)           -74.956548045971     -75.036598475586      -75.056335559617
+CCSDTQ             -74.956556440995     -75.036601855624
+CCSDTQ(P)          -74.956555728813
+CCSDTQP            -74.956557138416
+-----------------------------------------------------------------------------------------------------
+
+The following Table is for the total energies of (O+), Non-relativistic contraction, NR Hamiltonian
+-----------------------------------------------------------------------------------------------------
+                    aug-cc-pwCV2Z         aug-cc-pwCV3Z         aug-cc-pwCV4Z        aug-cc-pwCV5Z
+-----------------------------------------------------------------------------------------------------
+UHF                -74.344551679654     -74.371073499723      -74.375786172373      -74.376982820172
+CCSD               -74.470740645195     -74.540004075413      -74.556017731988      -74.560761631196
+CCSD(T)            -74.471663119965     -74.542003610406      -74.558279106458      -74.563108051245
+CCSDT              -74.471788219781     -74.542216764312      -74.558471134054
+CCSDT(Q)           -74.471806526687     -74.542244808091      -74.558503107205
+CCSDTQ             -74.471809316650     -74.542246436747
+CCSDTQ(P)          -74.471809230222
+CCSDTQP            -74.471809278956
+-----------------------------------------------------------------------------------------------------
+
+            Summary of the HLC comparison (Meherz[2026] vs Klopper) IE [O atom]
+-----------------------------------------
+d-aug-cc-pwCV5Z/(T)-our value :  0.056422
+d-aug-cc-pwCV5Z/(T)-Klopper   :  0.05642
+
+d-aug-cc-pwCV4Z/T-our value   :  0.003262
+d-aug-cc-pwCV4Z/T-Klopper     :  0.00326
+
+d-aug-cc-pwCV4Z/(Q)-our value :  0.001648
+d-aug-cc-pwCV4Z/(Q)-Klopper   :  0.00175
+
+d-aug-cc-pwCV3Z/Q-our value   :  0.000048
+d-aug-cc-pwCV3Z/Q-Klopper     : −0.00006
+
+d-aug-cc-pwCV2Z/(P)-our value : -0.000017
+d-aug-cc-pwCV2Z/(P)-Klopper   : −0.00003
+
+d-aug-cc-pwCV2Z/P-our value   :  0.000037
+d-aug-cc-pwCV2Z/P-Klopper     :  0.00004
+-----------------------------------------
+
+The final value of the HLC if using my resutls: 0.0614
+
+compare Mehrez vs Klopper:
+Mehrez  : 0.06140
+Klopper : 0.06138
+--
+The final IE of Klopper if he is to use my values for HLC: 13.61778 eV
+
+compare Mehrez vs Klopper:
+Mehrez  : 13.61778  -- delta: 0.00027
+Klopper : 13.61776  -- delta: 0.00029
+Exp.    : 13.61805
+--
+
 
