@@ -1,0 +1,12 @@
+loading initial cache file flags.cmake
+CMake Error at /usr/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:33 (message):
+  Could not find the compiler specified in the environment variable FC:
+
+  nagfor.
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (project)
+
+
+CMake Error: CMAKE_Fortran_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!

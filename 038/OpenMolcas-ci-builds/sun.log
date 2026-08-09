@@ -1,0 +1,149 @@
+loading initial cache file flags.cmake
+-- The Fortran compiler identification is SunPro 8.8.0
+-- The C compiler identification is SunPro 5.15.0
+-- Check for working Fortran compiler: /DeveloperStudio/bin/sunf90
+-- Check for working Fortran compiler: /DeveloperStudio/bin/sunf90 - works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /DeveloperStudio/bin/sunf90 supports Fortran 90
+-- Checking whether /DeveloperStudio/bin/sunf90 supports Fortran 90 - yes
+-- Check for working C compiler: /DeveloperStudio/bin/suncc
+-- Check for working C compiler: /DeveloperStudio/bin/suncc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Python: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+Configuring compilers:
+Detecting Molcas version info:
+-- OPENMOLCAS_VERSION: v26.06-917-g6e35b4cd1-dirty
+Detecting system info:
+-- OS: Linux-x86_64
+-- ADDRMODE: 64
+-- PLATFORM: LINUX64
+Configuring HDF5 support:
+-- HDF5: Using hdf5 compiler wrapper to determine C configuration
+-- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;pthread;sz;z;dl;m (found version "1.10.0.1") found components: C 
+-- HDF5_INCLUDE_DIRS: /usr/include/hdf5/serial
+-- HDF5_C_LIBRARIES: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;pthread;sz;z;dl;m
+Configuring linear algebra libraries:
+-- Using internal LAPACK+BLAS libraries (SLOW!)
+-- LINALG_LIBRARIES: lapack;blas
+Configuring Libxc:
+-- Configuring built-in Libxc
+-- Libxc_INCLUDE_DIRS: /lustre09/project/6004934/jaafar1/MOLCAS-MRCC/software/open-molcas-hpqc/ci-builds/sun/External/Libxc_install/include
+-- Libxc_LIBRARIES: xcf03;xc
+System libwignernj not found; building bundled copy (v0.6.0)
+-- WIGNERNJ_INCLUDE:   /lustre09/project/6004934/jaafar1/MOLCAS-MRCC/software/open-molcas-hpqc/ci-builds/sun/include/wignernj/fortran
+-- WIGNERNJ_LIBRARIES: /lustre09/project/6004934/jaafar1/MOLCAS-MRCC/software/open-molcas-hpqc/ci-builds/sun/lib/libwignernj_f03.a;/lustre09/project/6004934/jaafar1/MOLCAS-MRCC/software/open-molcas-hpqc/ci-builds/sun/lib/libwignernj.a;m
+Gromacs interface DISABLED
+BLOCK interface DISABLED
+CHEMPS2 interface DISABLED
+DICE interface DISABLED
+MSYM support DISABLED
+QCMaquis DMRG support DISABLED
+NECI interface DISABLED
+EFP interface DISABLED
+GEN1INT support DISABLED
+libwfa support DISABLED
+NEVPT2 support DISABLED
+MolGUI DISABLED
+Configuring runtime environment settings:
+-- DEFMOLCASMEM:  1024
+-- DEFMOLCASDISK: 20000
+-- RUNSCRIPT:    $program $input
+-- RUNBINARY:    $program
+-- RUNBINARYSER: $program
+Build type: Release
+-- C compiler: /DeveloperStudio/bin/suncc
+-- C compiler flags:  -std=gnu99  -O -ftrap=%none
+-- Fortran compiler: /DeveloperStudio/bin/sunf90
+-- Fortran compiler flags:   -fpp -dalign -xtypemap=real:64,double:64,integer:64  -O -ftrap=%none
+-- Definitions: _MOLCAS_;_I8_;_LINUX_
+-- Debug definitions: 
+-- pymolcas: added to targets
+Definitions: -D_MOLCAS_;-D_I8_;-D_LINUX_
+Configuring documentation
+-- Sphinx compiler: no sphinx-build available, documentation disabled
+Install directory: /opt/OpenMolcas
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /lustre09/project/6004934/jaafar1/MOLCAS-MRCC/software/open-molcas-hpqc/ci-builds/sun
+Scanning dependencies of target prgms
+[  0%] Generating data/MolGUI.prgm
+[  0%] Generating data/alaska.prgm
+[  0%] Generating data/averd.prgm
+[  0%] Generating data/caspt2.prgm
+[  0%] Generating data/casvb.prgm
+[  0%] Generating data/ccsdt.prgm
+[  0%] Generating data/chcc.prgm
+[  0%] Generating data/check.prgm
+[  0%] Generating data/cht3.prgm
+[  0%] Generating data/cpf.prgm
+[  0%] Generating data/dmrgscf.prgm
+[  0%] Generating data/dynamix.prgm
+[  0%] Generating data/espf.prgm
+[  0%] Generating data/expbas.prgm
+[  0%] Generating data/extf.prgm
+[  0%] Generating data/false.prgm
+[  0%] Generating data/ffpt.prgm
+[  0%] Generating data/gateway.prgm
+[  0%] Generating data/genano.prgm
+[  0%] Generating data/global.prgm
+[  0%] Generating data/grid_it.prgm
+[  0%] Generating data/guessorb.prgm
+[  0%] Generating data/guga.prgm
+[  0%] Generating data/gugaci.prgm
+[  0%] Generating data/gugadrt.prgm
+[  0%] Generating data/inporb_files.prgm
+[  0%] Generating data/last_energy.prgm
+[  0%] Generating data/level.prgm
+[  0%] Generating data/localisation.prgm
+[  0%] Generating data/loprop.prgm
+[  0%] Generating data/mbpt2.prgm
+[  0%] Generating data/mckinley.prgm
+[  0%] Generating data/mclr.prgm
+[  0%] Generating data/mcpdft.prgm
+[  0%] Generating data/motra.prgm
+[  0%] Generating data/mpprop.prgm
+[  0%] Generating data/mpssi.prgm
+[  1%] Generating data/mrci.prgm
+[  1%] Generating data/mula.prgm
+[  1%] Generating data/nevpt2.prgm
+[  1%] Generating data/numerical_gradient.prgm
+[  1%] Generating data/poly_aniso.prgm
+[  1%] Generating data/qmstat.prgm
+[  1%] Generating data/quater.prgm
+[  1%] Generating data/rasscf.prgm
+[  1%] Generating data/rassi.prgm
+[  1%] Generating data/rhodyn.prgm
+[  1%] Generating data/rpa.prgm
+[  1%] Generating data/scf.prgm
+[  1%] Generating data/seward.prgm
+[  1%] Generating data/single_aniso.prgm
+[  1%] Generating data/slapaf.prgm
+[  1%] Generating data/surfacehop.prgm
+[  1%] Generating data/symmetrize.prgm
+[  1%] Generating data/vibrot.prgm
+[  1%] Generating data/wfa.prgm
+[  1%] Built target prgms
+Scanning dependencies of target blas
+[  1%] Building Fortran object CMakeFiles/blas.dir/src/LinAlg_internal/la_constants_.F90.o
+[  1%] Building Fortran object CMakeFiles/blas.dir/src/LinAlg_internal/la_xisnan_.F90.o
+
+module LA_XISNAN
+       ^         
+"/lustre09/project/6004934/jaafar1/MOLCAS-MRCC/software/open-molcas-hpqc/External/lapack/SRC/la_xisnan.F90", Line = 1, Column = 8: ERROR: The compiler has detected errors in module "LA_XISNAN".  No module information file will be created for this module.
+
+   module procedure DISNAN
+                    ^      
+"/lustre09/project/6004934/jaafar1/MOLCAS-MRCC/software/open-molcas-hpqc/External/lapack/SRC/la_xisnan.F90", Line = 5, Column = 21: ERROR: The specific interfaces for "DISNAN" and "SISNAN" make the GENERIC interface "LA_ISNAN" ambiguous.
+
+f90comp: 76 SOURCE LINES
+f90comp: 2 ERRORS, 0 WARNINGS, 0 OTHER MESSAGES, 0 ANSI
+CMakeFiles/blas.dir/build.make:121: recipe for target 'CMakeFiles/blas.dir/src/LinAlg_internal/la_xisnan_.F90.o' failed
+make[2]: *** [CMakeFiles/blas.dir/src/LinAlg_internal/la_xisnan_.F90.o] Error 2
+CMakeFiles/Makefile2:2437: recipe for target 'CMakeFiles/blas.dir/all' failed
+make[1]: *** [CMakeFiles/blas.dir/all] Error 2
+Makefile:160: recipe for target 'all' failed
+make: *** [all] Error 2
